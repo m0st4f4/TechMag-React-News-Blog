@@ -1,5 +1,7 @@
 import { type ReactNode } from "react";
 
+import { useTranslation } from "react-i18next";
+
 import { SidebarMenuItem } from "@/components/Sidebar/components/SidebarMenuItem/SidebarMenuItem.tsx";
 
 import type { SidebarNavigationType } from "@/types/navigation.types.ts";
@@ -13,6 +15,7 @@ export const SidebarMenuList = ({
   className = "",
   items,
 }: Props): ReactNode => {
+  const { t } = useTranslation();
   return (
     <ul className={className}>
       {items?.map((item) => {
@@ -23,7 +26,7 @@ export const SidebarMenuList = ({
                 pathname: `${item.href}`,
               }}
             >
-              {item.titleKey}
+              {t(item.titleKey)}
             </SidebarMenuItem>
           </li>
         );
