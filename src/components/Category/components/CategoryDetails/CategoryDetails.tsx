@@ -37,10 +37,7 @@ export const CategoryDetails = ({ className = "", id }: Props): ReactNode => {
 
   if (articleQuery.isError) {
     return (
-      <ErrorMessage
-        onRetry={articleQuery.refetch}
-        error={articleQuery.error}
-      />
+      <ErrorMessage onRetry={articleQuery.refetch} error={articleQuery.error} />
     );
   }
 

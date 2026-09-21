@@ -1,3 +1,3 @@
 import { z } from "@/i18n";
 
-export const EmailSchema = z.string().email()
+export const EmailSchema = z.string().email();

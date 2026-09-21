@@ -1,9 +1,9 @@
 import type { ReactNode } from "react";
 
-import { cn } from "@/lib/utils.ts";
-
 import { AuthorDetailsSkeleton } from "@/components/AuthorDetails/AuthorDetailsSkeleton.tsx";
 import { Skeleton } from "@/components/ui/skeleton.tsx";
+
+import { cn } from "@/lib/utils.ts";
 
 type Props = {
   className?: string;

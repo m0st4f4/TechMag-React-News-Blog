@@ -4,7 +4,6 @@ import { zodResolver } from "@hookform/resolvers/zod";
 import { type SubmitHandler, useForm } from "react-hook-form";
 import { z } from "zod";
 
-import { RegisterForm } from "@/forms/RegisterForm/RegisterForm.tsx";
 import { RegisterSchema } from "@/schema/register-schema.ts";
 import { useTranslation } from "react-i18next";
 
@@ -16,6 +15,8 @@ import {
   DialogTitle,
   DialogTrigger,
 } from "@/components/ui/dialog.tsx";
+
+import { RegisterForm } from "@/forms/RegisterForm/RegisterForm.tsx";
 
 import { useRegisterUser } from "@/hooks/useRegisterUser.ts";
 
@@ -58,9 +59,7 @@ export const RegisterDialog = ({
         <DialogHeader>
           <DialogTitle>{t("auth.register.title")}</DialogTitle>
         </DialogHeader>
-        {isError && (
-          <ErrorMessage error={error} className="mt-4" />
-        )}
+        {isError && <ErrorMessage error={error} className="mt-4" />}
         {isSuccess ? (
           <div className="text-center flex flex-col items-center">
             <p className="p-2 w-full rounded-lg">

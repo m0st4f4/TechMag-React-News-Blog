@@ -1,10 +1,11 @@
 import { type ReactNode } from "react";
 
-import { ProfileSidebarNavigation } from "@/config/navigation.ts";
 import { useTranslation } from "react-i18next";
 
 import { SidebarGroup } from "@/components/Sidebar/components/SidebarGroup/SidebarGroup.tsx";
 import { SidebarMenuList } from "@/components/Sidebar/components/SidebarMenuList/SidebarMenuList.tsx";
+
+import { ProfileSidebarNavigation } from "@/config/navigation.ts";
 
 type Props = {
   className?: string;

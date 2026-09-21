@@ -19,7 +19,7 @@ export const useGetArticlesByCategory = (categoryId: string) => {
           _sort: "id",
           _order: "desc",
         },
-        signal,
+        signal
       );
     },
   });

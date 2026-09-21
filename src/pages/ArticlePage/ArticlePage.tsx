@@ -7,8 +7,8 @@ import { useTranslation } from "react-i18next";
 import { ArticleDetails } from "@/components/Article/components/ArticleDetails/ArticleDetails.tsx";
 import { ArticleDetailsSkeleton } from "@/components/Article/components/ArticleDetails/ArticleDetailsSkeleton.tsx";
 import { useGetArticle } from "@/components/Article/hooks/useGetArticle.ts";
-import { ErrorMessage } from "@/components/ErrorMessage/ErrorMessage.tsx";
 import { Comments } from "@/components/Comments/components/Comments/Comments.tsx";
+import { ErrorMessage } from "@/components/ErrorMessage/ErrorMessage.tsx";
 
 export const ArticlePage = (): ReactNode => {
   const { t } = useTranslation();
@@ -46,7 +46,7 @@ export const ArticlePage = (): ReactNode => {
   return (
     <>
       <ArticleDetails item={data} onCommentClick={handleCommentButtonClick} />
-      <Comments articleId={id} ref={commentSectionRef}/>
+      <Comments articleId={id} ref={commentSectionRef} />
     </>
   );
 };

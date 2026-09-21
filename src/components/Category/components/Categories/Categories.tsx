@@ -1,11 +1,11 @@
 import { type ReactNode } from "react";
 
-import { cn } from "@/lib/utils.ts";
-
 import { CategoryCardTopImgSkeleton } from "@/components/Category/components/CategoryCardTopImg/CategoryCardTopImgSkeleton.tsx";
 import { CategoryList } from "@/components/Category/components/CategoryList/CategoryList.tsx";
 import { useGetCategories } from "@/components/Category/hooks/useGetCategories.ts";
 import { ErrorMessage } from "@/components/ErrorMessage/ErrorMessage.tsx";
+
+import { cn } from "@/lib/utils.ts";
 
 type Props = {
   className?: string;

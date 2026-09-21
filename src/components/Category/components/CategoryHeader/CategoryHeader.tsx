@@ -1,7 +1,8 @@
 import { type ReactNode } from "react";
 
-import { cn } from "@/lib/utils.ts";
 import { useTranslation } from "react-i18next";
+
+import { cn } from "@/lib/utils.ts";
 
 import type { CategoryType } from "@/types/article.types.ts";
 

@@ -21,7 +21,7 @@ export const UserSchema = UserBaseSchema.refine(
   {
     message: "Password is required",
     path: ["confirmPassword"],
-  },
+  }
 );
 
 export const UserPayloadSchema = UserBaseSchema.omit({

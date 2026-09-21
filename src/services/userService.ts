@@ -5,7 +5,7 @@ import type { ChangeUserInfoParams, UserType } from "@/types/user.types.ts";
 
 export const fetchUserByUserName = async (
   username: string,
-  signal?: AbortSignal,
+  signal?: AbortSignal
 ): Promise<UserType> => {
   const response: AxiosResponse<UserType[]> = await apiInstance.get(`/users`, {
     params: { username },
@@ -20,7 +20,7 @@ export const ChangeUserInfo = async ({
 }: ChangeUserInfoParams): Promise<UserType> => {
   const response: AxiosResponse<UserType> = await apiInstance.patch(
     `/users/${userId}`,
-    data,
+    data
   );
   return response.data;
 };

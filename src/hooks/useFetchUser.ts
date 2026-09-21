@@ -1,6 +1,6 @@
 import { useQuery } from "@tanstack/react-query";
 
-import { fetchUserByUserName} from "@/services/userService.ts";
+import { fetchUserByUserName } from "@/services/userService.ts";
 
 import type { ApiError } from "@/types/api.types.ts";
 import type { UserType } from "@/types/user.types.ts";

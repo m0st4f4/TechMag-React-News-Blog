@@ -1,9 +1,9 @@
 import { type ReactNode } from "react";
 
-import { cn } from "@/lib/utils.ts";
-
 import { SidebarCategories } from "@/components/Sidebar/components/SidebarCategories/SidebarCategories.tsx";
 import { SidebarSearch } from "@/components/Sidebar/components/SidebarSearch/SidebarSearch.tsx";
+
+import { cn } from "@/lib/utils.ts";
 
 type Props = {
   className?: string;

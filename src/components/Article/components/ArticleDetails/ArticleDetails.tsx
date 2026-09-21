@@ -5,6 +5,7 @@ import { useTranslation } from "react-i18next";
 
 import { AuthorDetails } from "@/components/AuthorDetails/AuthorDetails.tsx";
 import { CategoryButton } from "@/components/Category/components/CategoryButton/CategoryButton.tsx";
+import { Button } from "@/components/ui/button.tsx";
 import { Separator } from "@/components/ui/separator.tsx";
 
 import { useLocalizedDate } from "@/hooks/useLocalizedDate.ts";
@@ -14,13 +15,12 @@ import MingcuteCommentLine from "@/icons/MingcuteCommentLine.tsx";
 import MingcuteTimeDurationLine from "@/icons/MingcuteTimeDurationLine.tsx";
 
 import type { ArticleType } from "@/types/article.types.ts";
-import { Button } from "@/components/ui/button.tsx";
 
 type Props = {
   item: ArticleType;
   onCommentClick?: () => void;
 };
-export const ArticleDetails = ({ item ,onCommentClick}: Props): ReactNode => {
+export const ArticleDetails = ({ item, onCommentClick }: Props): ReactNode => {
   const sanitizedHtml = DOMPurify.sanitize(item.content);
 
   const { t } = useTranslation();
@@ -55,7 +55,11 @@ export const ArticleDetails = ({ item ,onCommentClick}: Props): ReactNode => {
                 <MingcuteCalendar2Line />
                 <div>{formatDate(item.createdAt, "medium")}</div>
               </div>
-              <Button variant="ghost" className="flex gap-1 text-sm" onClick={onCommentClick}>
+              <Button
+                variant="ghost"
+                className="flex gap-1 text-sm"
+                onClick={onCommentClick}
+              >
                 <MingcuteCommentLine />
                 {t("article.commentsCount", { count: item.commentCount })}
               </Button>

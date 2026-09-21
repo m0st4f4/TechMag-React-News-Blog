@@ -1,10 +1,11 @@
 import { type ReactNode } from "react";
 
-import { getApiErrorMessage } from "@/lib/getApiErrorMesage.ts";
-import { cn } from "@/lib/utils.ts";
 import { useTranslation } from "react-i18next";
 
 import { Button } from "@/components/ui/button.tsx";
+
+import { getApiErrorMessage } from "@/lib/getApiErrorMesage.ts";
+import { cn } from "@/lib/utils.ts";
 
 import type { ApiError } from "@/types/api.types.ts";
 

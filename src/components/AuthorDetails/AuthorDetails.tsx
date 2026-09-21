@@ -1,6 +1,6 @@
 import type { ComponentProps, ReactNode } from "react";
 
-import { cn } from "@/lib/utils.ts";
+import { Link } from "react-router";
 
 import {
   Avatar,
@@ -8,8 +8,9 @@ import {
   AvatarImage,
 } from "@/components/ui/avatar.tsx";
 
+import { cn } from "@/lib/utils.ts";
+
 import type { UserType } from "@/types/user.types.ts";
-import { Link } from "react-router";
 
 type Props = ComponentProps<typeof Avatar> & {
   item: UserType;

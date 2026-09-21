@@ -4,7 +4,6 @@ import { zodResolver } from "@hookform/resolvers/zod";
 import { type SubmitHandler, useForm } from "react-hook-form";
 import { z } from "zod";
 
-import { LoginForm } from "@/forms/LoginForm/LoginForm.tsx";
 import { LoginSchema } from "@/schema/login-schema.ts";
 import { useTranslation } from "react-i18next";
 import { toast } from "sonner";
@@ -17,6 +16,8 @@ import {
   DialogTitle,
   DialogTrigger,
 } from "@/components/ui/dialog.tsx";
+
+import { LoginForm } from "@/forms/LoginForm/LoginForm.tsx";
 
 import { useLoginUser } from "@/hooks/useLoginUser.ts";
 

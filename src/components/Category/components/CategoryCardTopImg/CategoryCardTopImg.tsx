@@ -1,13 +1,13 @@
 import { type ComponentProps, type ReactNode } from "react";
 
-import { cn } from "@/lib/utils.ts";
-
 import {
   Card,
   CardDescription,
   CardHeader,
   CardTitle,
 } from "@/components/ui/card.tsx";
+
+import { cn } from "@/lib/utils.ts";
 
 import type { CategoryType } from "@/types/article.types.ts";
 
@@ -24,7 +24,7 @@ export const CategoryCardTopImg = ({
     <Card
       className={cn(
         "relative mx-auto h-full w-full max-w-sm pt-0 hover:shadow transition-shadow duration-300",
-        className,
+        className
       )}
       {...otherProps}
     >

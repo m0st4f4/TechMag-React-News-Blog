@@ -1,11 +1,11 @@
 import { type ReactNode } from "react";
 
-import { cn } from "@/lib/utils.ts";
-
 import { Badge } from "@/components/ui/badge.tsx";
 import { Skeleton } from "@/components/ui/skeleton.tsx";
 
 import { useLocalizedDate } from "@/hooks/useLocalizedDate.ts";
+
+import { cn } from "@/lib/utils.ts";
 
 import type { ArticleType } from "@/types/article.types.ts";
 
@@ -26,7 +26,7 @@ export const PostCardFullImg = ({
     <div
       className={cn(
         "group relative h-full  w-full overflow-hidden rounded-lg",
-        className,
+        className
       )}
     >
       {isPending ? (

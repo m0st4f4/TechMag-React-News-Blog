@@ -1,44 +1,24 @@
 import { type ReactNode } from "react";
 
-
-
 import { Link } from "react-router";
-
-
-
-import { cn } from "@/lib/utils.ts";
-
-
 
 import { PostCardFullImg } from "@/components/Article/components/PostCardFullImg/PostCardFullImg.tsx";
 import { useGetFeaturedArticles } from "@/components/Article/hooks/useGetFeaturedArticles.ts";
 import { ErrorMessage } from "@/components/ErrorMessage/ErrorMessage.tsx";
 
-
-
-
-
-
-
-
-
-
-
-
-
-
+import { cn } from "@/lib/utils.ts";
 
 type Props = {
   className?: string;
 };
 
 export const FeaturedPosts = ({ className }: Props): ReactNode => {
-  const { data, isPending, isError, error ,refetch } = useGetFeaturedArticles();
+  const { data, isPending, isError, error, refetch } = useGetFeaturedArticles();
 
   if (isError && error) {
     return <ErrorMessage error={error} onRetry={refetch} />;
   }
-  
+
   if (!data) {
     return null;
   }
@@ -47,7 +27,7 @@ export const FeaturedPosts = ({ className }: Props): ReactNode => {
     <div
       className={cn(
         "grid gap-4 grid-cols-1 grid-rows-5 md:grid-cols-3 md:grid-rows-3",
-        className,
+        className
       )}
     >
       {data.map((item, index) => {

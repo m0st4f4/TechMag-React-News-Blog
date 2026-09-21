@@ -1,8 +1,10 @@
 import { type ReactNode } from "react";
 
-import { socialNavigation } from "@/config/navigation.ts";
-import { cn } from "@/lib/utils.ts";
 import { useTranslation } from "react-i18next";
+
+import { socialNavigation } from "@/config/navigation.ts";
+
+import { cn } from "@/lib/utils.ts";
 
 type Props = {
   className?: string;

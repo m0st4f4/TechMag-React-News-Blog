@@ -3,8 +3,6 @@ import { type ComponentPropsWithRef, type ReactNode } from "react";
 import { zodResolver } from "@hookform/resolvers/zod";
 import { useForm } from "react-hook-form";
 
-import { CommentForm } from "@/forms/CommentForm/CommentForm.tsx";
-import { cn } from "@/lib/utils.ts";
 import { CommentSchema } from "@/schema/comment-schema.ts";
 import { useTranslation } from "react-i18next";
 import { toast } from "sonner";
@@ -15,7 +13,11 @@ import { useGetComments } from "@/components/Comments/hooks/useGetComments.ts";
 import { useSubmitComment } from "@/components/Comments/hooks/useSubmitComment.ts";
 import { ErrorMessage } from "@/components/ErrorMessage/ErrorMessage.tsx";
 
+import { CommentForm } from "@/forms/CommentForm/CommentForm.tsx";
+
 import { useAuth } from "@/hooks/useAuth.ts";
+
+import { cn } from "@/lib/utils.ts";
 
 import type {
   CommentPayloadType,
@@ -49,7 +51,7 @@ export const Comments = ({
     if (!user?.id || !articleId) {
       return;
     }
-    const data: CommentPayloadType = { ...value, articleId};
+    const data: CommentPayloadType = { ...value, articleId };
     await submitComment.mutateAsync(data);
     toast.success(t("comment.successMsg"));
     form.reset();

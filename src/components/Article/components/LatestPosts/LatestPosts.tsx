@@ -2,13 +2,14 @@ import { type ReactNode } from "react";
 
 import { Link } from "react-router";
 
-import { cn } from "@/lib/utils.ts";
 import { useTranslation } from "react-i18next";
 
 import { PostCardTopImg } from "@/components/Article/components/PostCardTopImg/PostCardTopImg.tsx";
 import { PostCardTopImgSkeleton } from "@/components/Article/components/PostCardTopImg/PostCardTopImgSkeleton.tsx";
 import { useGetLatestArticles } from "@/components/Article/hooks/useGetLatestArticles.ts";
 import { ErrorMessage } from "@/components/ErrorMessage/ErrorMessage.tsx";
+
+import { cn } from "@/lib/utils.ts";
 
 import type { fetchArticlesParamsType } from "@/types/article.types.ts";
 

@@ -1,6 +1,5 @@
 import { NavLink } from "react-router";
 
-import { cn } from "@/lib/utils.ts";
 import { useTranslation } from "react-i18next";
 
 import {
@@ -9,6 +8,8 @@ import {
   NavigationMenuList,
   navigationMenuTriggerStyle,
 } from "@/components/ui/navigation-menu";
+
+import { cn } from "@/lib/utils.ts";
 
 import type { TopNavigation } from "@/types/navigation.types.ts";
 
@@ -27,7 +28,7 @@ export const Navbar = ({ menuItems }: Props) => {
               className={({ isActive }) => {
                 return cn(
                   navigationMenuTriggerStyle(),
-                  isActive ? "text-accent bg-secondary" : "",
+                  isActive ? "text-accent bg-secondary" : ""
                 );
               }}
             >

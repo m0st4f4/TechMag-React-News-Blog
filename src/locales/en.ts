@@ -1,7 +1,7 @@
 export const en = {
   common: {
     siteName: "TechMag",
-    loadingSite:"loading...",
+    loadingSite: "loading...",
   },
 
   form: {

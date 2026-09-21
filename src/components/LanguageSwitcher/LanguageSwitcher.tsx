@@ -14,7 +14,7 @@ import {
 export const LanguageSwitcher = () => {
   const { i18n } = useTranslation();
   const availableLanguages = Object.keys(
-    i18n.services.resourceStore?.data || {},
+    i18n.services.resourceStore?.data || {}
   );
 
   useEffect(() => {
