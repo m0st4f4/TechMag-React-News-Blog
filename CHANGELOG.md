@@ -1,3 +1,10 @@
+# [1.0.0-dev.36](https://github.com/m0st4f4/TechMag-React-News-Blog/compare/v1.0.0-dev.35...v1.0.0-dev.36) (2026-09-21)
+
+
+### Features
+
+* sidebar menu item component [#104](https://github.com/m0st4f4/TechMag-React-News-Blog/issues/104) ([#113](https://github.com/m0st4f4/TechMag-React-News-Blog/issues/113)) ([e97ebf3](https://github.com/m0st4f4/TechMag-React-News-Blog/commit/e97ebf31de4d564d0c73433051cda7dfcef910db))
+
 # [1.0.0-dev.35](https://github.com/m0st4f4/Blog-React-TS/compare/v1.0.0-dev.34...v1.0.0-dev.35) (2026-09-17)
 
 
