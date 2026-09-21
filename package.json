@@ -11,7 +11,8 @@
     "prepare": "husky",
     "api": "node --watch server.cjs",
     "test": "vitest --ui",
-    "coverage": "vitest run --coverage"
+    "coverage": "vitest run --coverage",
+    "format": "prettier --write ."
   },
   "dependencies": {
     "@fontsource-variable/geist": "^5.2.9",
