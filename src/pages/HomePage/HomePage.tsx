@@ -1,8 +1,11 @@
-export const HomePage = () => {
-    return (
-        <div className="">
+import { FeaturedPosts } from "@/components/Article/components/FeaturedPosts/FeaturedPosts.tsx";
+import { LatestPosts } from "@/components/Article/components/LatestPosts/LatestPosts.tsx";
 
-            homepage
-        </div>
-    );
+export const HomePage = () => {
+  return (
+    <>
+      <FeaturedPosts />
+      <LatestPosts className="my-8" />
+    </>
+  );
 };

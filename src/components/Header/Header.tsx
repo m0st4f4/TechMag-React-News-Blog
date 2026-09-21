@@ -1,33 +1,34 @@
-import type {ReactNode} from "react";
-import MingcuteFacebookFill from "@/icons/MingcuteFacebookFill.tsx";
-import MingcuteInstagramLine from "@/icons/MingcuteInstagramLine.tsx";
-import MingcuteTwitterFill from "@/icons/MingcuteTwitterFill.tsx";
-import {Button} from "@/components/ui/button";
-import {LanguageSwitcher} from "@/components/LanguageSwitcher/LanguageSwitcher.tsx";
-import {useTranslation} from "react-i18next";
+import type { ReactNode } from "react";
+
+import { LanguageSwitcher } from "@/components/LanguageSwitcher/LanguageSwitcher.tsx";
+import { Navbar } from "@/components/Navbar/Navbar.tsx";
+import { SearchForm } from "@/components/SearchForm/SearchForm.tsx";
+import { SiteLogo } from "@/components/SiteLogo/SiteLogo.tsx";
+import { SocialNavigation } from "@/components/SocialNavigation/SocialNavigation.tsx";
+import { ThemeToggle } from "@/components/ThemeToggle/ThemeToggle.tsx";
+import { UserMenu } from "@/components/UserMenu/UserMenu.tsx";
+
+import { topNavigation } from "@/config/navigation.ts";
 
 export const Header = (): ReactNode => {
-    const {t} = useTranslation()
-    return <header className="py-5">
-        <div className="container pb-2.5 flex items-center justify-between">
-            <a href="/" className="no-underline flex items-end">
-                <h1 className="text-3xl font-normal text-primary font-heading m-0">{t("site name")}</h1>
-            </a>
-            <div className="flex items-center justify-center">
-                <div className="flex items-center">
-                    <Button size="lg" variant="link" className="hover:text-accent" title="facebook">
-                        <MingcuteFacebookFill/>
-                    </Button>
-                    <Button size="lg" variant="link" className="hover:text-accent" title="Twitter">
-                        <MingcuteTwitterFill/>
-                    </Button>
-                    <Button size="lg" variant="link" className="hover:text-accent" title="Instagram">
-                        <MingcuteInstagramLine/>
-                    </Button>
-                </div>
-                <LanguageSwitcher/>
-            </div>
-
+  return (
+    <header className="py-5 shrink-0">
+      <div className="container pb-2.5 flex items-center justify-between">
+        <SiteLogo />
+        <div className="flex items-center justify-center gap-2">
+          <SocialNavigation className="flex gap-2" iconClass="w-4 h-4" />
+          <SearchForm />
+          <ThemeToggle />
+          <LanguageSwitcher />
+          <UserMenu />
         </div>
+      </div>
+
+      <div className="p-4 shadow-xs">
+        <div className="container">
+          <Navbar menuItems={topNavigation} />
+        </div>
+      </div>
     </header>
+  );
 };

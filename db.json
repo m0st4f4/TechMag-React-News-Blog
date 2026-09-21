@@ -1,0 +1,2160 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "email": "admin@technews.ir",
+      "password": "$2a$10$abcdefghijklmnopqrstuv",
+      "name": "علی محمدی",
+      "username": "alimohammadi",
+      "avatar": "https://i.pravatar.cc/150?u=alimohammadi",
+      "title": "توسعه‌دهنده وب و نویسنده مقالات فنی",
+      "bio": "علاقه‌مند به تکنولوژی و برنامه‌نویسی، با تجربه در توسعه وب و نوشتن مقالات آموزشی.",
+      "role": "admin",
+      "isActive": true,
+      "createdAt": "2024-01-01T08:00:00.000Z",
+      "updatedAt": "2024-01-01T08:00:00.000Z"
+    },
+    {
+      "id": "2",
+      "email": "sara.ahmadi@technews.ir",
+      "password": "$2a$10$bcdefghijklmnopqrstuvw",
+      "name": "سارا احمدی",
+      "username": "saraahmadi",
+      "avatar": "https://i.pravatar.cc/150?u=saraahmadi",
+      "title": "نویسنده حوزه هوش مصنوعی",
+      "bio": "کارشناس ارشد هوش مصنوعی و علاقه‌مند به یادگیری ماشین و رباتیک.",
+      "role": "author",
+      "isActive": true,
+      "createdAt": "2024-01-03T08:00:00.000Z",
+      "updatedAt": "2024-01-03T08:00:00.000Z"
+    },
+    {
+      "id": "3",
+      "email": "reza.karimi@technews.ir",
+      "password": "$2a$10$cdefghijklmnopqrstuvwx",
+      "name": "رضا کریمی",
+      "username": "rezakarimi",
+      "avatar": "https://i.pravatar.cc/150?u=rezakarimi",
+      "title": "روزنامه‌نگار حوزه فناوری",
+      "bio": "بیش از ۸ سال سابقه در پوشش اخبار تکنولوژی و گجت‌های دیجیتال.",
+      "role": "author",
+      "isActive": true,
+      "createdAt": "2024-01-04T08:00:00.000Z",
+      "updatedAt": "2024-01-04T08:00:00.000Z"
+    },
+    {
+      "id": "4",
+      "email": "mina.hosseini@gmail.com",
+      "password": "$2a$10$defghijklmnopqrstuvwxy",
+      "name": "مینا حسینی",
+      "username": "minahosseini",
+      "avatar": "https://i.pravatar.cc/150?u=minahosseini",
+      "title": "کاربر عادی",
+      "bio": "علاقه‌مند به اخبار فناوری و گیمینگ.",
+      "role": "user",
+      "isActive": true,
+      "createdAt": "2024-01-06T08:00:00.000Z",
+      "updatedAt": "2024-01-06T08:00:00.000Z"
+    },
+    {
+      "id": "5",
+      "email": "amir.nazari@gmail.com",
+      "password": "$2a$10$efghijklmnopqrstuvwxyz",
+      "name": "امیر نظری",
+      "username": "amirnazari",
+      "avatar": "https://i.pravatar.cc/150?u=amirnazari",
+      "title": "کاربر عادی",
+      "bio": "برنامه‌نویس فرانت‌اند و طرفدار متن‌باز.",
+      "role": "user",
+      "isActive": true,
+      "createdAt": "2024-01-07T08:00:00.000Z",
+      "updatedAt": "2024-01-07T08:00:00.000Z"
+    },
+    {
+      "id": "6",
+      "email": "niloofar.rostami@gmail.com",
+      "password": "$2a$10$fghijklmnopqrstuvwxyza",
+      "name": "نیلوفر رستمی",
+      "username": "niloofarrostami",
+      "avatar": "https://i.pravatar.cc/150?u=niloofarrostami",
+      "title": "کاربر عادی",
+      "bio": "دنبال‌کننده اخبار استارتاپ‌ها و کسب‌وکارهای فناوری.",
+      "role": "user",
+      "isActive": false,
+      "createdAt": "2024-01-09T08:00:00.000Z",
+      "updatedAt": "2024-01-09T08:00:00.000Z"
+    },
+    {
+      "id": 7,
+      "email": "smostafah89@gmail.com",
+      "password": "$2b$10$xP7.I4w/Z/aGMW.Mc66sz.Xv71q8LPF9VQLf18ll/ZFHtYIJbBJv.",
+      "name": "مصطفی حسینی",
+      "username": "m0st4f4",
+      "avatar": "https://i.pravatar.cc/150?u=m0st4f4",
+      "bio": "",
+      "role": "subscriber",
+      "isActive": true,
+      "createdAt": "2026-09-16T17:44:27.104Z",
+      "updatedAt": "2026-09-16T17:44:27.104Z"
+    }
+  ],
+  "categories": [
+    {
+      "id": "1",
+      "name": "برنامه‌نویسی",
+      "slug": "programming",
+      "description": "مقالات مرتبط با برنامه‌نویسی و توسعه نرم‌افزار",
+      "parentId": null,
+      "image": "https://picsum.photos/seed/programming/800/400",
+      "color": "#3B82F6",
+      "isActive": true,
+      "order": 1,
+      "createdAt": "2024-01-01T08:00:00.000Z"
+    },
+    {
+      "id": "2",
+      "name": "هوش مصنوعی",
+      "slug": "artificial-intelligence",
+      "description": "اخبار و آموزش‌های هوش مصنوعی و یادگیری ماشین",
+      "parentId": null,
+      "image": "https://picsum.photos/seed/artificial-intelligence/800/400",
+      "color": "#8B5CF6",
+      "isActive": true,
+      "order": 2,
+      "createdAt": "2024-01-01T08:00:00.000Z"
+    },
+    {
+      "id": "3",
+      "name": "گجت و سخت‌افزار",
+      "slug": "gadgets",
+      "description": "بررسی و معرفی گجت‌ها و سخت‌افزارهای جدید",
+      "parentId": null,
+      "image": "https://picsum.photos/seed/gadgets/800/400",
+      "color": "#F59E0B",
+      "isActive": true,
+      "order": 3,
+      "createdAt": "2024-01-01T08:00:00.000Z"
+    },
+    {
+      "id": "4",
+      "name": "موبایل",
+      "slug": "mobile",
+      "description": "اخبار گوشی‌های هوشمند و تبلت‌ها",
+      "parentId": null,
+      "image": "https://picsum.photos/seed/mobile/800/400",
+      "color": "#10B981",
+      "isActive": true,
+      "order": 4,
+      "createdAt": "2024-01-01T08:00:00.000Z"
+    },
+    {
+      "id": "5",
+      "name": "امنیت سایبری",
+      "slug": "cyber-security",
+      "description": "اخبار و آموزش‌های امنیت شبکه و حریم خصوصی",
+      "parentId": null,
+      "image": "https://picsum.photos/seed/cyber-security/800/400",
+      "color": "#EF4444",
+      "isActive": true,
+      "order": 5,
+      "createdAt": "2024-01-01T08:00:00.000Z"
+    },
+    {
+      "id": "6",
+      "name": "استارتاپ",
+      "slug": "startup",
+      "description": "اخبار استارتاپ‌ها و کسب‌وکارهای نوپای فناوری",
+      "parentId": null,
+      "image": "https://picsum.photos/seed/startup/800/400",
+      "color": "#EC4899",
+      "isActive": true,
+      "order": 6,
+      "createdAt": "2024-01-01T08:00:00.000Z"
+    },
+    {
+      "id": "7",
+      "name": "شبکه‌های اجتماعی",
+      "slug": "social-media",
+      "description": "اخبار و تحولات پلتفرم‌های شبکه اجتماعی",
+      "parentId": null,
+      "image": "https://picsum.photos/seed/social-media/800/400",
+      "color": "#06B6D4",
+      "isActive": true,
+      "order": 7,
+      "createdAt": "2024-01-01T08:00:00.000Z"
+    },
+    {
+      "id": "8",
+      "name": "بازی و سرگرمی",
+      "slug": "gaming",
+      "description": "اخبار صنعت بازی‌های ویدیویی و سرگرمی دیجیتال",
+      "parentId": null,
+      "image": "https://picsum.photos/seed/gaming/800/400",
+      "color": "#F97316",
+      "isActive": true,
+      "order": 8,
+      "createdAt": "2024-01-01T08:00:00.000Z"
+    },
+    {
+      "id": "9",
+      "name": "خودروهای هوشمند",
+      "slug": "smart-vehicles",
+      "description": "اخبار خودروهای برقی و خودران",
+      "parentId": null,
+      "image": "https://picsum.photos/seed/smart-vehicles/800/400",
+      "color": "#22C55E",
+      "isActive": true,
+      "order": 9,
+      "createdAt": "2024-01-01T08:00:00.000Z"
+    },
+    {
+      "id": "10",
+      "name": "علم و فضا",
+      "slug": "science-space",
+      "description": "اخبار مرتبط با علوم و اکتشافات فضایی",
+      "parentId": null,
+      "image": "https://picsum.photos/seed/science-space/800/400",
+      "color": "#6366F1",
+      "isActive": true,
+      "order": 10,
+      "createdAt": "2024-01-01T08:00:00.000Z"
+    }
+  ],
+  "tags": [
+    {
+      "id": "1",
+      "name": "React",
+      "slug": "react",
+      "color": "#61DAFB"
+    },
+    {
+      "id": "2",
+      "name": "پایتون",
+      "slug": "python",
+      "color": "#3776AB"
+    },
+    {
+      "id": "3",
+      "name": "جاوااسکریپت",
+      "slug": "javascript",
+      "color": "#F7DF1E"
+    },
+    {
+      "id": "4",
+      "name": "هوش مصنوعی مولد",
+      "slug": "generative-ai",
+      "color": "#8B5CF6"
+    },
+    {
+      "id": "5",
+      "name": "چت‌جی‌پی‌تی",
+      "slug": "chatgpt",
+      "color": "#10A37F"
+    },
+    {
+      "id": "6",
+      "name": "اپل",
+      "slug": "apple",
+      "color": "#A3AAAE"
+    },
+    {
+      "id": "7",
+      "name": "سامسونگ",
+      "slug": "samsung",
+      "color": "#1428A0"
+    },
+    {
+      "id": "8",
+      "name": "گوگل",
+      "slug": "google",
+      "color": "#4285F4"
+    },
+    {
+      "id": "9",
+      "name": "امنیت شبکه",
+      "slug": "network-security",
+      "color": "#EF4444"
+    },
+    {
+      "id": "10",
+      "name": "حریم خصوصی",
+      "slug": "privacy",
+      "color": "#DC2626"
+    },
+    {
+      "id": "11",
+      "name": "استارتاپ ایرانی",
+      "slug": "iranian-startup",
+      "color": "#EC4899"
+    },
+    {
+      "id": "12",
+      "name": "سرمایه‌گذاری",
+      "slug": "investment",
+      "color": "#059669"
+    },
+    {
+      "id": "13",
+      "name": "اینستاگرام",
+      "slug": "instagram",
+      "color": "#E1306C"
+    },
+    {
+      "id": "14",
+      "name": "تلگرام",
+      "slug": "telegram",
+      "color": "#26A5E4"
+    },
+    {
+      "id": "15",
+      "name": "پلی‌استیشن",
+      "slug": "playstation",
+      "color": "#003791"
+    },
+    {
+      "id": "16",
+      "name": "خودروی برقی",
+      "slug": "electric-vehicle",
+      "color": "#22C55E"
+    },
+    {
+      "id": "17",
+      "name": "تسلا",
+      "slug": "tesla",
+      "color": "#CC0000"
+    },
+    {
+      "id": "18",
+      "name": "ناسا",
+      "slug": "nasa",
+      "color": "#0B3D91"
+    },
+    {
+      "id": "19",
+      "name": "ابرکامپیوتر",
+      "slug": "supercomputer",
+      "color": "#6366F1"
+    },
+    {
+      "id": "20",
+      "name": "متاورس",
+      "slug": "metaverse",
+      "color": "#A855F7"
+    }
+  ],
+  "articles": [
+    {
+      "id": "1",
+      "title": "آموزش کامل React Hooks",
+      "slug": "complete-guide-to-react-hooks",
+      "excerpt": "در این مقاله با تمام Hooks های React آشنا می‌شوید و یاد می‌گیرید چگونه از آن‌ها استفاده کنید.",
+      "content": "<h2>React Hooks چیست؟</h2><p>React Hooks قابلیتی هستند که در نسخه ۱۶.۸ کتابخانه React معرفی شدند و به توسعه‌دهندگان اجازه می‌دهند بدون نوشتن کلاس، از قابلیت state و سایر ویژگی‌های React استفاده کنند.</p><h2>useState</h2><p>useState برای مدیریت state در کامپوننت‌های تابعی استفاده می‌شود و یکی از پرکاربردترین Hookهای React است.</p><h2>useEffect</h2><p>useEffect برای انجام عملیات جانبی مانند فراخوانی API یا تعامل با DOM استفاده می‌شود و جایگزین متدهای چرخه حیات در کلاس‌ها شده است.</p>",
+      "featuredImage": "https://picsum.photos/seed/complete-guide-to-react-hooks/1200/630",
+      "images": [
+        "https://picsum.photos/seed/complete-guide-to-react-hooks-1/800/400",
+        "https://picsum.photos/seed/complete-guide-to-react-hooks-2/800/400"
+      ],
+      "userId": "1",
+      "categoryId": "1",
+      "tagId": "1",
+      "status": "published",
+      "isFeatured": true,
+      "isPremium": false,
+      "viewCount": 337,
+      "likeCount": 18,
+      "commentCount": 2,
+      "readTime": 5,
+      "publishedAt": "2024-03-05T11:00:00.000Z",
+      "createdAt": "2024-03-04T09:00:00.000Z",
+      "updatedAt": "2024-03-05T11:00:00.000Z"
+    },
+    {
+      "id": "2",
+      "title": "راهنمای شروع به کار با پایتون برای مبتدیان",
+      "slug": "python-beginner-guide",
+      "excerpt": "اگر می‌خواهید برنامه‌نویسی را با پایتون شروع کنید، این راهنما نقطه شروع خوبی برای شماست.",
+      "content": "<h2>چرا پایتون؟</h2><p>پایتون به دلیل نحو ساده و خوانا، یکی از بهترین زبان‌ها برای شروع برنامه‌نویسی است و در حوزه‌های مختلفی از جمله هوش مصنوعی و توسعه وب کاربرد دارد.</p><h2>نصب و راه‌اندازی</h2><p>برای شروع کار، ابتدا باید پایتون را از سایت رسمی دانلود و نصب کنید و سپس یک محیط توسعه مناسب انتخاب نمایید.</p><h2>اولین برنامه</h2><p>نوشتن اولین برنامه با دستور print یک نقطه شروع کلاسیک برای یادگیری هر زبان برنامه‌نویسی است.</p>",
+      "featuredImage": "https://picsum.photos/seed/python-beginner-guide/1200/630",
+      "images": [
+        "https://picsum.photos/seed/python-beginner-guide-1/800/400",
+        "https://picsum.photos/seed/python-beginner-guide-2/800/400"
+      ],
+      "userId": "1",
+      "categoryId": "1",
+      "tagId": "2",
+      "status": "published",
+      "isFeatured": false,
+      "isPremium": false,
+      "viewCount": 474,
+      "likeCount": 31,
+      "commentCount": 1,
+      "readTime": 6,
+      "publishedAt": "2024-03-08T11:00:00.000Z",
+      "createdAt": "2024-03-07T09:00:00.000Z",
+      "updatedAt": "2024-03-08T11:00:00.000Z"
+    },
+    {
+      "id": "3",
+      "title": "تفاوت‌های TypeScript و JavaScript",
+      "slug": "typescript-vs-javascript",
+      "excerpt": "بررسی تفاوت‌های کلیدی بین TypeScript و JavaScript و اینکه کدام یک برای پروژه شما مناسب‌تر است.",
+      "content": "<h2>تایپ استاتیک</h2><p>TypeScript با افزودن سیستم تایپ استاتیک به جاوااسکریپت، امکان تشخیص زودهنگام خطاها را فراهم می‌کند.</p><h2>قابلیت مقیاس‌پذیری</h2><p>در پروژه‌های بزرگ، استفاده از TypeScript به دلیل خوانایی و نگهداری بهتر کد توصیه می‌شود.</p>",
+      "featuredImage": "https://picsum.photos/seed/typescript-vs-javascript/1200/630",
+      "images": [
+        "https://picsum.photos/seed/typescript-vs-javascript-1/800/400",
+        "https://picsum.photos/seed/typescript-vs-javascript-2/800/400"
+      ],
+      "userId": "3",
+      "categoryId": "1",
+      "tagId": "3",
+      "status": "published",
+      "isFeatured": false,
+      "isPremium": false,
+      "viewCount": 611,
+      "likeCount": 44,
+      "commentCount": 1,
+      "readTime": 7,
+      "publishedAt": "2024-03-11T11:00:00.000Z",
+      "createdAt": "2024-03-10T09:00:00.000Z",
+      "updatedAt": "2024-03-11T11:00:00.000Z"
+    },
+    {
+      "id": "4",
+      "title": "چت‌جی‌پی‌تی چگونه کار می‌کند؟",
+      "slug": "how-chatgpt-works",
+      "excerpt": "نگاهی فنی و ساده به معماری و نحوه عملکرد مدل‌های زبانی مانند چت‌جی‌پی‌تی.",
+      "content": "<h2>مدل‌های زبانی بزرگ</h2><p>چت‌جی‌پی‌تی بر پایه معماری ترنسفورمر ساخته شده و با آموزش روی حجم عظیمی از داده‌های متنی توانایی تولید پاسخ‌های طبیعی را دارد.</p><h2>کاربردها</h2><p>از نوشتن متن گرفته تا برنامه‌نویسی و ترجمه، چت‌جی‌پی‌تی کاربردهای متنوعی پیدا کرده است.</p>",
+      "featuredImage": "https://picsum.photos/seed/how-chatgpt-works/1200/630",
+      "images": [
+        "https://picsum.photos/seed/how-chatgpt-works-1/800/400",
+        "https://picsum.photos/seed/how-chatgpt-works-2/800/400"
+      ],
+      "userId": "2",
+      "categoryId": "2",
+      "tagId": "5",
+      "status": "published",
+      "isFeatured": true,
+      "isPremium": false,
+      "viewCount": 748,
+      "likeCount": 57,
+      "commentCount": 2,
+      "readTime": 8,
+      "publishedAt": "2024-03-14T11:00:00.000Z",
+      "createdAt": "2024-03-13T09:00:00.000Z",
+      "updatedAt": "2024-03-14T11:00:00.000Z"
+    },
+    {
+      "id": "5",
+      "title": "هوش مصنوعی مولد چیست و چه تفاوتی با هوش مصنوعی سنتی دارد؟",
+      "slug": "what-is-generative-ai",
+      "excerpt": "بررسی مفهوم هوش مصنوعی مولد و کاربردهای آن در تولید متن، تصویر و صدا.",
+      "content": "<h2>تعریف هوش مصنوعی مولد</h2><p>هوش مصنوعی مولد به مدل‌هایی گفته می‌شود که قادر به تولید محتوای جدید مانند متن، تصویر و موسیقی هستند.</p><h2>کاربردهای صنعتی</h2><p>شرکت‌های بزرگ فناوری از این نوع هوش مصنوعی برای طراحی محصول، تولید محتوا و اتوماسیون استفاده می‌کنند.</p>",
+      "featuredImage": "https://picsum.photos/seed/what-is-generative-ai/1200/630",
+      "images": [
+        "https://picsum.photos/seed/what-is-generative-ai-1/800/400",
+        "https://picsum.photos/seed/what-is-generative-ai-2/800/400"
+      ],
+      "userId": "2",
+      "categoryId": "2",
+      "tagId": "4",
+      "status": "published",
+      "isFeatured": false,
+      "isPremium": false,
+      "viewCount": 885,
+      "likeCount": 70,
+      "commentCount": 1,
+      "readTime": 9,
+      "publishedAt": "2024-03-17T11:00:00.000Z",
+      "createdAt": "2024-03-16T09:00:00.000Z",
+      "updatedAt": "2024-03-17T11:00:00.000Z"
+    },
+    {
+      "id": "6",
+      "title": "گوگل جمینای را معرفی کرد؛ رقیب جدی چت‌جی‌پی‌تی",
+      "slug": "google-gemini-introduced",
+      "excerpt": "گوگل مدل هوش مصنوعی جدید خود به نام جمینای را رونمایی کرد که قابلیت‌های چندوجهی دارد.",
+      "content": "<h2>قابلیت‌های جمینای</h2><p>جمینای می‌تواند متن، تصویر و صدا را به‌طور هم‌زمان پردازش کند و پاسخ‌های دقیق‌تری نسبت به نسخه‌های قبلی ارائه دهد.</p><h2>رقابت با اوپن‌ای‌آی</h2><p>این مدل به‌عنوان رقیب اصلی چت‌جی‌پی‌تی در بازار هوش مصنوعی مطرح شده است.</p>",
+      "featuredImage": "https://picsum.photos/seed/google-gemini-introduced/1200/630",
+      "images": [
+        "https://picsum.photos/seed/google-gemini-introduced-1/800/400",
+        "https://picsum.photos/seed/google-gemini-introduced-2/800/400"
+      ],
+      "userId": "3",
+      "categoryId": "2",
+      "tagId": "8",
+      "status": "published",
+      "isFeatured": true,
+      "isPremium": false,
+      "viewCount": 1022,
+      "likeCount": 83,
+      "commentCount": 1,
+      "readTime": 10,
+      "publishedAt": "2024-03-20T11:00:00.000Z",
+      "createdAt": "2024-03-19T09:00:00.000Z",
+      "updatedAt": "2024-03-20T11:00:00.000Z"
+    },
+    {
+      "id": "7",
+      "title": "بررسی کامل آیفون ۱۶ پرو مکس",
+      "slug": "iphone-16-pro-max-review",
+      "excerpt": "نگاهی جامع به طراحی، دوربین و عملکرد جدیدترین پرچمدار اپل.",
+      "content": "<h2>طراحی و صفحه‌نمایش</h2><p>آیفون ۱۶ پرو مکس با بدنه‌ای از جنس تیتانیوم و صفحه‌نمایشی بزرگ‌تر نسبت به نسل قبل عرضه شده است.</p><h2>دوربین</h2><p>سیستم دوربین این گوشی با سنسورهای بهبود یافته، کیفیت عکاسی در شرایط کم‌نور را ارتقا داده است.</p><h2>عملکرد</h2><p>تراشه A18 Pro عملکردی فوق‌العاده در اجرای بازی‌ها و پردازش هوش مصنوعی ارائه می‌دهد.</p>",
+      "featuredImage": "https://picsum.photos/seed/iphone-16-pro-max-review/1200/630",
+      "images": [
+        "https://picsum.photos/seed/iphone-16-pro-max-review-1/800/400",
+        "https://picsum.photos/seed/iphone-16-pro-max-review-2/800/400"
+      ],
+      "userId": "3",
+      "categoryId": "3",
+      "tagId": "6",
+      "status": "published",
+      "isFeatured": true,
+      "isPremium": false,
+      "viewCount": 1159,
+      "likeCount": 96,
+      "commentCount": 2,
+      "readTime": 11,
+      "publishedAt": "2024-03-23T11:00:00.000Z",
+      "createdAt": "2024-03-22T09:00:00.000Z",
+      "updatedAt": "2024-03-23T11:00:00.000Z"
+    },
+    {
+      "id": "8",
+      "title": "مقایسه سامسونگ گلکسی S24 اولترا و آیفون ۱۶ پرو",
+      "slug": "galaxy-s24-ultra-vs-iphone-16-pro",
+      "excerpt": "کدام پرچمدار برای شما مناسب‌تر است؟ مقایسه‌ای دقیق بین دو گوشی برتر بازار.",
+      "content": "<h2>طراحی و ساخت</h2><p>هر دو گوشی از متریال پریمیوم استفاده می‌کنند اما طراحی گوشه‌های گلکسی اس۲۴ زاویه‌دارتر است.</p><h2>دوربین و عملکرد</h2><p>دوربین زوم گلکسی اس۲۴ اولترا در عکاسی از راه دور برتری دارد در حالی که آیفون در پردازش تصویر پیشرفته‌تر است.</p>",
+      "featuredImage": "https://picsum.photos/seed/galaxy-s24-ultra-vs-iphone-16-pro/1200/630",
+      "images": [
+        "https://picsum.photos/seed/galaxy-s24-ultra-vs-iphone-16-pro-1/800/400",
+        "https://picsum.photos/seed/galaxy-s24-ultra-vs-iphone-16-pro-2/800/400"
+      ],
+      "userId": "3",
+      "categoryId": "3",
+      "tagId": "7",
+      "status": "published",
+      "isFeatured": false,
+      "isPremium": false,
+      "viewCount": 1296,
+      "likeCount": 109,
+      "commentCount": 1,
+      "readTime": 12,
+      "publishedAt": "2024-03-26T11:00:00.000Z",
+      "createdAt": "2024-03-25T09:00:00.000Z",
+      "updatedAt": "2024-03-26T11:00:00.000Z"
+    },
+    {
+      "id": "9",
+      "title": "گجت‌های هوشمند خانه؛ راهنمای خرید ۲۰۲۴",
+      "slug": "smart-home-gadgets-buying-guide",
+      "excerpt": "معرفی بهترین گجت‌های هوشمند برای تبدیل خانه شما به یک خانه هوشمند.",
+      "content": "<h2>پریز و لامپ هوشمند</h2><p>پریزها و لامپ‌های هوشمند ساده‌ترین راه برای شروع خانه هوشمند هستند.</p><h2>دستیارهای صوتی</h2><p>دستیارهای صوتی مانند گوگل هوم امکان کنترل دستگاه‌ها با صدا را فراهم می‌کنند.</p>",
+      "featuredImage": "https://picsum.photos/seed/smart-home-gadgets-buying-guide/1200/630",
+      "images": [
+        "https://picsum.photos/seed/smart-home-gadgets-buying-guide-1/800/400",
+        "https://picsum.photos/seed/smart-home-gadgets-buying-guide-2/800/400"
+      ],
+      "userId": "1",
+      "categoryId": "3",
+      "tagId": "8",
+      "status": "published",
+      "isFeatured": false,
+      "isPremium": false,
+      "viewCount": 1433,
+      "likeCount": 122,
+      "commentCount": 1,
+      "readTime": 13,
+      "publishedAt": "2024-03-29T11:00:00.000Z",
+      "createdAt": "2024-03-28T09:00:00.000Z",
+      "updatedAt": "2024-03-29T11:00:00.000Z"
+    },
+    {
+      "id": "10",
+      "title": "بررسی ساعت هوشمند اپل واچ سری ۱۰",
+      "slug": "apple-watch-series-10-review",
+      "excerpt": "آیا اپل واچ سری ۱۰ ارزش خرید دارد؟ بررسی کامل ویژگی‌ها و عملکرد.",
+      "content": "<h2>طراحی جدید</h2><p>اپل واچ سری ۱۰ با صفحه‌نمایش بزرگ‌تر و بدنه نازک‌تر طراحی شده است.</p><h2>سلامت و تناسب اندام</h2><p>قابلیت‌های جدید سنجش سلامت از جمله ردیابی خواب دقیق‌تر به این نسل اضافه شده است.</p>",
+      "featuredImage": "https://picsum.photos/seed/apple-watch-series-10-review/1200/630",
+      "images": [
+        "https://picsum.photos/seed/apple-watch-series-10-review-1/800/400",
+        "https://picsum.photos/seed/apple-watch-series-10-review-2/800/400"
+      ],
+      "userId": "3",
+      "categoryId": "3",
+      "tagId": "6",
+      "status": "published",
+      "isFeatured": false,
+      "isPremium": false,
+      "viewCount": 1570,
+      "likeCount": 135,
+      "commentCount": 2,
+      "readTime": 4,
+      "publishedAt": "2024-04-01T11:00:00.000Z",
+      "createdAt": "2024-03-31T09:00:00.000Z",
+      "updatedAt": "2024-04-01T11:00:00.000Z"
+    },
+    {
+      "id": "11",
+      "title": "گوشی‌های تاشو؛ آینده صنعت موبایل",
+      "slug": "foldable-phones-future",
+      "excerpt": "بررسی روند رو به رشد گوشی‌های تاشو و اینکه چرا برندهای بزرگ به این بازار ورود کرده‌اند.",
+      "content": "<h2>مزایای گوشی‌های تاشو</h2><p>صفحه‌نمایش بزرگ‌تر در حالت باز شده، تجربه کاربری بهتری برای مشاهده محتوا فراهم می‌کند.</p><h2>چالش‌های فنی</h2><p>دوام لولا و قیمت بالا هنوز از موانع اصلی همه‌گیر شدن این گوشی‌ها هستند.</p>",
+      "featuredImage": "https://picsum.photos/seed/foldable-phones-future/1200/630",
+      "images": [
+        "https://picsum.photos/seed/foldable-phones-future-1/800/400",
+        "https://picsum.photos/seed/foldable-phones-future-2/800/400"
+      ],
+      "userId": "2",
+      "categoryId": "4",
+      "tagId": "7",
+      "status": "published",
+      "isFeatured": false,
+      "isPremium": false,
+      "viewCount": 1707,
+      "likeCount": 148,
+      "commentCount": 1,
+      "readTime": 5,
+      "publishedAt": "2024-04-04T11:00:00.000Z",
+      "createdAt": "2024-04-03T09:00:00.000Z",
+      "updatedAt": "2024-04-04T11:00:00.000Z"
+    },
+    {
+      "id": "12",
+      "title": "پنج ویژگی کاربردی اندروید ۱۵ که باید بدانید",
+      "slug": "android-15-top-features",
+      "excerpt": "گوگل با عرضه اندروید ۱۵ قابلیت‌های جدیدی را به کاربران گوشی‌های هوشمند اضافه کرده است.",
+      "content": "<h2>حریم خصوصی بهبود یافته</h2><p>اندروید ۱۵ کنترل بیشتری بر دسترسی اپلیکیشن‌ها به اطلاعات کاربر می‌دهد.</p><h2>بهبود عملکرد باتری</h2><p>بهینه‌سازی‌های جدید مصرف باتری را به‌طور محسوسی کاهش داده است.</p>",
+      "featuredImage": "https://picsum.photos/seed/android-15-top-features/1200/630",
+      "images": [
+        "https://picsum.photos/seed/android-15-top-features-1/800/400",
+        "https://picsum.photos/seed/android-15-top-features-2/800/400"
+      ],
+      "userId": "1",
+      "categoryId": "4",
+      "tagId": "8",
+      "status": "published",
+      "isFeatured": false,
+      "isPremium": false,
+      "viewCount": 1844,
+      "likeCount": 161,
+      "commentCount": 1,
+      "readTime": 6,
+      "publishedAt": "2024-04-07T11:00:00.000Z",
+      "createdAt": "2024-04-06T09:00:00.000Z",
+      "updatedAt": "2024-04-07T11:00:00.000Z"
+    },
+    {
+      "id": "13",
+      "title": "چرا باید از رمزهای عبور یکبار مصرف استفاده کنیم؟",
+      "slug": "why-use-one-time-passwords",
+      "excerpt": "بررسی اهمیت احراز هویت دو مرحله‌ای و رمزهای یکبار مصرف در افزایش امنیت حساب‌های کاربری.",
+      "content": "<h2>خطرات رمز عبور ساده</h2><p>استفاده از رمزهای عبور ضعیف و تکراری یکی از اصلی‌ترین دلایل هک شدن حساب‌های کاربری است.</p><h2>راهکار احراز هویت دومرحله‌ای</h2><p>فعال‌سازی احراز هویت دو مرحله‌ای می‌تواند به‌طور چشمگیری امنیت حساب را افزایش دهد.</p>",
+      "featuredImage": "https://picsum.photos/seed/why-use-one-time-passwords/1200/630",
+      "images": [
+        "https://picsum.photos/seed/why-use-one-time-passwords-1/800/400",
+        "https://picsum.photos/seed/why-use-one-time-passwords-2/800/400"
+      ],
+      "userId": "2",
+      "categoryId": "5",
+      "tagId": "9",
+      "status": "published",
+      "isFeatured": false,
+      "isPremium": false,
+      "viewCount": 1981,
+      "likeCount": 174,
+      "commentCount": 2,
+      "readTime": 7,
+      "publishedAt": "2024-04-10T11:00:00.000Z",
+      "createdAt": "2024-04-09T09:00:00.000Z",
+      "updatedAt": "2024-04-10T11:00:00.000Z"
+    },
+    {
+      "id": "14",
+      "title": "حمله باج‌افزاری به شرکت‌های بزرگ؛ چگونه از خود محافظت کنیم؟",
+      "slug": "ransomware-attacks-protection",
+      "excerpt": "افزایش حملات باج‌افزاری در سال اخیر هشداری جدی برای کسب‌وکارهاست.",
+      "content": "<h2>روند افزایشی حملات</h2><p>در ماه‌های اخیر تعداد حملات باج‌افزاری به شرکت‌های بزرگ افزایش چشمگیری داشته است.</p><h2>راهکارهای پیشگیری</h2><p>پشتیبان‌گیری منظم و به‌روزرسانی نرم‌افزارها از مهم‌ترین راه‌های مقابله با این تهدید هستند.</p>",
+      "featuredImage": "https://picsum.photos/seed/ransomware-attacks-protection/1200/630",
+      "images": [
+        "https://picsum.photos/seed/ransomware-attacks-protection-1/800/400",
+        "https://picsum.photos/seed/ransomware-attacks-protection-2/800/400"
+      ],
+      "userId": "3",
+      "categoryId": "5",
+      "tagId": "9",
+      "status": "published",
+      "isFeatured": true,
+      "isPremium": false,
+      "viewCount": 2118,
+      "likeCount": 187,
+      "commentCount": 1,
+      "readTime": 8,
+      "publishedAt": "2024-04-13T11:00:00.000Z",
+      "createdAt": "2024-04-12T09:00:00.000Z",
+      "updatedAt": "2024-04-13T11:00:00.000Z"
+    },
+    {
+      "id": "15",
+      "title": "راهنمای حفظ حریم خصوصی در شبکه‌های اجتماعی",
+      "slug": "privacy-guide-social-media",
+      "excerpt": "چند نکته ساده برای افزایش امنیت و حریم خصوصی حساب‌های شبکه‌های اجتماعی شما.",
+      "content": "<h2>تنظیمات حریم خصوصی</h2><p>بررسی و تنظیم دقیق سطح دسترسی دیگران به اطلاعات پروفایل بسیار مهم است.</p><h2>اشتراک‌گذاری محتاطانه</h2><p>پیش از انتشار اطلاعات شخصی، بهتر است پیامدهای احتمالی آن را در نظر بگیرید.</p>",
+      "featuredImage": "https://picsum.photos/seed/privacy-guide-social-media/1200/630",
+      "images": [
+        "https://picsum.photos/seed/privacy-guide-social-media-1/800/400",
+        "https://picsum.photos/seed/privacy-guide-social-media-2/800/400"
+      ],
+      "userId": "2",
+      "categoryId": "5",
+      "tagId": "10",
+      "status": "published",
+      "isFeatured": false,
+      "isPremium": false,
+      "viewCount": 2255,
+      "likeCount": 200,
+      "commentCount": 1,
+      "readTime": 9,
+      "publishedAt": "2024-04-16T11:00:00.000Z",
+      "createdAt": "2024-04-15T09:00:00.000Z",
+      "updatedAt": "2024-04-16T11:00:00.000Z"
+    },
+    {
+      "id": "16",
+      "title": "استارتاپ ایرانی دیجی‌کالا وارد بازار هوش مصنوعی شد",
+      "slug": "digikala-enters-ai-market",
+      "excerpt": "دیجی‌کالا با راه‌اندازی بخش جدید هوش مصنوعی قصد دارد تجربه خرید آنلاین را متحول کند.",
+      "content": "<h2>سرویس جدید توصیه‌گر</h2><p>این سرویس با استفاده از الگوریتم‌های یادگیری ماشین، پیشنهادات شخصی‌سازی‌شده به کاربران ارائه می‌دهد.</p><h2>چشم‌انداز آینده</h2><p>مدیران دیجی‌کالا اعلام کرده‌اند که سرمایه‌گذاری در این حوزه در سال‌های آینده افزایش خواهد یافت.</p>",
+      "featuredImage": "https://picsum.photos/seed/digikala-enters-ai-market/1200/630",
+      "images": [
+        "https://picsum.photos/seed/digikala-enters-ai-market-1/800/400",
+        "https://picsum.photos/seed/digikala-enters-ai-market-2/800/400"
+      ],
+      "userId": "3",
+      "categoryId": "6",
+      "tagId": "11",
+      "status": "published",
+      "isFeatured": false,
+      "isPremium": false,
+      "viewCount": 2392,
+      "likeCount": 213,
+      "commentCount": 2,
+      "readTime": 10,
+      "publishedAt": "2024-04-19T11:00:00.000Z",
+      "createdAt": "2024-04-18T09:00:00.000Z",
+      "updatedAt": "2024-04-19T11:00:00.000Z"
+    },
+    {
+      "id": "17",
+      "title": "جذب سرمایه ۱۰ میلیون دلاری یک استارتاپ فین‌تک ایرانی",
+      "slug": "iranian-fintech-startup-funding",
+      "excerpt": "یک استارتاپ فین‌تک ایرانی موفق به جذب سرمایه‌ای قابل توجه از سرمایه‌گذاران خارجی شد.",
+      "content": "<h2>جزئیات سرمایه‌گذاری</h2><p>این دور سرمایه‌گذاری با هدف توسعه زیرساخت‌های پرداخت آنلاین انجام شده است.</p><h2>برنامه‌های توسعه</h2><p>بنیان‌گذاران این استارتاپ اعلام کرده‌اند بخشی از این سرمایه صرف ورود به بازارهای منطقه‌ای خواهد شد.</p>",
+      "featuredImage": "https://picsum.photos/seed/iranian-fintech-startup-funding/1200/630",
+      "images": [
+        "https://picsum.photos/seed/iranian-fintech-startup-funding-1/800/400",
+        "https://picsum.photos/seed/iranian-fintech-startup-funding-2/800/400"
+      ],
+      "userId": "1",
+      "categoryId": "6",
+      "tagId": "12",
+      "status": "published",
+      "isFeatured": true,
+      "isPremium": false,
+      "viewCount": 2529,
+      "likeCount": 226,
+      "commentCount": 1,
+      "readTime": 11,
+      "publishedAt": "2024-04-22T11:00:00.000Z",
+      "createdAt": "2024-04-21T09:00:00.000Z",
+      "updatedAt": "2024-04-22T11:00:00.000Z"
+    },
+    {
+      "id": "18",
+      "title": "چگونه یک ایده استارتاپی را اعتبارسنجی کنیم؟",
+      "slug": "how-to-validate-startup-idea",
+      "excerpt": "پیش از سرمایه‌گذاری زمان و پول، اعتبارسنجی ایده استارتاپی گامی ضروری است.",
+      "content": "<h2>تحقیق بازار</h2><p>بررسی نیاز واقعی بازار به محصول یا خدمت پیشنهادی، اولین قدم در اعتبارسنجی ایده است.</p><h2>ساخت نمونه اولیه</h2><p>ساخت یک نسخه حداقلی از محصول کمک می‌کند بازخورد واقعی از کاربران دریافت شود.</p>",
+      "featuredImage": "https://picsum.photos/seed/how-to-validate-startup-idea/1200/630",
+      "images": [
+        "https://picsum.photos/seed/how-to-validate-startup-idea-1/800/400",
+        "https://picsum.photos/seed/how-to-validate-startup-idea-2/800/400"
+      ],
+      "userId": "2",
+      "categoryId": "6",
+      "tagId": "11",
+      "status": "published",
+      "isFeatured": false,
+      "isPremium": false,
+      "viewCount": 2666,
+      "likeCount": 239,
+      "commentCount": 1,
+      "readTime": 12,
+      "publishedAt": "2024-04-25T11:00:00.000Z",
+      "createdAt": "2024-04-24T09:00:00.000Z",
+      "updatedAt": "2024-04-25T11:00:00.000Z"
+    },
+    {
+      "id": "19",
+      "title": "اینستاگرام قابلیت جدید ویرایش ریلز را معرفی کرد",
+      "slug": "instagram-new-reels-editing-feature",
+      "excerpt": "متا با افزودن ابزارهای ویرایشی جدید به ریلز، تجربه تولید محتوا را برای کاربران بهبود بخشیده است.",
+      "content": "<h2>ابزارهای جدید ویرایش</h2><p>کاربران اکنون می‌توانند به‌راحتی فیلترها و افکت‌های پیشرفته‌تری به ویدیوهای خود اضافه کنند.</p><h2>واکنش کاربران</h2><p>این تغییرات با استقبال گسترده تولیدکنندگان محتوا در اینستاگرام همراه بوده است.</p>",
+      "featuredImage": "https://picsum.photos/seed/instagram-new-reels-editing-feature/1200/630",
+      "images": [
+        "https://picsum.photos/seed/instagram-new-reels-editing-feature-1/800/400",
+        "https://picsum.photos/seed/instagram-new-reels-editing-feature-2/800/400"
+      ],
+      "userId": "3",
+      "categoryId": "7",
+      "tagId": "13",
+      "status": "published",
+      "isFeatured": false,
+      "isPremium": false,
+      "viewCount": 2803,
+      "likeCount": 252,
+      "commentCount": 1,
+      "readTime": 13,
+      "publishedAt": "2024-04-28T11:00:00.000Z",
+      "createdAt": "2024-04-27T09:00:00.000Z",
+      "updatedAt": "2024-04-28T11:00:00.000Z"
+    },
+    {
+      "id": "20",
+      "title": "تلگرام قابلیت پرداخت درون‌برنامه‌ای را گسترش داد",
+      "slug": "telegram-expands-in-app-payments",
+      "excerpt": "تلگرام با گسترش قابلیت‌های پرداخت، قصد دارد تجربه خرید در ربات‌ها و کانال‌ها را ساده‌تر کند.",
+      "content": "<h2>قابلیت جدید پرداخت</h2><p>کاربران اکنون می‌توانند مستقیماً از داخل چت با ربات‌ها خرید انجام دهند.</p><h2>تاثیر بر کسب‌وکارها</h2><p>این تغییر می‌تواند فرصت جدیدی برای کسب‌وکارهای کوچک فعال در تلگرام ایجاد کند.</p>",
+      "featuredImage": "https://picsum.photos/seed/telegram-expands-in-app-payments/1200/630",
+      "images": [
+        "https://picsum.photos/seed/telegram-expands-in-app-payments-1/800/400",
+        "https://picsum.photos/seed/telegram-expands-in-app-payments-2/800/400"
+      ],
+      "userId": "2",
+      "categoryId": "7",
+      "tagId": "14",
+      "status": "published",
+      "isFeatured": false,
+      "isPremium": false,
+      "viewCount": 2940,
+      "likeCount": 265,
+      "commentCount": 1,
+      "readTime": 4,
+      "publishedAt": "2024-05-01T11:00:00.000Z",
+      "createdAt": "2024-04-30T09:00:00.000Z",
+      "updatedAt": "2024-05-01T11:00:00.000Z"
+    },
+    {
+      "id": "21",
+      "title": "پدیده اینفلوئنسر مارکتینگ و تاثیر آن بر برندها",
+      "slug": "influencer-marketing-phenomenon",
+      "excerpt": "بررسی نقش اینفلوئنسرها در شکل‌دهی به تصمیمات خرید مصرف‌کنندگان در فضای دیجیتال.",
+      "content": "<h2>رشد بازار اینفلوئنسر مارکتینگ</h2><p>برندها هرساله بودجه بیشتری را به همکاری با اینفلوئنسرها اختصاص می‌دهند.</p><h2>چالش اعتماد کاربران</h2><p>برخی کاربران نسبت به تبلیغات پنهان در محتوای اینفلوئنسرها با تردید برخورد می‌کنند.</p>",
+      "featuredImage": "https://picsum.photos/seed/influencer-marketing-phenomenon/1200/630",
+      "images": [
+        "https://picsum.photos/seed/influencer-marketing-phenomenon-1/800/400",
+        "https://picsum.photos/seed/influencer-marketing-phenomenon-2/800/400"
+      ],
+      "userId": "1",
+      "categoryId": "7",
+      "tagId": "13",
+      "status": "published",
+      "isFeatured": false,
+      "isPremium": false,
+      "viewCount": 3077,
+      "likeCount": 278,
+      "commentCount": 1,
+      "readTime": 5,
+      "publishedAt": "2024-05-04T11:00:00.000Z",
+      "createdAt": "2024-05-03T09:00:00.000Z",
+      "updatedAt": "2024-05-04T11:00:00.000Z"
+    },
+    {
+      "id": "22",
+      "title": "پلی‌استیشن ۶ چه زمانی عرضه می‌شود؟",
+      "slug": "playstation-6-release-date",
+      "excerpt": "شایعات و اخبار منتشرشده درباره زمان احتمالی عرضه نسل بعدی کنسول سونی.",
+      "content": "<h2>شایعات فنی</h2><p>بر اساس گزارش‌های غیررسمی، پلی‌استیشن ۶ از پردازنده‌ای قدرتمندتر برای رندرینگ رِی‌تریسینگ بهره خواهد برد.</p><h2>زمان‌بندی احتمالی عرضه</h2><p>کارشناسان صنعت گیم پیش‌بینی می‌کنند عرضه این کنسول زودتر از سال ۲۰۲۷ محقق نخواهد شد.</p>",
+      "featuredImage": "https://picsum.photos/seed/playstation-6-release-date/1200/630",
+      "images": [
+        "https://picsum.photos/seed/playstation-6-release-date-1/800/400",
+        "https://picsum.photos/seed/playstation-6-release-date-2/800/400"
+      ],
+      "userId": "3",
+      "categoryId": "8",
+      "tagId": "15",
+      "status": "published",
+      "isFeatured": true,
+      "isPremium": false,
+      "viewCount": 3214,
+      "likeCount": 291,
+      "commentCount": 1,
+      "readTime": 6,
+      "publishedAt": "2024-05-07T11:00:00.000Z",
+      "createdAt": "2024-05-06T09:00:00.000Z",
+      "updatedAt": "2024-05-07T11:00:00.000Z"
+    },
+    {
+      "id": "23",
+      "title": "بررسی بازی الدن رینگ؛ شاهکاری دیگر از فرام‌سافتور",
+      "slug": "elden-ring-review",
+      "excerpt": "نگاهی به دنیای باز و طراحی مبارزات بازی الدن رینگ که مورد تحسین منتقدان قرار گرفته است.",
+      "content": "<h2>طراحی دنیای باز</h2><p>الدن رینگ با دنیایی گسترده و پر از رمز و راز، تجربه‌ای متفاوت از ژانر سولزلایک ارائه می‌دهد.</p><h2>سیستم مبارزات</h2><p>مبارزات این بازی ترکیبی از چالش بالا و پاداش رضایت‌بخش را برای بازیکنان فراهم کرده است.</p>",
+      "featuredImage": "https://picsum.photos/seed/elden-ring-review/1200/630",
+      "images": [
+        "https://picsum.photos/seed/elden-ring-review-1/800/400",
+        "https://picsum.photos/seed/elden-ring-review-2/800/400"
+      ],
+      "userId": "2",
+      "categoryId": "8",
+      "tagId": "15",
+      "status": "published",
+      "isFeatured": false,
+      "isPremium": false,
+      "viewCount": 3351,
+      "likeCount": 304,
+      "commentCount": 1,
+      "readTime": 7,
+      "publishedAt": "2024-05-10T11:00:00.000Z",
+      "createdAt": "2024-05-09T09:00:00.000Z",
+      "updatedAt": "2024-05-10T11:00:00.000Z"
+    },
+    {
+      "id": "24",
+      "title": "متاورس و آینده صنعت گیمینگ",
+      "slug": "metaverse-future-of-gaming",
+      "excerpt": "بررسی این‌که چگونه فناوری متاورس می‌تواند تجربه بازی‌های ویدیویی را دگرگون کند.",
+      "content": "<h2>تعامل اجتماعی در بازی‌ها</h2><p>متاورس امکان تعاملات اجتماعی عمیق‌تری را در محیط‌های مجازی بازی فراهم می‌کند.</p><h2>چالش‌های فنی</h2><p>زیرساخت‌های فعلی هنوز برای پشتیبانی کامل از تجربه‌های متاورسی در مقیاس بزرگ آماده نیستند.</p>",
+      "featuredImage": "https://picsum.photos/seed/metaverse-future-of-gaming/1200/630",
+      "images": [
+        "https://picsum.photos/seed/metaverse-future-of-gaming-1/800/400",
+        "https://picsum.photos/seed/metaverse-future-of-gaming-2/800/400"
+      ],
+      "userId": "1",
+      "categoryId": "8",
+      "tagId": "20",
+      "status": "published",
+      "isFeatured": false,
+      "isPremium": true,
+      "viewCount": 3488,
+      "likeCount": 17,
+      "commentCount": 1,
+      "readTime": 8,
+      "publishedAt": "2024-05-13T11:00:00.000Z",
+      "createdAt": "2024-05-12T09:00:00.000Z",
+      "updatedAt": "2024-05-13T11:00:00.000Z"
+    },
+    {
+      "id": "25",
+      "title": "تسلا مدل جدید خودروی برقی خود را رونمایی کرد",
+      "slug": "tesla-unveils-new-electric-model",
+      "excerpt": "تسلا با معرفی مدل جدید خود، گامی دیگر در توسعه خودروهای برقی برداشته است.",
+      "content": "<h2>مشخصات فنی</h2><p>این مدل جدید با برد بالاتر و زمان شارژ کوتاه‌تر نسبت به نسل قبلی طراحی شده است.</p><h2>قابلیت‌های خودران</h2><p>سیستم رانندگی خودکار این خودرو با نرم‌افزار جدیدی به‌روزرسانی شده است.</p>",
+      "featuredImage": "https://picsum.photos/seed/tesla-unveils-new-electric-model/1200/630",
+      "images": [
+        "https://picsum.photos/seed/tesla-unveils-new-electric-model-1/800/400",
+        "https://picsum.photos/seed/tesla-unveils-new-electric-model-2/800/400"
+      ],
+      "userId": "3",
+      "categoryId": "9",
+      "tagId": "17",
+      "status": "published",
+      "isFeatured": true,
+      "isPremium": false,
+      "viewCount": 3625,
+      "likeCount": 30,
+      "commentCount": 1,
+      "readTime": 9,
+      "publishedAt": "2024-05-16T11:00:00.000Z",
+      "createdAt": "2024-05-15T09:00:00.000Z",
+      "updatedAt": "2024-05-16T11:00:00.000Z"
+    },
+    {
+      "id": "26",
+      "title": "خودروهای خودران؛ چالش‌ها و فرصت‌های پیش رو",
+      "slug": "self-driving-cars-challenges",
+      "excerpt": "بررسی وضعیت فعلی فناوری خودروهای خودران و موانع قانونی و فنی موجود بر سر راه آن‌ها.",
+      "content": "<h2>پیشرفت فناوری سنسورها</h2><p>سنسورهای لیدار و دوربین‌های پیشرفته دقت تشخیص محیط اطراف خودرو را افزایش داده‌اند.</p><h2>موانع قانونی</h2><p>قوانین متفاوت کشورها یکی از چالش‌های اصلی برای گسترش جهانی خودروهای خودران است.</p>",
+      "featuredImage": "https://picsum.photos/seed/self-driving-cars-challenges/1200/630",
+      "images": [
+        "https://picsum.photos/seed/self-driving-cars-challenges-1/800/400",
+        "https://picsum.photos/seed/self-driving-cars-challenges-2/800/400"
+      ],
+      "userId": "2",
+      "categoryId": "9",
+      "tagId": "16",
+      "status": "published",
+      "isFeatured": false,
+      "isPremium": false,
+      "viewCount": 3762,
+      "likeCount": 43,
+      "commentCount": 1,
+      "readTime": 10,
+      "publishedAt": "2024-05-19T11:00:00.000Z",
+      "createdAt": "2024-05-18T09:00:00.000Z",
+      "updatedAt": "2024-05-19T11:00:00.000Z"
+    },
+    {
+      "id": "27",
+      "title": "مقایسه خودروهای برقی چینی با تسلا",
+      "slug": "chinese-evs-vs-tesla",
+      "excerpt": "خودروسازان چینی با سرعت زیادی وارد بازار خودروهای برقی شده‌اند؛ آیا می‌توانند تسلا را به چالش بکشند؟",
+      "content": "<h2>رشد سریع برندهای چینی</h2><p>برندهایی مانند بی‌وای‌دی با قیمت‌های رقابتی توانسته‌اند سهم بازار قابل توجهی کسب کنند.</p><h2>تفاوت در فناوری باتری</h2><p>فناوری باتری استفاده‌شده در برخی خودروهای چینی با تسلا تفاوت‌های قابل توجهی دارد.</p>",
+      "featuredImage": "https://picsum.photos/seed/chinese-evs-vs-tesla/1200/630",
+      "images": [
+        "https://picsum.photos/seed/chinese-evs-vs-tesla-1/800/400",
+        "https://picsum.photos/seed/chinese-evs-vs-tesla-2/800/400"
+      ],
+      "userId": "3",
+      "categoryId": "9",
+      "tagId": "16",
+      "status": "draft",
+      "isFeatured": false,
+      "isPremium": false,
+      "viewCount": 3899,
+      "likeCount": 56,
+      "commentCount": 0,
+      "readTime": 11,
+      "publishedAt": null,
+      "createdAt": "2024-05-21T09:00:00.000Z",
+      "updatedAt": "2024-05-21T09:00:00.000Z"
+    },
+    {
+      "id": "28",
+      "title": "ناسا ماموریت جدیدی برای بررسی مریخ اعلام کرد",
+      "slug": "nasa-new-mars-mission",
+      "excerpt": "ناسا از یک ماموریت جدید برای جمع‌آوری نمونه‌های خاک مریخ خبر داد.",
+      "content": "<h2>اهداف ماموریت</h2><p>این ماموریت با هدف بررسی امکان وجود حیات میکروبی در گذشته مریخ طراحی شده است.</p><h2>جدول زمانی پرتاب</h2><p>پرتاب این فضاپیما طبق برنامه‌ریزی ناسا تا دو سال آینده انجام خواهد شد.</p>",
+      "featuredImage": "https://picsum.photos/seed/nasa-new-mars-mission/1200/630",
+      "images": [
+        "https://picsum.photos/seed/nasa-new-mars-mission-1/800/400",
+        "https://picsum.photos/seed/nasa-new-mars-mission-2/800/400"
+      ],
+      "userId": "2",
+      "categoryId": "10",
+      "tagId": "18",
+      "status": "draft",
+      "isFeatured": true,
+      "isPremium": false,
+      "viewCount": 4036,
+      "likeCount": 69,
+      "commentCount": 0,
+      "readTime": 12,
+      "publishedAt": null,
+      "createdAt": "2024-05-24T09:00:00.000Z",
+      "updatedAt": "2024-05-24T09:00:00.000Z"
+    },
+    {
+      "id": "29",
+      "title": "تلسکوپ جیمز وب تصاویر جدیدی از کهکشان‌های دور منتشر کرد",
+      "slug": "james-webb-new-galaxy-images",
+      "excerpt": "تلسکوپ فضایی جیمز وب بار دیگر با انتشار تصاویری خیره‌کننده، دانشمندان را شگفت‌زده کرد.",
+      "content": "<h2>کشف کهکشان‌های اولیه</h2><p>این تصاویر جدید به دانشمندان کمک می‌کند تا درک بهتری از شکل‌گیری کهکشان‌ها در اوایل عمر جهان داشته باشند.</p><h2>فناوری تصویربرداری</h2><p>سنسورهای مادون قرمز این تلسکوپ امکان مشاهده اجرام دوردست را فراهم کرده است.</p>",
+      "featuredImage": "https://picsum.photos/seed/james-webb-new-galaxy-images/1200/630",
+      "images": [
+        "https://picsum.photos/seed/james-webb-new-galaxy-images-1/800/400",
+        "https://picsum.photos/seed/james-webb-new-galaxy-images-2/800/400"
+      ],
+      "userId": "1",
+      "categoryId": "10",
+      "tagId": "18",
+      "status": "pending",
+      "isFeatured": false,
+      "isPremium": false,
+      "viewCount": 4173,
+      "likeCount": 82,
+      "commentCount": 0,
+      "readTime": 13,
+      "publishedAt": null,
+      "createdAt": "2024-05-27T09:00:00.000Z",
+      "updatedAt": "2024-05-27T09:00:00.000Z"
+    },
+    {
+      "id": "30",
+      "title": "ابرکامپیوترهای کوانتومی؛ گامی به سوی آینده محاسبات",
+      "slug": "quantum-supercomputers-future",
+      "excerpt": "بررسی پیشرفت‌های اخیر در حوزه محاسبات کوانتومی و تاثیر آن بر آینده فناوری.",
+      "content": "<h2>اصول محاسبات کوانتومی</h2><p>محاسبات کوانتومی با بهره‌گیری از کیوبیت‌ها، امکان انجام محاسبات پیچیده را با سرعتی بسیار بالاتر فراهم می‌کند.</p><h2>کاربردهای آینده</h2><p>این فناوری می‌تواند در حوزه‌هایی مانند رمزنگاری و کشف دارو انقلابی ایجاد کند.</p>",
+      "featuredImage": "https://picsum.photos/seed/quantum-supercomputers-future/1200/630",
+      "images": [
+        "https://picsum.photos/seed/quantum-supercomputers-future-1/800/400",
+        "https://picsum.photos/seed/quantum-supercomputers-future-2/800/400"
+      ],
+      "userId": "3",
+      "categoryId": "10",
+      "tagId": "19",
+      "status": "pending",
+      "isFeatured": false,
+      "isPremium": true,
+      "viewCount": 310,
+      "likeCount": 95,
+      "commentCount": 0,
+      "readTime": 4,
+      "publishedAt": null,
+      "createdAt": "2024-05-30T09:00:00.000Z",
+      "updatedAt": "2024-05-30T09:00:00.000Z"
+    }
+  ],
+  "comments": [
+    {
+      "id": "1",
+      "articleId": "1",
+      "userId": "2",
+      "parentId": null,
+      "content": "مقاله بسیار عالی بود! مخصوصاً بخش آخر خیلی واضح توضیح داده شده.",
+      "status": "pending",
+      "likeCount": 0,
+      "createdAt": "2024-04-01T10:00:00.000Z",
+      "updatedAt": "2024-04-01T10:00:00.000Z"
+    },
+    {
+      "id": "2",
+      "articleId": "2",
+      "userId": "3",
+      "parentId": null,
+      "content": "ممنون بابت توضیحات کامل و مفید، خیلی به دردم خورد.",
+      "status": "approved",
+      "likeCount": 3,
+      "createdAt": "2024-04-02T11:00:00.000Z",
+      "updatedAt": "2024-04-02T11:00:00.000Z"
+    },
+    {
+      "id": "3",
+      "articleId": "3",
+      "userId": "4",
+      "parentId": null,
+      "content": "من با بخشی از مطلب موافق نیستم، فکر می‌کنم باید منابع بیشتری ذکر می‌شد.",
+      "status": "approved",
+      "likeCount": 6,
+      "createdAt": "2024-04-03T12:00:00.000Z",
+      "updatedAt": "2024-04-03T12:00:00.000Z"
+    },
+    {
+      "id": "4",
+      "articleId": "4",
+      "userId": "5",
+      "parentId": null,
+      "content": "چه محتوای به‌روزی، دقیقا دنبال همچین توضیحی بودم.",
+      "status": "approved",
+      "likeCount": 9,
+      "createdAt": "2024-04-04T13:00:00.000Z",
+      "updatedAt": "2024-04-04T13:00:00.000Z"
+    },
+    {
+      "id": "5",
+      "articleId": "5",
+      "userId": "6",
+      "parentId": null,
+      "content": "لطفاً در مقاله بعدی بیشتر به جنبه عملی موضوع بپردازید.",
+      "status": "approved",
+      "likeCount": 12,
+      "createdAt": "2024-04-05T14:00:00.000Z",
+      "updatedAt": "2024-04-05T14:00:00.000Z"
+    },
+    {
+      "id": "6",
+      "articleId": "6",
+      "userId": "2",
+      "parentId": null,
+      "content": "واقعا کاربردی بود، ممنون از تیم نویسندگان.",
+      "status": "approved",
+      "likeCount": 15,
+      "createdAt": "2024-04-06T10:00:00.000Z",
+      "updatedAt": "2024-04-06T10:00:00.000Z"
+    },
+    {
+      "id": "7",
+      "articleId": "7",
+      "userId": "3",
+      "parentId": null,
+      "content": "آیا امکان دارد یک مقاله مشابه برای مبتدی‌ها هم منتشر کنید؟",
+      "status": "pending",
+      "likeCount": 18,
+      "createdAt": "2024-04-07T11:00:00.000Z",
+      "updatedAt": "2024-04-07T11:00:00.000Z"
+    },
+    {
+      "id": "8",
+      "articleId": "8",
+      "userId": "4",
+      "parentId": null,
+      "content": "این موضوع رو تازه شنیده بودم، خوشحالم که این‌قدر کامل توضیح دادید.",
+      "status": "approved",
+      "likeCount": 1,
+      "createdAt": "2024-04-08T12:00:00.000Z",
+      "updatedAt": "2024-04-08T12:00:00.000Z"
+    },
+    {
+      "id": "9",
+      "articleId": "9",
+      "userId": "5",
+      "parentId": null,
+      "content": "عالی بود ولی جای چند مثال بیشتر خالی بود.",
+      "status": "approved",
+      "likeCount": 4,
+      "createdAt": "2024-04-09T13:00:00.000Z",
+      "updatedAt": "2024-04-09T13:00:00.000Z"
+    },
+    {
+      "id": "10",
+      "articleId": "10",
+      "userId": "6",
+      "parentId": null,
+      "content": "خیلی وقت بود دنبال منبعی به این خوبی می‌گشتم.",
+      "status": "approved",
+      "likeCount": 7,
+      "createdAt": "2024-04-10T14:00:00.000Z",
+      "updatedAt": "2024-04-10T14:00:00.000Z"
+    },
+    {
+      "id": "11",
+      "articleId": "11",
+      "userId": "2",
+      "parentId": null,
+      "content": "تشکر ویژه بابت این مقاله آموزنده.",
+      "status": "approved",
+      "likeCount": 10,
+      "createdAt": "2024-04-11T10:00:00.000Z",
+      "updatedAt": "2024-04-11T10:00:00.000Z"
+    },
+    {
+      "id": "12",
+      "articleId": "12",
+      "userId": "3",
+      "parentId": null,
+      "content": "نظرم اینه که این تکنولوژی هنوز به بلوغ کافی نرسیده.",
+      "status": "approved",
+      "likeCount": 13,
+      "createdAt": "2024-04-12T11:00:00.000Z",
+      "updatedAt": "2024-04-12T11:00:00.000Z"
+    },
+    {
+      "id": "13",
+      "articleId": "13",
+      "userId": "4",
+      "parentId": null,
+      "content": "بسیار روان و قابل فهم نوشته شده بود.",
+      "status": "pending",
+      "likeCount": 16,
+      "createdAt": "2024-04-13T12:00:00.000Z",
+      "updatedAt": "2024-04-13T12:00:00.000Z"
+    },
+    {
+      "id": "14",
+      "articleId": "14",
+      "userId": "5",
+      "parentId": null,
+      "content": "منتظر ادامه این سری مقالات هستم.",
+      "status": "approved",
+      "likeCount": 19,
+      "createdAt": "2024-04-14T13:00:00.000Z",
+      "updatedAt": "2024-04-14T13:00:00.000Z"
+    },
+    {
+      "id": "15",
+      "articleId": "15",
+      "userId": "6",
+      "parentId": null,
+      "content": "این خبر رو جای دیگه هم دیده بودم ولی این‌جا کامل‌تر توضیح داده شده.",
+      "status": "approved",
+      "likeCount": 2,
+      "createdAt": "2024-04-15T14:00:00.000Z",
+      "updatedAt": "2024-04-15T14:00:00.000Z"
+    },
+    {
+      "id": "16",
+      "articleId": "16",
+      "userId": "2",
+      "parentId": null,
+      "content": "به نظرم قیمت‌گذاری این محصول کمی بالاست.",
+      "status": "approved",
+      "likeCount": 5,
+      "createdAt": "2024-04-16T10:00:00.000Z",
+      "updatedAt": "2024-04-16T10:00:00.000Z"
+    },
+    {
+      "id": "17",
+      "articleId": "17",
+      "userId": "3",
+      "parentId": null,
+      "content": "کاش تصاویر بیشتری هم اضافه می‌شد.",
+      "status": "approved",
+      "likeCount": 8,
+      "createdAt": "2024-04-17T11:00:00.000Z",
+      "updatedAt": "2024-04-17T11:00:00.000Z"
+    },
+    {
+      "id": "18",
+      "articleId": "18",
+      "userId": "4",
+      "parentId": null,
+      "content": "خیلی خوب تحلیل کردید، دمتون گرم.",
+      "status": "approved",
+      "likeCount": 11,
+      "createdAt": "2024-04-18T12:00:00.000Z",
+      "updatedAt": "2024-04-18T12:00:00.000Z"
+    },
+    {
+      "id": "19",
+      "articleId": "19",
+      "userId": "5",
+      "parentId": null,
+      "content": "این مطلب دقیقاً جواب سوالم رو داد.",
+      "status": "pending",
+      "likeCount": 14,
+      "createdAt": "2024-04-19T13:00:00.000Z",
+      "updatedAt": "2024-04-19T13:00:00.000Z"
+    },
+    {
+      "id": "20",
+      "articleId": "20",
+      "userId": "6",
+      "parentId": null,
+      "content": "امیدوارم شرکت‌های ایرانی هم به این سمت حرکت کنند.",
+      "status": "approved",
+      "likeCount": 17,
+      "createdAt": "2024-04-20T14:00:00.000Z",
+      "updatedAt": "2024-04-20T14:00:00.000Z"
+    },
+    {
+      "id": "21",
+      "articleId": "21",
+      "userId": "2",
+      "parentId": null,
+      "content": "مقاله بسیار عالی بود! مخصوصاً بخش آخر خیلی واضح توضیح داده شده.",
+      "status": "approved",
+      "likeCount": 0,
+      "createdAt": "2024-04-21T10:00:00.000Z",
+      "updatedAt": "2024-04-21T10:00:00.000Z"
+    },
+    {
+      "id": "22",
+      "articleId": "22",
+      "userId": "3",
+      "parentId": null,
+      "content": "ممنون بابت توضیحات کامل و مفید، خیلی به دردم خورد.",
+      "status": "approved",
+      "likeCount": 3,
+      "createdAt": "2024-04-22T11:00:00.000Z",
+      "updatedAt": "2024-04-22T11:00:00.000Z"
+    },
+    {
+      "id": "23",
+      "articleId": "23",
+      "userId": "4",
+      "parentId": null,
+      "content": "من با بخشی از مطلب موافق نیستم، فکر می‌کنم باید منابع بیشتری ذکر می‌شد.",
+      "status": "approved",
+      "likeCount": 6,
+      "createdAt": "2024-04-23T12:00:00.000Z",
+      "updatedAt": "2024-04-23T12:00:00.000Z"
+    },
+    {
+      "id": "24",
+      "articleId": "24",
+      "userId": "5",
+      "parentId": null,
+      "content": "چه محتوای به‌روزی، دقیقا دنبال همچین توضیحی بودم.",
+      "status": "approved",
+      "likeCount": 9,
+      "createdAt": "2024-04-24T13:00:00.000Z",
+      "updatedAt": "2024-04-24T13:00:00.000Z"
+    },
+    {
+      "id": "25",
+      "articleId": "25",
+      "userId": "6",
+      "parentId": null,
+      "content": "لطفاً در مقاله بعدی بیشتر به جنبه عملی موضوع بپردازید.",
+      "status": "pending",
+      "likeCount": 12,
+      "createdAt": "2024-04-25T14:00:00.000Z",
+      "updatedAt": "2024-04-25T14:00:00.000Z"
+    },
+    {
+      "id": "26",
+      "articleId": "26",
+      "userId": "2",
+      "parentId": null,
+      "content": "واقعا کاربردی بود، ممنون از تیم نویسندگان.",
+      "status": "approved",
+      "likeCount": 15,
+      "createdAt": "2024-04-26T10:00:00.000Z",
+      "updatedAt": "2024-04-26T10:00:00.000Z"
+    },
+    {
+      "id": "27",
+      "articleId": "1",
+      "userId": "4",
+      "parentId": "1",
+      "content": "کاملاً موافقم با نظرتون.",
+      "status": "approved",
+      "likeCount": 0,
+      "createdAt": "2024-05-01T12:00:00.000Z",
+      "updatedAt": "2024-05-01T12:00:00.000Z"
+    },
+    {
+      "id": "28",
+      "articleId": "4",
+      "userId": "5",
+      "parentId": "4",
+      "content": "ممنون از بازخوردتون، حتماً در نظر می‌گیریم.",
+      "status": "approved",
+      "likeCount": 1,
+      "createdAt": "2024-05-02T12:00:00.000Z",
+      "updatedAt": "2024-05-02T12:00:00.000Z"
+    },
+    {
+      "id": "29",
+      "articleId": "7",
+      "userId": "6",
+      "parentId": "7",
+      "content": "دقیقاً همینطوره که گفتید.",
+      "status": "approved",
+      "likeCount": 2,
+      "createdAt": "2024-05-03T12:00:00.000Z",
+      "updatedAt": "2024-05-03T12:00:00.000Z"
+    },
+    {
+      "id": "30",
+      "articleId": "10",
+      "userId": "2",
+      "parentId": "10",
+      "content": "نظر جالبی بود، ممنون که به اشتراک گذاشتید.",
+      "status": "approved",
+      "likeCount": 3,
+      "createdAt": "2024-05-04T12:00:00.000Z",
+      "updatedAt": "2024-05-04T12:00:00.000Z"
+    },
+    {
+      "id": "31",
+      "articleId": "13",
+      "userId": "3",
+      "parentId": "13",
+      "content": "کاملاً موافقم با نظرتون.",
+      "status": "approved",
+      "likeCount": 4,
+      "createdAt": "2024-05-05T12:00:00.000Z",
+      "updatedAt": "2024-05-05T12:00:00.000Z"
+    },
+    {
+      "id": "32",
+      "articleId": "16",
+      "userId": "4",
+      "parentId": "16",
+      "content": "ممنون از بازخوردتون، حتماً در نظر می‌گیریم.",
+      "status": "approved",
+      "likeCount": 0,
+      "createdAt": "2024-05-06T12:00:00.000Z",
+      "updatedAt": "2024-05-06T12:00:00.000Z"
+    },
+    {
+      "id": "33",
+      "articleId": "18",
+      "userId": "4",
+      "parentId": null,
+      "content": "مطلب جالبی بود . اگر امکان داره بیشتر توضیح بدید",
+      "status": "pending",
+      "likeCount": 0,
+      "createdAt": "2026-09-16T14:39:37.061Z",
+      "updatedAt": "2026-09-16T14:39:37.061Z"
+    },
+    {
+      "id": "34",
+      "articleId": "18",
+      "userId": "4",
+      "parentId": null,
+      "content": "dASDASd",
+      "status": "pending",
+      "likeCount": 0,
+      "createdAt": "2026-09-16T14:41:40.605Z",
+      "updatedAt": "2026-09-16T14:41:40.605Z"
+    },
+    {
+      "id": "35",
+      "articleId": "18",
+      "userId": "4",
+      "parentId": null,
+      "content": "dasdASDA",
+      "status": "pending",
+      "likeCount": 0,
+      "createdAt": "2026-09-16T14:50:26.862Z",
+      "updatedAt": "2026-09-16T14:50:26.862Z"
+    },
+    {
+      "id": "36",
+      "articleId": "18",
+      "userId": "4",
+      "parentId": null,
+      "content": "fasd",
+      "status": "pending",
+      "likeCount": 0,
+      "createdAt": "2026-09-16T14:52:09.215Z",
+      "updatedAt": "2026-09-16T14:52:09.215Z"
+    },
+    {
+      "id": "37",
+      "articleId": "18",
+      "userId": "4",
+      "parentId": null,
+      "content": "fasdf",
+      "status": "pending",
+      "likeCount": 0,
+      "createdAt": "2026-09-16T14:56:04.822Z",
+      "updatedAt": "2026-09-16T14:56:04.822Z"
+    },
+    {
+      "id": "38",
+      "articleId": "18",
+      "userId": "4",
+      "parentId": null,
+      "content": "afsdfasd",
+      "status": "pending",
+      "likeCount": 0,
+      "createdAt": "2026-09-16T14:56:20.955Z",
+      "updatedAt": "2026-09-16T14:56:20.955Z"
+    },
+    {
+      "id": "39",
+      "articleId": "18",
+      "userId": "4",
+      "parentId": null,
+      "content": "aaaaaaaa",
+      "status": "pending",
+      "likeCount": 0,
+      "createdAt": "2026-09-16T17:15:23.334Z",
+      "updatedAt": "2026-09-16T17:15:23.334Z"
+    },
+    {
+      "id": "40",
+      "articleId": "18",
+      "userId": "4",
+      "parentId": null,
+      "content": "ffffff",
+      "status": "pending",
+      "likeCount": 0,
+      "createdAt": "2026-09-16T17:17:51.401Z",
+      "updatedAt": "2026-09-16T17:17:51.401Z"
+    },
+    {
+      "id": "41",
+      "articleId": "18",
+      "userId": "4",
+      "parentId": null,
+      "content": "bbbbbbb",
+      "status": "pending",
+      "likeCount": 0,
+      "createdAt": "2026-09-16T17:20:38.315Z",
+      "updatedAt": "2026-09-16T17:20:38.315Z"
+    },
+    {
+      "id": "42",
+      "articleId": "18",
+      "userId": "4",
+      "parentId": null,
+      "content": "fasdf",
+      "status": "pending",
+      "likeCount": 0,
+      "createdAt": "2026-09-16T17:32:06.810Z",
+      "updatedAt": "2026-09-16T17:32:06.810Z"
+    },
+    {
+      "id": "43",
+      "articleId": "18",
+      "userId": "7",
+      "parentId": null,
+      "content": "تست",
+      "status": "pending",
+      "likeCount": 0,
+      "createdAt": "2026-09-16T18:49:22.717Z",
+      "updatedAt": "2026-09-16T18:49:22.717Z"
+    },
+    {
+      "id": "44",
+      "articleId": "18",
+      "userId": "7",
+      "parentId": null,
+      "content": "تست 2",
+      "status": "pending",
+      "likeCount": 0,
+      "createdAt": "2026-09-16T19:22:30.677Z",
+      "updatedAt": "2026-09-16T19:22:30.677Z"
+    },
+    {
+      "id": "45",
+      "articleId": "18",
+      "userId": "7",
+      "parentId": null,
+      "content": "تست 3",
+      "status": "pending",
+      "likeCount": 0,
+      "createdAt": "2026-09-16T19:24:16.095Z",
+      "updatedAt": "2026-09-16T19:24:16.095Z"
+    },
+    {
+      "id": "46",
+      "articleId": "18",
+      "userId": "7",
+      "parentId": null,
+      "content": "تست 3",
+      "status": "pending",
+      "likeCount": 0,
+      "createdAt": "2026-09-16T19:35:37.698Z",
+      "updatedAt": "2026-09-16T19:35:37.698Z"
+    },
+    {
+      "id": "47",
+      "articleId": "18",
+      "userId": "7",
+      "parentId": null,
+      "content": "تست 4",
+      "status": "pending",
+      "likeCount": 0,
+      "createdAt": "2026-09-16T19:35:46.005Z",
+      "updatedAt": "2026-09-16T19:35:46.005Z"
+    }
+  ],
+  "likes": [
+    {
+      "id": "1",
+      "userId": "2",
+      "articleId": "1",
+      "createdAt": "2024-04-02T09:00:00.000Z"
+    },
+    {
+      "id": "2",
+      "userId": "3",
+      "articleId": "1",
+      "createdAt": "2024-04-02T10:00:00.000Z"
+    },
+    {
+      "id": "3",
+      "userId": "3",
+      "articleId": "2",
+      "createdAt": "2024-04-03T09:00:00.000Z"
+    },
+    {
+      "id": "4",
+      "userId": "4",
+      "articleId": "2",
+      "createdAt": "2024-04-03T10:00:00.000Z"
+    },
+    {
+      "id": "5",
+      "userId": "5",
+      "articleId": "2",
+      "createdAt": "2024-04-03T11:00:00.000Z"
+    },
+    {
+      "id": "6",
+      "userId": "4",
+      "articleId": "3",
+      "createdAt": "2024-04-04T09:00:00.000Z"
+    },
+    {
+      "id": "7",
+      "userId": "5",
+      "articleId": "3",
+      "createdAt": "2024-04-04T10:00:00.000Z"
+    },
+    {
+      "id": "8",
+      "userId": "6",
+      "articleId": "3",
+      "createdAt": "2024-04-04T11:00:00.000Z"
+    },
+    {
+      "id": "9",
+      "userId": "2",
+      "articleId": "3",
+      "createdAt": "2024-04-04T12:00:00.000Z"
+    },
+    {
+      "id": "10",
+      "userId": "5",
+      "articleId": "4",
+      "createdAt": "2024-04-05T09:00:00.000Z"
+    },
+    {
+      "id": "11",
+      "userId": "6",
+      "articleId": "4",
+      "createdAt": "2024-04-05T10:00:00.000Z"
+    },
+    {
+      "id": "12",
+      "userId": "6",
+      "articleId": "5",
+      "createdAt": "2024-04-06T09:00:00.000Z"
+    },
+    {
+      "id": "13",
+      "userId": "2",
+      "articleId": "5",
+      "createdAt": "2024-04-06T10:00:00.000Z"
+    },
+    {
+      "id": "14",
+      "userId": "3",
+      "articleId": "5",
+      "createdAt": "2024-04-06T11:00:00.000Z"
+    },
+    {
+      "id": "15",
+      "userId": "2",
+      "articleId": "6",
+      "createdAt": "2024-04-07T09:00:00.000Z"
+    },
+    {
+      "id": "16",
+      "userId": "3",
+      "articleId": "6",
+      "createdAt": "2024-04-07T10:00:00.000Z"
+    },
+    {
+      "id": "17",
+      "userId": "4",
+      "articleId": "6",
+      "createdAt": "2024-04-07T11:00:00.000Z"
+    },
+    {
+      "id": "18",
+      "userId": "5",
+      "articleId": "6",
+      "createdAt": "2024-04-07T12:00:00.000Z"
+    },
+    {
+      "id": "19",
+      "userId": "3",
+      "articleId": "7",
+      "createdAt": "2024-04-08T09:00:00.000Z"
+    },
+    {
+      "id": "20",
+      "userId": "4",
+      "articleId": "7",
+      "createdAt": "2024-04-08T10:00:00.000Z"
+    },
+    {
+      "id": "21",
+      "userId": "4",
+      "articleId": "8",
+      "createdAt": "2024-04-09T09:00:00.000Z"
+    },
+    {
+      "id": "22",
+      "userId": "5",
+      "articleId": "8",
+      "createdAt": "2024-04-09T10:00:00.000Z"
+    },
+    {
+      "id": "23",
+      "userId": "6",
+      "articleId": "8",
+      "createdAt": "2024-04-09T11:00:00.000Z"
+    },
+    {
+      "id": "24",
+      "userId": "5",
+      "articleId": "9",
+      "createdAt": "2024-04-10T09:00:00.000Z"
+    },
+    {
+      "id": "25",
+      "userId": "6",
+      "articleId": "9",
+      "createdAt": "2024-04-10T10:00:00.000Z"
+    },
+    {
+      "id": "26",
+      "userId": "2",
+      "articleId": "9",
+      "createdAt": "2024-04-10T11:00:00.000Z"
+    },
+    {
+      "id": "27",
+      "userId": "3",
+      "articleId": "9",
+      "createdAt": "2024-04-10T12:00:00.000Z"
+    },
+    {
+      "id": "28",
+      "userId": "6",
+      "articleId": "10",
+      "createdAt": "2024-04-11T09:00:00.000Z"
+    },
+    {
+      "id": "29",
+      "userId": "2",
+      "articleId": "10",
+      "createdAt": "2024-04-11T10:00:00.000Z"
+    },
+    {
+      "id": "30",
+      "userId": "2",
+      "articleId": "11",
+      "createdAt": "2024-04-12T09:00:00.000Z"
+    },
+    {
+      "id": "31",
+      "userId": "3",
+      "articleId": "11",
+      "createdAt": "2024-04-12T10:00:00.000Z"
+    },
+    {
+      "id": "32",
+      "userId": "4",
+      "articleId": "11",
+      "createdAt": "2024-04-12T11:00:00.000Z"
+    },
+    {
+      "id": "33",
+      "userId": "3",
+      "articleId": "12",
+      "createdAt": "2024-04-13T09:00:00.000Z"
+    },
+    {
+      "id": "34",
+      "userId": "4",
+      "articleId": "12",
+      "createdAt": "2024-04-13T10:00:00.000Z"
+    },
+    {
+      "id": "35",
+      "userId": "5",
+      "articleId": "12",
+      "createdAt": "2024-04-13T11:00:00.000Z"
+    },
+    {
+      "id": "36",
+      "userId": "6",
+      "articleId": "12",
+      "createdAt": "2024-04-13T12:00:00.000Z"
+    },
+    {
+      "id": "37",
+      "userId": "4",
+      "articleId": "13",
+      "createdAt": "2024-04-14T09:00:00.000Z"
+    },
+    {
+      "id": "38",
+      "userId": "5",
+      "articleId": "13",
+      "createdAt": "2024-04-14T10:00:00.000Z"
+    },
+    {
+      "id": "39",
+      "userId": "5",
+      "articleId": "14",
+      "createdAt": "2024-04-15T09:00:00.000Z"
+    },
+    {
+      "id": "40",
+      "userId": "6",
+      "articleId": "14",
+      "createdAt": "2024-04-15T10:00:00.000Z"
+    },
+    {
+      "id": "41",
+      "userId": "2",
+      "articleId": "14",
+      "createdAt": "2024-04-15T11:00:00.000Z"
+    },
+    {
+      "id": "42",
+      "userId": "6",
+      "articleId": "15",
+      "createdAt": "2024-04-16T09:00:00.000Z"
+    },
+    {
+      "id": "43",
+      "userId": "2",
+      "articleId": "15",
+      "createdAt": "2024-04-16T10:00:00.000Z"
+    },
+    {
+      "id": "44",
+      "userId": "3",
+      "articleId": "15",
+      "createdAt": "2024-04-16T11:00:00.000Z"
+    },
+    {
+      "id": "45",
+      "userId": "4",
+      "articleId": "15",
+      "createdAt": "2024-04-16T12:00:00.000Z"
+    },
+    {
+      "id": "46",
+      "userId": "2",
+      "articleId": "16",
+      "createdAt": "2024-04-17T09:00:00.000Z"
+    },
+    {
+      "id": "47",
+      "userId": "3",
+      "articleId": "16",
+      "createdAt": "2024-04-17T10:00:00.000Z"
+    },
+    {
+      "id": "48",
+      "userId": "3",
+      "articleId": "17",
+      "createdAt": "2024-04-18T09:00:00.000Z"
+    },
+    {
+      "id": "49",
+      "userId": "4",
+      "articleId": "17",
+      "createdAt": "2024-04-18T10:00:00.000Z"
+    },
+    {
+      "id": "50",
+      "userId": "5",
+      "articleId": "17",
+      "createdAt": "2024-04-18T11:00:00.000Z"
+    },
+    {
+      "id": "51",
+      "userId": "4",
+      "articleId": "18",
+      "createdAt": "2024-04-19T09:00:00.000Z"
+    },
+    {
+      "id": "52",
+      "userId": "5",
+      "articleId": "18",
+      "createdAt": "2024-04-19T10:00:00.000Z"
+    },
+    {
+      "id": "53",
+      "userId": "6",
+      "articleId": "18",
+      "createdAt": "2024-04-19T11:00:00.000Z"
+    },
+    {
+      "id": "54",
+      "userId": "2",
+      "articleId": "18",
+      "createdAt": "2024-04-19T12:00:00.000Z"
+    },
+    {
+      "id": "55",
+      "userId": "5",
+      "articleId": "19",
+      "createdAt": "2024-04-20T09:00:00.000Z"
+    },
+    {
+      "id": "56",
+      "userId": "6",
+      "articleId": "19",
+      "createdAt": "2024-04-20T10:00:00.000Z"
+    },
+    {
+      "id": "57",
+      "userId": "6",
+      "articleId": "20",
+      "createdAt": "2024-04-21T09:00:00.000Z"
+    },
+    {
+      "id": "58",
+      "userId": "2",
+      "articleId": "20",
+      "createdAt": "2024-04-21T10:00:00.000Z"
+    },
+    {
+      "id": "59",
+      "userId": "3",
+      "articleId": "20",
+      "createdAt": "2024-04-21T11:00:00.000Z"
+    },
+    {
+      "id": "60",
+      "userId": "2",
+      "articleId": "21",
+      "createdAt": "2024-04-22T09:00:00.000Z"
+    },
+    {
+      "id": "61",
+      "userId": "3",
+      "articleId": "21",
+      "createdAt": "2024-04-22T10:00:00.000Z"
+    },
+    {
+      "id": "62",
+      "userId": "4",
+      "articleId": "21",
+      "createdAt": "2024-04-22T11:00:00.000Z"
+    },
+    {
+      "id": "63",
+      "userId": "5",
+      "articleId": "21",
+      "createdAt": "2024-04-22T12:00:00.000Z"
+    },
+    {
+      "id": "64",
+      "userId": "3",
+      "articleId": "22",
+      "createdAt": "2024-04-23T09:00:00.000Z"
+    },
+    {
+      "id": "65",
+      "userId": "4",
+      "articleId": "22",
+      "createdAt": "2024-04-23T10:00:00.000Z"
+    },
+    {
+      "id": "66",
+      "userId": "4",
+      "articleId": "23",
+      "createdAt": "2024-04-24T09:00:00.000Z"
+    },
+    {
+      "id": "67",
+      "userId": "5",
+      "articleId": "23",
+      "createdAt": "2024-04-24T10:00:00.000Z"
+    },
+    {
+      "id": "68",
+      "userId": "6",
+      "articleId": "23",
+      "createdAt": "2024-04-24T11:00:00.000Z"
+    },
+    {
+      "id": "69",
+      "userId": "5",
+      "articleId": "24",
+      "createdAt": "2024-04-25T09:00:00.000Z"
+    },
+    {
+      "id": "70",
+      "userId": "6",
+      "articleId": "24",
+      "createdAt": "2024-04-25T10:00:00.000Z"
+    },
+    {
+      "id": "71",
+      "userId": "2",
+      "articleId": "24",
+      "createdAt": "2024-04-25T11:00:00.000Z"
+    },
+    {
+      "id": "72",
+      "userId": "3",
+      "articleId": "24",
+      "createdAt": "2024-04-25T12:00:00.000Z"
+    },
+    {
+      "id": "73",
+      "userId": "6",
+      "articleId": "25",
+      "createdAt": "2024-04-26T09:00:00.000Z"
+    },
+    {
+      "id": "74",
+      "userId": "2",
+      "articleId": "25",
+      "createdAt": "2024-04-26T10:00:00.000Z"
+    },
+    {
+      "id": "75",
+      "userId": "2",
+      "articleId": "26",
+      "createdAt": "2024-04-27T09:00:00.000Z"
+    },
+    {
+      "id": "76",
+      "userId": "3",
+      "articleId": "26",
+      "createdAt": "2024-04-27T10:00:00.000Z"
+    },
+    {
+      "id": "77",
+      "userId": "4",
+      "articleId": "26",
+      "createdAt": "2024-04-27T11:00:00.000Z"
+    }
+  ],
+  "bookmarks": [
+    {
+      "id": "1",
+      "userId": "3",
+      "articleId": "1",
+      "createdAt": "2024-04-03T09:00:00.000Z"
+    },
+    {
+      "id": "2",
+      "userId": "5",
+      "articleId": "3",
+      "createdAt": "2024-04-05T09:00:00.000Z"
+    },
+    {
+      "id": "3",
+      "userId": "2",
+      "articleId": "5",
+      "createdAt": "2024-04-07T09:00:00.000Z"
+    },
+    {
+      "id": "4",
+      "userId": "4",
+      "articleId": "7",
+      "createdAt": "2024-04-09T09:00:00.000Z"
+    },
+    {
+      "id": "5",
+      "userId": "6",
+      "articleId": "9",
+      "createdAt": "2024-04-11T09:00:00.000Z"
+    },
+    {
+      "id": "6",
+      "userId": "3",
+      "articleId": "11",
+      "createdAt": "2024-04-13T09:00:00.000Z"
+    },
+    {
+      "id": "7",
+      "userId": "5",
+      "articleId": "13",
+      "createdAt": "2024-04-15T09:00:00.000Z"
+    },
+    {
+      "id": "8",
+      "userId": "2",
+      "articleId": "15",
+      "createdAt": "2024-04-17T09:00:00.000Z"
+    },
+    {
+      "id": "9",
+      "userId": "4",
+      "articleId": "17",
+      "createdAt": "2024-04-19T09:00:00.000Z"
+    },
+    {
+      "id": "10",
+      "userId": "6",
+      "articleId": "19",
+      "createdAt": "2024-04-21T09:00:00.000Z"
+    },
+    {
+      "id": "11",
+      "userId": "3",
+      "articleId": "21",
+      "createdAt": "2024-04-23T09:00:00.000Z"
+    },
+    {
+      "id": "12",
+      "userId": "5",
+      "articleId": "23",
+      "createdAt": "2024-04-25T09:00:00.000Z"
+    },
+    {
+      "id": "13",
+      "userId": "2",
+      "articleId": "25",
+      "createdAt": "2024-04-27T09:00:00.000Z"
+    }
+  ]
+}
