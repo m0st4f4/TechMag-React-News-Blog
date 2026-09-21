@@ -3,12 +3,13 @@ import { type ReactNode } from "react";
 import { zodResolver } from "@hookform/resolvers/zod";
 import { type SubmitHandler, useForm } from "react-hook-form";
 
-import { UserInfoForm } from "@/forms/UserInfoForm/UserInfoForm.tsx";
 import { UserSchema } from "@/schema/user-schema.ts";
 import { useTranslation } from "react-i18next";
 import { toast } from "sonner";
 
 import { ErrorMessage } from "@/components/ErrorMessage/ErrorMessage.tsx";
+
+import { UserInfoForm } from "@/forms/UserInfoForm/UserInfoForm.tsx";
 
 import { useAuth } from "@/hooks/useAuth.ts";
 import { useChangeUserInfo } from "@/hooks/useChangeUserInfo.ts";
@@ -32,7 +33,7 @@ export const UserInfoPage = ({ className = "" }: Props): ReactNode => {
     formState: { dirtyFields },
   } = form;
   const HandleFormSubmit: SubmitHandler<UserInfoType> = async (
-    values: UserInfoType,
+    values: UserInfoType
   ) => {
     if (!user) {
       return;

@@ -2,10 +2,11 @@ import { type ReactNode } from "react";
 
 import { Link } from "react-router";
 
-import { cn } from "@/lib/utils.ts";
 import { useTranslation } from "react-i18next";
 
 import { PostCardTopImg } from "@/components/Article/components/PostCardTopImg/PostCardTopImg.tsx";
+
+import { cn } from "@/lib/utils.ts";
 
 import type { ArticleType } from "@/types/article.types.ts";
 

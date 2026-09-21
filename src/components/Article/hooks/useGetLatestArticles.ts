@@ -24,7 +24,7 @@ export const useGetLatestArticles = (params?: fetchArticlesParamsType) => {
           },
           ...params,
         },
-        signal,
+        signal
       ),
   });
 };

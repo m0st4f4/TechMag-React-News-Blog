@@ -1,5 +1,6 @@
-import { formatUserDate } from "@/lib/formatDate.ts";
 import { useTranslation } from "react-i18next";
+
+import { formatUserDate } from "@/lib/formatDate.ts";
 
 interface CustomLangData {
   locale?: string;
@@ -18,7 +19,7 @@ export const useLocalizedDate = () => {
 
   const formatDate = (
     date: Date | string | number,
-    dateStyle: "full" | "long" | "medium" | "short" = "medium",
+    dateStyle: "full" | "long" | "medium" | "short" = "medium"
   ) => {
     return formatUserDate(date, { locale, calendar, dateStyle });
   };

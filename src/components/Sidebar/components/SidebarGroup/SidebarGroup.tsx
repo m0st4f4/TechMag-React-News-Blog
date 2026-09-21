@@ -16,7 +16,7 @@ export const SidebarGroup = ({
     <div
       className={cn(
         "border border-sidebar-border rounded-lg p-6 flex flex-col gap-4",
-        className,
+        className
       )}
     >
       {title && (

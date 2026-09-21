@@ -6,11 +6,12 @@ import { zodResolver } from "@hookform/resolvers/zod";
 import { type SubmitHandler, useForm } from "react-hook-form";
 import type z from "zod";
 
-import { LoginForm } from "@/forms/LoginForm/LoginForm.tsx";
 import { LoginSchema } from "@/schema/login-schema.ts";
 
 import { ErrorMessage } from "@/components/ErrorMessage/ErrorMessage.tsx";
 import { Button } from "@/components/ui/button.tsx";
+
+import { LoginForm } from "@/forms/LoginForm/LoginForm.tsx";
 
 import { useAuth } from "@/hooks/useAuth.ts";
 import { useLoginUser } from "@/hooks/useLoginUser.ts";

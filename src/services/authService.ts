@@ -14,33 +14,33 @@ export const getMe = async (): Promise<UserType> => {
   return response.data;
 };
 export const refreshUserToken = async (
-  refreshToken: string,
+  refreshToken: string
 ): Promise<RefreshResponseType> => {
   const baseURL = import.meta.env.VITE_API_BASE_URL || "http://localhost:4000";
   const response: AxiosResponse<RefreshResponseType> = await axios.post(
     `${baseURL}/auth/refresh`,
-    refreshToken,
+    refreshToken
   );
   return response.data;
 };
 
 export const RegisterUser = async (
-  userData: UserRegisterType,
+  userData: UserRegisterType
 ): Promise<AuthResponseType> => {
   const response: AxiosResponse<AuthResponseType> = await apiInstance.post(
     `/auth/register`,
-    userData,
+    userData
   );
 
   return response.data;
 };
 
 export const LoginUser = async (
-  userData: UserLoginType,
+  userData: UserLoginType
 ): Promise<AuthResponseType> => {
   const response: AxiosResponse<AuthResponseType> = await apiInstance.post(
     `/auth/login`,
-    userData,
+    userData
   );
   return response.data;
 };

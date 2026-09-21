@@ -2,10 +2,11 @@ import { type ReactNode } from "react";
 
 import { Link } from "react-router";
 
-import { cn } from "@/lib/utils.ts";
 import { useTranslation } from "react-i18next";
 
 import { CategoryCardTopImg } from "@/components/Category/components/CategoryCardTopImg/CategoryCardTopImg.tsx";
+
+import { cn } from "@/lib/utils.ts";
 
 import type { CategoryType } from "@/types/article.types.ts";
 

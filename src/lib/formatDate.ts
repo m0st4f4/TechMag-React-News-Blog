@@ -6,7 +6,7 @@ interface FormatDateOptions {
 
 export const formatUserDate = (
   date: Date | string | number,
-  options: FormatDateOptions = {},
+  options: FormatDateOptions = {}
 ): string => {
   const {
     locale = "fa-IR",

@@ -2,8 +2,9 @@ import type { ReactNode } from "react";
 
 import { Link } from "react-router";
 
-import { FooterNavigation } from "@/config/navigation.ts";
 import { useTranslation } from "react-i18next";
+
+import { FooterNavigation } from "@/config/navigation.ts";
 
 type Props = {
   className?: string;

@@ -2,9 +2,9 @@ import { type ComponentProps, type ReactNode } from "react";
 
 import { NavLink } from "react-router";
 
-import { cn } from "@/lib/utils.ts";
-
 import { navigationMenuTriggerStyle } from "@/components/ui/navigation-menu.tsx";
+
+import { cn } from "@/lib/utils.ts";
 
 type Props = ComponentProps<typeof NavLink>;
 
@@ -20,7 +20,7 @@ export const SidebarMenuItem = ({
           className,
           navigationMenuTriggerStyle(),
           isActive ? "text-accent" : "",
-          "text-sm w-full justify-start hover:text-accent hover:bg-none",
+          "text-sm w-full justify-start hover:text-accent hover:bg-none"
         );
       }}
       {...otherProps}

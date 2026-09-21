@@ -1,11 +1,12 @@
 import { type ReactNode } from "react";
 
-import { cn } from "@/lib/utils.ts";
 import DOMPurify from "dompurify";
 
 import { AuthorDetails } from "@/components/AuthorDetails/AuthorDetails.tsx";
 
 import { useLocalizedDate } from "@/hooks/useLocalizedDate.ts";
+
+import { cn } from "@/lib/utils.ts";
 
 import type { CommentResponseType } from "@/types/comment.type.ts";
 
@@ -21,7 +22,7 @@ export const CommentItem = ({ className = "", item }: Props): ReactNode => {
     <div
       className={cn(
         className,
-        "p-6 rounded shadow-2xs border border-transparent hover:border-border",
+        "p-6 rounded shadow-2xs border border-transparent hover:border-border"
       )}
     >
       <div className="flex justify-between">

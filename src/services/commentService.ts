@@ -9,7 +9,7 @@ import type {
 
 export const getComments = async (
   inputParams?: CommentParamsType,
-  signal?: AbortSignal,
+  signal?: AbortSignal
 ): Promise<CommentResponseType[]> => {
   const defaultParams: CommentParamsType = {
     _sort: "id",
@@ -38,17 +38,17 @@ export const getComments = async (
 
   const response: AxiosResponse<CommentResponseType[]> = await apiInstance.get(
     `/comments`,
-    { params, signal },
+    { params, signal }
   );
   return response.data;
 };
 
 export const postComment = async (
-  payload: CommentPayloadType,
+  payload: CommentPayloadType
 ): Promise<CommentResponseType> => {
   const response: AxiosResponse<CommentResponseType> = await apiInstance.post(
     "/comments",
-    payload,
+    payload
   );
   return response.data;
 };

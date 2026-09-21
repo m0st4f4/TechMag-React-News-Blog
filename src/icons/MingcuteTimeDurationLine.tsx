@@ -1,7 +1,7 @@
 import { type ReactNode, type SVGProps } from "react";
 
 export function MingcuteTimeDurationLine(
-  props: SVGProps<SVGSVGElement>,
+  props: SVGProps<SVGSVGElement>
 ): ReactNode {
   return (
     <svg

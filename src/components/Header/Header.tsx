@@ -1,7 +1,5 @@
 import type { ReactNode } from "react";
 
-import { topNavigation } from "@/config/navigation.ts";
-
 import { LanguageSwitcher } from "@/components/LanguageSwitcher/LanguageSwitcher.tsx";
 import { Navbar } from "@/components/Navbar/Navbar.tsx";
 import { SearchForm } from "@/components/SearchForm/SearchForm.tsx";
@@ -9,6 +7,8 @@ import { SiteLogo } from "@/components/SiteLogo/SiteLogo.tsx";
 import { SocialNavigation } from "@/components/SocialNavigation/SocialNavigation.tsx";
 import { ThemeToggle } from "@/components/ThemeToggle/ThemeToggle.tsx";
 import { UserMenu } from "@/components/UserMenu/UserMenu.tsx";
+
+import { topNavigation } from "@/config/navigation.ts";
 
 export const Header = (): ReactNode => {
   return (

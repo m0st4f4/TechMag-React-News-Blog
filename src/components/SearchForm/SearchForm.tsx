@@ -2,7 +2,6 @@ import { type ChangeEvent, type SyntheticEvent, useContext } from "react";
 
 import { useNavigate } from "react-router";
 
-import { cn } from "@/lib/utils.ts";
 import { useTranslation } from "react-i18next";
 
 import {
@@ -16,6 +15,8 @@ import { SearchContext } from "@/context/search-context.ts";
 
 import MingcuteCloseLine from "@/icons/MingcuteCloseLine.tsx";
 import MingcuteSearch2Line from "@/icons/MingcuteSearch2Line.tsx";
+
+import { cn } from "@/lib/utils.ts";
 
 export const SearchForm = () => {
   const { query, setQuery } = useContext(SearchContext);
@@ -49,7 +50,7 @@ export const SearchForm = () => {
             type="reset"
             className={cn(
               "group-hover:visible invisible duration-100",
-              query || "hidden",
+              query || "hidden"
             )}
           >
             <MingcuteCloseLine />

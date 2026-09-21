@@ -95,12 +95,12 @@ server.post("/auth/register", async (req, res) => {
   const accessToken = createToken(
     { email: normalizedEmail, id },
     SECRET_KEY,
-    EXPIRES_IN,
+    EXPIRES_IN
   );
   const refreshToken = createToken(
     { email: normalizedEmail, id },
     REFRESH_SECRET_KEY,
-    REFRESH_EXPIRES_IN,
+    REFRESH_EXPIRES_IN
   );
 
   res.status(201).json({
@@ -135,12 +135,12 @@ server.post("/auth/login", async (req, res) => {
   const accessToken = createToken(
     { email: user.email, id: user.id },
     SECRET_KEY,
-    EXPIRES_IN,
+    EXPIRES_IN
   );
   const refreshToken = createToken(
     { email: user.email, id: user.id },
     REFRESH_SECRET_KEY,
-    REFRESH_EXPIRES_IN,
+    REFRESH_EXPIRES_IN
   );
 
   res.status(200).json({
@@ -164,12 +164,12 @@ server.post("/auth/refresh", (req, res) => {
     const newAccessToken = createToken(
       { email: verifyResult.email, id: verifyResult.id },
       SECRET_KEY,
-      EXPIRES_IN,
+      EXPIRES_IN
     );
     const newRefreshToken = createToken(
       { email: verifyResult.email, id: verifyResult.id },
       REFRESH_SECRET_KEY,
-      REFRESH_EXPIRES_IN,
+      REFRESH_EXPIRES_IN
     );
 
     res

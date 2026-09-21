@@ -1,7 +1,8 @@
 import { type ReactNode } from "react";
 
-import { cn } from "@/lib/utils.ts";
 import { PostCardTopImgSkeleton } from "@/components/Article/components/PostCardTopImg/PostCardTopImgSkeleton.tsx";
+
+import { cn } from "@/lib/utils.ts";
 
 type Props = {
   className?: string;

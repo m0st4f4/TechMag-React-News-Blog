@@ -8,7 +8,7 @@ import type {
 
 export const fetchArticleById = async (
   id: string | number,
-  signal?: AbortSignal,
+  signal?: AbortSignal
 ): Promise<ArticleType> => {
   const params = new URLSearchParams();
   params.append("_expand", "category");
@@ -20,14 +20,14 @@ export const fetchArticleById = async (
     {
       params,
       signal,
-    },
+    }
   );
   return response.data;
 };
 
 export const fetchArticles = async (
   inputParams?: fetchArticlesParamsType,
-  signal?: AbortSignal,
+  signal?: AbortSignal
 ): Promise<ArticleType[]> => {
   const defaultParams: fetchArticlesParamsType = {
     _sort: "id",
@@ -58,7 +58,7 @@ export const fetchArticles = async (
 
   const response: AxiosResponse<ArticleType[]> = await apiInstance.get(
     "/articles",
-    { params, signal },
+    { params, signal }
   );
   return response.data;
 };

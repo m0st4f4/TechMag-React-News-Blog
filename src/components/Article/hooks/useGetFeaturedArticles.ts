@@ -19,7 +19,7 @@ export const useGetFeaturedArticles = () => {
           _page: 1,
           _limit: 5,
         },
-        signal,
+        signal
       ),
   });
 };

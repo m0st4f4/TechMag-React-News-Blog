@@ -19,7 +19,7 @@ export const useSearchArticle = (query: string) => {
           _sort: "id",
           _order: "desc",
         },
-        signal,
+        signal
       );
     },
   });
