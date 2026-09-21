@@ -1,3 +1,10 @@
+# [1.0.0-dev.37](https://github.com/m0st4f4/TechMag-React-News-Blog/compare/v1.0.0-dev.36...v1.0.0-dev.37) (2026-09-21)
+
+
+### Features
+
+* Initialize project  ([#12](https://github.com/m0st4f4/TechMag-React-News-Blog/issues/12)) ([9055848](https://github.com/m0st4f4/TechMag-React-News-Blog/commit/90558486e2649fe181a552cc4226491801a22de6)), closes [#9](https://github.com/m0st4f4/TechMag-React-News-Blog/issues/9) [#10](https://github.com/m0st4f4/TechMag-React-News-Blog/issues/10) [#11](https://github.com/m0st4f4/TechMag-React-News-Blog/issues/11)
+
 # [1.0.0-dev.36](https://github.com/m0st4f4/TechMag-React-News-Blog/compare/v1.0.0-dev.35...v1.0.0-dev.36) (2026-09-21)
 
 
