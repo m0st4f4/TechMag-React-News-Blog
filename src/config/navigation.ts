@@ -3,6 +3,7 @@ import MingcuteLinkedinFill from "@/icons/MingcuteLinkedinFill.tsx";
 
 import type {
   FooterNavigationType,
+  SidebarNavigationType,
   SocialNavigationType,
   TopNavigation,
 } from "@/types/navigation.types.ts";
@@ -41,58 +42,65 @@ export const socialNavigation: SocialNavigationType[] = [
 
 export const FooterNavigation: FooterNavigationType[] = [
   {
-    groupTitleKey: "nav.footer.technology" ,
+    groupTitleKey: "nav.footer.technology",
     items: [
       {
-        titleKey: "nav.footer.ai" ,
+        titleKey: "nav.footer.ai",
         href: "/category/ai",
       },
       {
-        titleKey: "nav.footer.software" ,
+        titleKey: "nav.footer.software",
         href: "/category/software",
       },
       {
-        titleKey: "nav.footer.game" ,
+        titleKey: "nav.footer.game",
         href: "/category/game",
       },
       {
-        titleKey: "nav.footer.security" ,
+        titleKey: "nav.footer.security",
         href: "/category/security",
       },
     ],
   },
   {
-    groupTitleKey: "nav.footer.tutorial" ,
+    groupTitleKey: "nav.footer.tutorial",
     items: [
       {
-        titleKey: "nav.footer.reactTutorial" ,
+        titleKey: "nav.footer.reactTutorial",
         href: "/category/react",
       },
       {
-        titleKey: "nav.footer.aiTutorial" ,
+        titleKey: "nav.footer.aiTutorial",
         href: "/category/ai",
       },
       {
-        titleKey: "nav.footer.linuxTutorial" ,
+        titleKey: "nav.footer.linuxTutorial",
         href: "/category/linux",
       },
     ],
   },
   {
-    groupTitleKey: "nav.footer.usefulLinks" ,
+    groupTitleKey: "nav.footer.usefulLinks",
     items: [
       {
-        titleKey: "nav.footer.home" ,
+        titleKey: "nav.footer.home",
         href: "/",
       },
       {
-        titleKey: "nav.footer.aboutUs" ,
+        titleKey: "nav.footer.aboutUs",
         href: "/aboutUs",
       },
       {
-        titleKey: "nav.footer.contactUs" ,
+        titleKey: "nav.footer.contactUs",
         href: "/contactUs",
       },
     ],
+  },
+];
+
+export const ProfileSidebarNavigation: SidebarNavigationType[] = [
+  {
+    titleKey: "sidebar.profile.userInfo",
+    href: "/profile",
   },
 ];
