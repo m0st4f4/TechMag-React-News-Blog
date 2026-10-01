@@ -12,6 +12,11 @@ dist
 dist-ssr
 *.local
 .vite/*
+coverage
+.husky
+.github
+Dockerfile
+.dockerignore
 
 # Editor directories and files
 .vscode/*
