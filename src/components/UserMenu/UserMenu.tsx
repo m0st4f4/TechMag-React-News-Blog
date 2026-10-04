@@ -30,11 +30,6 @@ export const UserMenu = (): ReactNode => {
   };
 
   const [isResetPassOpen, setIsResetPassOpen] = useState(false);
-  const handelResetPassButtonClick = () => {
-    setIsResetPassOpen(true);
-    setIsRegisterOpen(false);
-    setIsLoginOpen(false);
-  };
 
   const LoginButton = (
     <Button
@@ -55,15 +50,6 @@ export const UserMenu = (): ReactNode => {
     </Button>
   );
 
-  const ResetButton = (
-    <Button
-      variant="link"
-      className="justify-start"
-      onClick={handelResetPassButtonClick}
-    >
-      {t("auth.actions.resetPassButton")}
-    </Button>
-  );
   return (
     <>
       {user ? (
