@@ -1,6 +1,8 @@
-import { type ReactNode, type SVGProps } from "react";
+import type { ReactNode, SVGProps } from "react";
 
-export function MingcuteGithub2Fill(props: SVGProps<SVGSVGElement>): ReactNode {
+export function MingcuteGithub2Fill(
+  props: Readonly<SVGProps<SVGSVGElement>>
+): ReactNode {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"
