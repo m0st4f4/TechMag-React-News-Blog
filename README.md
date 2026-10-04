@@ -11,6 +11,7 @@
 ![Node](https://img.shields.io/badge/node-%3E%3D22.17.0-brightgreen)
 ![Vite](https://img.shields.io/badge/vite-8.x-646CFF?logo=vite&logoColor=white)
 ![React](https://img.shields.io/badge/react-19.x-61DAFB?logo=react&logoColor=black)
+[![Netlify Status](https://api.netlify.com/api/v1/badges/c17d14bd-e3b7-4a7d-8580-765297736d16/deploy-status)](https://app.netlify.com/projects/techmag-react/deploys)
 
 [فارسی](#-فارسی) • [English](#-english)
 
