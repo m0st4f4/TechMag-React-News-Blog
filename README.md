@@ -11,6 +11,7 @@
 ![Node](https://img.shields.io/badge/node-%3E%3D22.17.0-brightgreen)
 ![Vite](https://img.shields.io/badge/vite-8.x-646CFF?logo=vite&logoColor=white)
 ![React](https://img.shields.io/badge/react-19.x-61DAFB?logo=react&logoColor=black)
+[![Netlify Status](https://api.netlify.com/api/v1/badges/c17d14bd-e3b7-4a7d-8580-765297736d16/deploy-status)](https://app.netlify.com/projects/techmag-react/deploys)
 
 [فارسی](#-فارسی) • [English](#-english)
 
@@ -112,41 +113,12 @@ src/
 
 ### 🐳 Running with Docker
 
-> ⚠️ This section is a work in progress and will be completed later. Here's a starting point:
+>### Docker Compose (recommended)
 
-```dockerfile
-# Dockerfile (draft - needs completion)
-FROM node:22-alpine AS build
-WORKDIR /app
-COPY package*.json ./
-RUN npm ci
-COPY . .
-RUN npm run build
-
-FROM nginx:alpine
-COPY --from=build /app/dist /usr/share/nginx/html
-EXPOSE 80
-CMD ["nginx", "-g", "daemon off;"]
-```
-
-```yaml
-# docker-compose.yml (draft - needs completion)
-services:
-  frontend:
-    build: .
-    ports:
-      - "5173:80"
-    depends_on:
-      - api
-
-  api:
-    image: node:22-alpine
-    working_dir: /app
-    volumes:
-      - .:/app
-    command: sh -c "npm ci && npm run api"
-    ports:
-      - "4000:4000"
+```bash
+git clone https://github.com/m0st4f4/TechMag-React-News-Blog.git
+cd TechMag-React-News-Blog
+docker compose up --build
 ```
 
 TODO before this is production-ready:
@@ -260,41 +232,12 @@ src/
 
 ### 🐳 اجرا با Docker
 
-> ⚠️ این بخش هنوز تکمیل نشده و در آینده کامل خواهد شد. نمونه اولیه‌ای که می‌توانید به‌عنوان نقطه شروع استفاده کنید:
+>### Docker Compose (recommended) 
 
-```dockerfile
-# Dockerfile (پیش‌نویس - نیاز به تکمیل)
-FROM node:22-alpine AS build
-WORKDIR /app
-COPY package*.json ./
-RUN npm ci
-COPY . .
-RUN npm run build
-
-FROM nginx:alpine
-COPY --from=build /app/dist /usr/share/nginx/html
-EXPOSE 80
-CMD ["nginx", "-g", "daemon off;"]
-```
-
-```yaml
-# docker-compose.yml (پیش‌نویس - نیاز به تکمیل)
-services:
-  frontend:
-    build: .
-    ports:
-      - "5173:80"
-    depends_on:
-      - api
-
-  api:
-    image: node:22-alpine
-    working_dir: /app
-    volumes:
-      - .:/app
-    command: sh -c "npm ci && npm run api"
-    ports:
-      - "4000:4000"
+```bash
+git clone https://github.com/m0st4f4/TechMag-React-News-Blog.git
+cd TechMag-React-News-Blog
+docker compose up --build
 ```
 
 موارد باقی‌مانده برای تکمیل:

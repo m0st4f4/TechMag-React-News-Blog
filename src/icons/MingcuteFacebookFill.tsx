@@ -1,7 +1,7 @@
-import { type ReactNode, type SVGProps } from "react";
+import type { ReactNode, SVGProps } from "react";
 
 export function MingcuteFacebookFill(
-  props: SVGProps<SVGSVGElement>
+  props: Readonly<SVGProps<SVGSVGElement>>
 ): ReactNode {
   return (
     <svg

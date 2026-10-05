@@ -96,6 +96,19 @@
       "isActive": true,
       "createdAt": "2026-09-16T17:44:27.104Z",
       "updatedAt": "2026-09-16T17:44:27.104Z"
+    },
+    {
+      "id": 8,
+      "email": "fasdf@fasd.com",
+      "password": "$2b$10$fzf9r1B1EfQEviZBqigRWuksTk1Q6JtN3gVQWWMAPy7j9pWo0DXi6",
+      "name": "mosi",
+      "username": "mosi",
+      "avatar": "https://i.pravatar.cc/150?u=mosi",
+      "bio": "",
+      "role": "subscriber",
+      "isActive": true,
+      "createdAt": "2026-10-02T09:58:25.383Z",
+      "updatedAt": "2026-10-02T09:58:25.383Z"
     }
   ],
   "categories": [

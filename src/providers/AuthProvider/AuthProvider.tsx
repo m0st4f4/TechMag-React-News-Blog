@@ -75,7 +75,7 @@ export const AuthProvider = ({ children }: Props): ReactNode => {
       }
     };
     initAuth();
-  });
+  },[]);
   return (
     <AuthContext value={{ isAuthenticated, user, isLoading, login, logout }}>
       {children}

@@ -15,9 +15,7 @@ type Props = {
 
 export const UserPage = ({ className = "" }: Props): ReactNode => {
   const params = useParams<{ username: string }>();
-  const { data, error, isError, isPending, refetch } = useFetchUser(
-    params.username ?? ""
-  );
+  const { data, error, isError, refetch } = useFetchUser(params.username ?? "");
   const { t } = useTranslation();
 
   if (!params.username) {

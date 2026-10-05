@@ -1,6 +1,8 @@
-import React, { SVGProps } from "react";
+import type { ReactNode, SVGProps } from "react";
 
-export function MingcuteSunLine(props: SVGProps<SVGSVGElement>) {
+export function MingcuteSunLine(
+  props: Readonly<SVGProps<SVGSVGElement>>
+): ReactNode {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"

@@ -19,8 +19,12 @@ export default defineConfig({
   },
   server: {
     watch: {
+      usePolling: true,
       // this line tell vite to ignore change db.json file
       ignored: ["**/db.json"],
     },
+    host: true,
+    strictPort: true,
+    port: 5173,
   },
 });

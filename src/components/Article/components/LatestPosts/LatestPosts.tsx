@@ -15,7 +15,7 @@ import type { fetchArticlesParamsType } from "@/types/article.types.ts";
 
 type Props = {
   className?: string;
-  params: fetchArticlesParamsType;
+  params?: fetchArticlesParamsType;
 };
 
 export const LatestPosts = ({ className = "", params }: Props): ReactNode => {
