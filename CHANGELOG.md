@@ -1,3 +1,15 @@
+# [1.1.0](https://github.com/m0st4f4/TechMag-React-News-Blog/compare/v1.0.0...v1.1.0) (2026-10-05)
+
+
+### Bug Fixes
+
+* resolve build and deploy netlify errors [#125](https://github.com/m0st4f4/TechMag-React-News-Blog/issues/125) ([#126](https://github.com/m0st4f4/TechMag-React-News-Blog/issues/126)) ([6418486](https://github.com/m0st4f4/TechMag-React-News-Blog/commit/6418486c8ac6b37f2aa8bb08aa8d7435dbd5236d))
+
+
+### Features
+
+*  Dockerize project [#112](https://github.com/m0st4f4/TechMag-React-News-Blog/issues/112) ([#124](https://github.com/m0st4f4/TechMag-React-News-Blog/issues/124)) ([1b795c5](https://github.com/m0st4f4/TechMag-React-News-Blog/commit/1b795c564d00025af10edc7252a3c3b844d613fc))
+
 # 1.0.0 (2026-09-21)
 
 
