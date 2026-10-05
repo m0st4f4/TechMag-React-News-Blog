@@ -2,7 +2,6 @@ import { type ComponentProps, type ReactNode } from "react";
 
 import { Controller, type UseFormReturn } from "react-hook-form";
 
-import type { RegisterUserType } from "@/services/userService.ts";
 import { useTranslation } from "react-i18next";
 
 import { Button } from "@/components/ui/button.tsx";
@@ -14,9 +13,10 @@ import {
 } from "@/components/ui/field.tsx";
 import { Input } from "@/components/ui/input.tsx";
 import { Spinner } from "@/components/ui/spinner";
+import type { UserRegisterType } from "@/types/auth.types.ts";
 
 type Props = ComponentProps<"form"> & {
-  form: UseFormReturn<RegisterUserType>;
+  form: UseFormReturn<UserRegisterType>;
   isPending: boolean;
 };
 

@@ -1,7 +1,7 @@
 import type { ReactNode, SVGProps } from "react";
 
 export default function MingcuteLinkedinFill(
-  props: SVGProps<SVGSVGElement>
+  props: Readonly<SVGProps<SVGSVGElement>>
 ): ReactNode {
   return (
     <svg
