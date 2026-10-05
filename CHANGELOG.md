@@ -1,3 +1,10 @@
+# [1.0.0-dev.39](https://github.com/m0st4f4/TechMag-React-News-Blog/compare/v1.0.0-dev.38...v1.0.0-dev.39) (2026-10-05)
+
+
+### Bug Fixes
+
+* resolve build and deploy netlify errors [#125](https://github.com/m0st4f4/TechMag-React-News-Blog/issues/125) ([#126](https://github.com/m0st4f4/TechMag-React-News-Blog/issues/126)) ([6418486](https://github.com/m0st4f4/TechMag-React-News-Blog/commit/6418486c8ac6b37f2aa8bb08aa8d7435dbd5236d))
+
 # [1.0.0-dev.38](https://github.com/m0st4f4/TechMag-React-News-Blog/compare/v1.0.0-dev.37...v1.0.0-dev.38) (2026-10-01)
 
 
