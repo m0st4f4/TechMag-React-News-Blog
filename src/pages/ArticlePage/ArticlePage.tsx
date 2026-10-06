@@ -10,7 +10,7 @@ import { useGetArticle } from "@/components/Article/hooks/useGetArticle.ts";
 import { Comments } from "@/components/Comments/components/Comments/Comments.tsx";
 import { ErrorMessage } from "@/components/ErrorMessage/ErrorMessage.tsx";
 
-export const ArticlePage = (): ReactNode => {
+const ArticlePage = (): ReactNode => {
   const { t } = useTranslation();
   const { id } = useParams<{ id: string }>();
   const { data, isPending, isError, error } = useGetArticle(id);
@@ -50,3 +50,4 @@ export const ArticlePage = (): ReactNode => {
     </>
   );
 };
+export default ArticlePage;

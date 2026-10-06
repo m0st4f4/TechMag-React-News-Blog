@@ -1,3 +1,5 @@
+import { Suspense, lazy } from "react";
+
 import { Route, Routes } from "react-router";
 
 import { ProtectedRoute } from "@/components/ProtectedRoute/ProtectedRoute.tsx";
@@ -8,71 +10,83 @@ import { SidebarUser } from "@/components/Sidebar/components/SidebarUser/Sidebar
 import { RootLayout } from "@/layouts/RootLayout/RootLayout.tsx";
 import { SidebarLayout } from "@/layouts/SidebarLayout/SidebarLayout.tsx";
 
-import { AboutPage } from "@/pages/AboutPage/AboutPage.tsx";
-import { AdminPage } from "@/pages/AdminPage/AdminPage.tsx";
-import { ArticlePage } from "@/pages/ArticlePage/ArticlePage.tsx";
-import { CategoryPage } from "@/pages/CategoryPage/CategoryPage.tsx";
-import { ContactPage } from "@/pages/ContactPage/ContactPage.tsx";
-import { HomePage } from "@/pages/HomePage/HomePage.tsx";
-import { LoginPage } from "@/pages/LoginPage/LoginPage.tsx";
-import { NotFoundPage } from "@/pages/NotFoundPage/NotFoundPage.tsx";
-import { RegisterPage } from "@/pages/RegisterPage/RegisterPage.tsx";
-import { SearchPage } from "@/pages/SearchPage/SearchPage.tsx";
-import { UnauthorizedPage } from "@/pages/UnauthorizedPage/UnauthorizedPage.tsx";
-import { UserInfoPage } from "@/pages/UserInfoPage/UserInfoPage.tsx";
-import { UserPage } from "@/pages/UserPage/UserPage.tsx";
+const HomePage = lazy(() => import("@/pages/HomePage/HomePage.tsx"));
+const AboutPage = lazy(() => import("@/pages/AboutPage/AboutPage.tsx"));
+const AdminPage = lazy(() => import("@/pages/AdminPage/AdminPage.tsx"));
+const ArticlePage = lazy(() => import("@/pages/ArticlePage/ArticlePage.tsx"));
+const CategoryPage = lazy(
+  () => import("@/pages/CategoryPage/CategoryPage.tsx")
+);
+const ContactPage = lazy(() => import("@/pages/ContactPage/ContactPage.tsx"));
+const LoginPage = lazy(() => import("@/pages/LoginPage/LoginPage.tsx"));
+const NotFoundPage = lazy(
+  () => import("@/pages/NotFoundPage/NotFoundPage.tsx")
+);
+const RegisterPage = lazy(
+  () => import("@/pages/RegisterPage/RegisterPage.tsx")
+);
+const SearchPage = lazy(() => import("@/pages/SearchPage/SearchPage.tsx"));
+const UnauthorizedPage = lazy(
+  () => import("@/pages/UnauthorizedPage/UnauthorizedPage.tsx")
+);
+const UserInfoPage = lazy(
+  () => import("@/pages/UserInfoPage/UserInfoPage.tsx")
+);
+const UserPage = lazy(() => import("@/pages/UserPage/UserPage.tsx"));
 
 function App() {
   return (
-    <Routes>
-      <Route element={<RootLayout />}>
-        <Route index element={<HomePage />} />
-        <Route path="aboutus" element={<AboutPage />} />
-        <Route path="contactus" element={<ContactPage />} />
-        <Route path="register" element={<RegisterPage />} />
-        <Route path="login" element={<LoginPage />} />
-        <Route path="unauthorized" element={<UnauthorizedPage />} />
-        <Route
-          path="article"
-          element={<SidebarLayout sidebar={<SidebarArticle />} />}
-        >
-          <Route path=":id" element={<ArticlePage />} />
-        </Route>
-        <Route
-          path="category"
-          element={<SidebarLayout sidebar={<SidebarArticle />} />}
-        >
-          <Route path=":id?" element={<CategoryPage />} />
-        </Route>
-        <Route
-          path="search"
-          element={<SidebarLayout sidebar={<SidebarArticle />} />}
-        >
-          <Route path=":query?" element={<SearchPage />} />
-        </Route>
-
-        <Route element={<ProtectedRoute />}>
+    <Suspense fallback={<div>page loading....</div>}>
+      <Routes>
+        <Route element={<RootLayout />}>
+          <Route index element={<HomePage />} />
+          <Route path="aboutus" element={<AboutPage />} />
+          <Route path="contactus" element={<ContactPage />} />
+          <Route path="register" element={<RegisterPage />} />
+          <Route path="login" element={<LoginPage />} />
+          <Route path="unauthorized" element={<UnauthorizedPage />} />
           <Route
-            path="profile"
-            element={<SidebarLayout sidebar={<SidebarProfile />} />}
+            path="article"
+            element={<SidebarLayout sidebar={<SidebarArticle />} />}
           >
-            <Route index element={<UserInfoPage />} />
+            <Route path=":id" element={<ArticlePage />} />
           </Route>
-        </Route>
+          <Route
+            path="category"
+            element={<SidebarLayout sidebar={<SidebarArticle />} />}
+          >
+            <Route path=":id?" element={<CategoryPage />} />
+          </Route>
+          <Route
+            path="search"
+            element={<SidebarLayout sidebar={<SidebarArticle />} />}
+          >
+            <Route path=":query?" element={<SearchPage />} />
+          </Route>
 
-        <Route element={<ProtectedRoute allowedRoles={["admin"]} />}>
-          <Route path="admin" element={<AdminPage />} />
-        </Route>
+          <Route element={<ProtectedRoute />}>
+            <Route
+              path="profile"
+              element={<SidebarLayout sidebar={<SidebarProfile />} />}
+            >
+              <Route index element={<UserInfoPage />} />
+            </Route>
+          </Route>
 
-        <Route
-          path="user"
-          element={<SidebarLayout sidebar={<SidebarUser />} />}
-        >
-          <Route path=":username" element={<UserPage />} />
+          <Route element={<ProtectedRoute allowedRoles={["admin"]} />}>
+            <Route path="admin" element={<AdminPage />} />
+          </Route>
+
+          <Route
+            path="user"
+            element={<SidebarLayout sidebar={<SidebarUser />} />}
+          >
+            <Route path=":username" element={<UserPage />} />
+          </Route>
+          <Route path="*" element={<NotFoundPage />} />
         </Route>
-        <Route path="*" element={<NotFoundPage />} />
-      </Route>
-    </Routes>
+      </Routes>
+    </Suspense>
   );
 }
 

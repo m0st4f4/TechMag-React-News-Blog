@@ -18,7 +18,7 @@ import { useRegisterUser } from "@/hooks/useRegisterUser.ts";
 
 type Values = z.infer<typeof RegisterSchema>;
 
-export const RegisterPage = (): ReactNode => {
+const RegisterPage = (): ReactNode => {
   const { isAuthenticated } = useAuth();
   const { mutate, isPending, isSuccess, data, isError, error } =
     useRegisterUser();
@@ -64,3 +64,4 @@ export const RegisterPage = (): ReactNode => {
     </>
   );
 };
+export default RegisterPage;
