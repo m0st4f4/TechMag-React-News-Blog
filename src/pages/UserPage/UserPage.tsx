@@ -13,7 +13,7 @@ type Props = {
   className?: string;
 };
 
-const UserPage = ({ className = "" }: Props): ReactNode => {
+export const UserPage = ({ className = "" }: Props): ReactNode => {
   const params = useParams<{ username: string }>();
   const { data, error, isError, refetch } = useFetchUser(params.username ?? "");
   const { t } = useTranslation();
@@ -40,4 +40,3 @@ const UserPage = ({ className = "" }: Props): ReactNode => {
     </div>
   );
 };
-export default UserPage;

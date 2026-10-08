@@ -20,7 +20,7 @@ type Props = {
   className?: string;
 };
 
-const UserInfoPage = ({ className = "" }: Props): ReactNode => {
+export const UserInfoPage = ({ className = "" }: Props): ReactNode => {
   const { user } = useAuth();
   const { t } = useTranslation();
   const { isError, error, mutateAsync, isPending } = useChangeUserInfo();
@@ -71,4 +71,3 @@ const UserInfoPage = ({ className = "" }: Props): ReactNode => {
     </div>
   );
 };
-export default UserInfoPage;

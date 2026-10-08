@@ -6,7 +6,7 @@ import { useTranslation } from "react-i18next";
 
 import { Button } from "@/components/ui/button";
 
-const NotFoundPage = (): ReactNode => {
+export const NotFoundPage = (): ReactNode => {
   const { t } = useTranslation();
   return (
     <div className="flex flex-col gap-8 justify-center items-center w-full h-auto">
@@ -19,4 +19,3 @@ const NotFoundPage = (): ReactNode => {
     </div>
   );
 };
-export default NotFoundPage;

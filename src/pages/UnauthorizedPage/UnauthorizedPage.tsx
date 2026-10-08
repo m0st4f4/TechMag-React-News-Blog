@@ -4,7 +4,6 @@ type Props = {
   className?: string;
 };
 
-const UnauthorizedPage = ({ className = "" }: Props): ReactNode => {
+export const UnauthorizedPage = ({ className = "" }: Props): ReactNode => {
   return <div className={className}>UnauthorizedPage Component</div>;
 };
-export default UnauthorizedPage;

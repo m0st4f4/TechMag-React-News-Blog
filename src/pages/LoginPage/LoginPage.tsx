@@ -21,7 +21,7 @@ type LocationState = {
   from?: { pathname: string };
 };
 
-const LoginPage = (): ReactNode => {
+export const LoginPage = (): ReactNode => {
   const { isAuthenticated } = useAuth();
   const { mutateAsync, isPending, isSuccess, data, isError, error } =
     useLoginUser();
@@ -73,4 +73,3 @@ const LoginPage = (): ReactNode => {
     </>
   );
 };
-export default LoginPage;

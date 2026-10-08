@@ -16,7 +16,7 @@ type Props = {
   className?: string;
 };
 
-const SearchPage = ({ className = "" }: Props): ReactNode => {
+export const SearchPage = ({ className = "" }: Props): ReactNode => {
   const { t } = useTranslation();
 
   const query =
@@ -73,4 +73,3 @@ const SearchPage = ({ className = "" }: Props): ReactNode => {
     </div>
   );
 };
-export default SearchPage;
