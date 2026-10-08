@@ -18,42 +18,43 @@ type Props = {
   params?: fetchArticlesParamsType;
 };
 
-export const LatestPosts = ({ className = "", params }: Props): ReactNode => {
+const SKELETON_COUNT = 6;
+
+const GRID_CLASS = "grid grid-cols-1 gap-4 md:grid-cols-3";
+
+export const LatestPosts = ({ className, params }: Props): ReactNode => {
   const { data, isPending, isError, error, refetch } =
     useGetLatestArticles(params);
   const { t } = useTranslation();
+
   if (isError && error) {
     return <ErrorMessage error={error} onRetry={refetch} />;
   }
-  if (isPending) {
-    return (
-      <div className={cn(className)}>
-        <h2 className="text-2xl border-s-2 border-accent mbe-4 ps-4 font-bold">
-          {t("latestArticle.heading")}
-        </h2>
-        <div className="grid gap-4 grid-cols-1 md:grid-cols-3">
-          {Array.from({ length: 6 }).map((_, index) => (
-            <PostCardTopImgSkeleton key={index} />
-          ))}
-        </div>
-      </div>
-    );
+
+  if (!isPending && !data) {
+    return null;
   }
-  if (!data) return null;
+
   return (
-    <div className={cn(className)}>
+    <section className={cn(className)}>
       <h2 className="text-2xl border-s-2 border-accent mbe-4 ps-4 font-bold">
         {t("latestArticle.heading")}
       </h2>
-      <div className="grid gap-4 grid-cols-1 md:grid-cols-3">
-        {data.map((item) => {
-          return (
-            <Link key={item.id} to={`/article/${item.id}`}>
-              <PostCardTopImg item={item} />
-            </Link>
-          );
-        })}
+      <div className={GRID_CLASS}>
+        {isPending
+          ? Array.from({ length: SKELETON_COUNT }).map((_, index) => (
+              <PostCardTopImgSkeleton key={index} />
+            ))
+          : data?.map((item) => (
+              <Link
+                key={item.id}
+                to={`/article/${item.id}`}
+                className="block h-full"
+              >
+                <PostCardTopImg item={item} />
+              </Link>
+            ))}
       </div>
-    </div>
+    </section>
   );
 };
