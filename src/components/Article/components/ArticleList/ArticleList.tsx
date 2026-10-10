@@ -24,9 +24,9 @@ export const ArticleList = ({ className = "", data }: Props): ReactNode => {
   }
   return (
     <div className={cn("grid gap-4 grid-cols-1  md:grid-cols-3", className)}>
-      {data?.map((item) => (
+      {data?.map((item, index) => (
         <Link key={item.id} to={`/article/${item.id}`}>
-          <PostCardTopImg item={item} />
+          <PostCardTopImg item={item} priority={index < 3} />
         </Link>
       ))}
     </div>

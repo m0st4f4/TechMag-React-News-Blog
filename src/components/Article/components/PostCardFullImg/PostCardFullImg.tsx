@@ -1,6 +1,7 @@
 import { type ReactNode } from "react";
 
 import { Badge } from "@/components/ui/badge.tsx";
+import { Picture } from "@/components/ui/picture/picture.tsx";
 
 import { useLocalizedDate } from "@/hooks/useLocalizedDate.ts";
 
@@ -14,8 +15,8 @@ type Props = {
   priority?: boolean;
 };
 
-const IMAGE_WIDTH = 100;
-const IMAGE_HEIGHT = 100;
+const IMAGE_WIDTH = 800;
+const IMAGE_HEIGHT = 600;
 
 export const PostCardFullImg = ({
   className,
@@ -23,7 +24,8 @@ export const PostCardFullImg = ({
   priority = false,
 }: Props): ReactNode => {
   const { formatDate } = useLocalizedDate();
-
+  const webpImageUrl = `${item.featuredImage}/${IMAGE_WIDTH}/${IMAGE_HEIGHT}.webp`;
+  const jpgImageUrl = `${item.featuredImage}/${IMAGE_WIDTH}/${IMAGE_HEIGHT}.jpg`;
   return (
     <div
       className={cn(
@@ -31,15 +33,16 @@ export const PostCardFullImg = ({
         className
       )}
     >
-      <img
-        src={item.featuredImage}
+      <Picture
+        jpgSrc={jpgImageUrl}
+        webpSrc={webpImageUrl}
         alt={item.title}
         width={IMAGE_WIDTH}
         height={IMAGE_HEIGHT}
         loading={priority ? "eager" : "lazy"}
         fetchPriority={priority ? "high" : "auto"}
-        decoding="async"
-        className="h-full w-full object-cover transition-transform duration-300 group-hover:scale-110"
+        decoding={priority ? "auto" : "async"}
+        imgClassName="h-full w-full object-cover transition-transform duration-300 group-hover:scale-110"
       />
 
       <div className="absolute inset-be-0 inset-e-0 inset-s-0 flex flex-col gap-4 items-start justify-end bg-linear-to-t from-black/80 to-black/0 p-4">

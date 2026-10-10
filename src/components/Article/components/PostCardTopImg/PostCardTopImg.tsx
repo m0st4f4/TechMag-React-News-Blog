@@ -10,6 +10,7 @@ import {
   CardHeader,
   CardTitle,
 } from "@/components/ui/card.tsx";
+import { Picture } from "@/components/ui/picture/picture.tsx";
 
 import { cn } from "@/lib/utils.ts";
 
@@ -29,6 +30,8 @@ export const PostCardTopImg = ({
   className,
   ...otherProps
 }: Props): ReactNode => {
+  const webpImageUrl = `${item.featuredImage}/${IMAGE_WIDTH}/${IMAGE_HEIGHT}.webp`;
+  const jpgImageUrl = `${item.featuredImage}/${IMAGE_WIDTH}/${IMAGE_HEIGHT}.jpg`;
   return (
     <Card
       className={cn(
@@ -37,15 +40,16 @@ export const PostCardTopImg = ({
       )}
       {...otherProps}
     >
-      <img
-        src={item.featuredImage}
+      <Picture
+        jpgSrc={jpgImageUrl}
+        webpSrc={webpImageUrl}
         alt={item.title}
         width={IMAGE_WIDTH}
         height={IMAGE_HEIGHT}
         loading={priority ? "eager" : "lazy"}
         fetchPriority={priority ? "high" : "auto"}
         decoding={priority ? "auto" : "async"}
-        className="aspect-video w-full object-cover"
+        imgClassName="aspect-video w-full object-cover"
       />
       <CardHeader>
         <CardAction>

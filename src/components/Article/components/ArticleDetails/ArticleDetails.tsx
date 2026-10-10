@@ -6,6 +6,7 @@ import { useTranslation } from "react-i18next";
 import { AuthorDetails } from "@/components/AuthorDetails/AuthorDetails.tsx";
 import { CategoryButton } from "@/components/Category/components/CategoryButton/CategoryButton.tsx";
 import { Button } from "@/components/ui/button.tsx";
+import { Picture } from "@/components/ui/picture/picture.tsx";
 import { Separator } from "@/components/ui/separator.tsx";
 
 import { useLocalizedDate } from "@/hooks/useLocalizedDate.ts";
@@ -20,19 +21,32 @@ type Props = {
   item: ArticleType;
   onCommentClick?: () => void;
 };
+const IMAGE_WIDTH = 800;
+const IMAGE_HEIGHT = 450;
+
 export const ArticleDetails = ({ item, onCommentClick }: Props): ReactNode => {
   const sanitizedHtml = DOMPurify.sanitize(item.content);
-
   const { t } = useTranslation();
   const { formatDate } = useLocalizedDate();
+
+  const webpImageUrl = `${item.featuredImage}/${IMAGE_WIDTH}/${IMAGE_HEIGHT}.webp`;
+  const jpgImageUrl = `${item.featuredImage}/${IMAGE_WIDTH}/${IMAGE_HEIGHT}.jpg`;
+
   return (
     <article>
       <div className="relative">
-        <img
-          className="w-full rounded aspect-video"
-          src={item.featuredImage}
+        <Picture
+          jpgSrc={jpgImageUrl}
+          webpSrc={webpImageUrl}
           alt={item.title}
+          width={IMAGE_WIDTH}
+          height={IMAGE_HEIGHT}
+          imgClassName="w-full h-auto block rounded"
+          fetchPriority="high"
+          loading="eager"
+          decoding="async"
         />
+
         <div className="flex items-center text-primary-foreground gap-2 absolute bottom-0 mbe-4 ms-4 text-sm">
           <CategoryButton item={item.category} />
 

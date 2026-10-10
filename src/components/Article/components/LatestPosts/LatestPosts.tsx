@@ -45,13 +45,13 @@ export const LatestPosts = ({ className, params }: Props): ReactNode => {
           ? Array.from({ length: SKELETON_COUNT }).map((_, index) => (
               <PostCardTopImgSkeleton key={index} />
             ))
-          : data?.map((item) => (
+          : data?.map((item, index) => (
               <Link
                 key={item.id}
                 to={`/article/${item.id}`}
                 className="block h-full"
               >
-                <PostCardTopImg item={item} />
+                <PostCardTopImg item={item} priority={index < 3} />
               </Link>
             ))}
       </div>
