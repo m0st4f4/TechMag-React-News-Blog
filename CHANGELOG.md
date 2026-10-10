@@ -1,3 +1,10 @@
+# [1.0.0-dev.40](https://github.com/m0st4f4/TechMag-React-News-Blog/compare/v1.0.0-dev.39...v1.0.0-dev.40) (2026-10-10)
+
+
+### Performance Improvements
+
+* improve performance and lighthouse [#123](https://github.com/m0st4f4/TechMag-React-News-Blog/issues/123) ([#134](https://github.com/m0st4f4/TechMag-React-News-Blog/issues/134)) ([fa2c7e6](https://github.com/m0st4f4/TechMag-React-News-Blog/commit/fa2c7e60a978b92ef1a5710277278ebb1c6d0441))
+
 # 1.0.0 (2026-09-21)
 
 
