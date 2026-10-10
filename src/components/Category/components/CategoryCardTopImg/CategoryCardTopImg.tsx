@@ -6,6 +6,7 @@ import {
   CardHeader,
   CardTitle,
 } from "@/components/ui/card.tsx";
+import { Picture } from "@/components/ui/picture/picture.tsx";
 
 import { cn } from "@/lib/utils.ts";
 
@@ -14,12 +15,18 @@ import type { CategoryType } from "@/types/article.types.ts";
 type Props = ComponentProps<typeof Card> & {
   item: CategoryType;
   className?: string;
+  priority?: boolean;
 };
+const IMAGE_WIDTH = 800;
+const IMAGE_HEIGHT = 450;
 export const CategoryCardTopImg = ({
   className = "",
   item,
+  priority,
   ...otherProps
 }: Props): ReactNode => {
+  const webpImageUrl = `${item.image}/${IMAGE_WIDTH}/${IMAGE_HEIGHT}.webp`;
+  const jpgImageUrl = `${item.image}/${IMAGE_WIDTH}/${IMAGE_HEIGHT}.jpg`;
   return (
     <Card
       className={cn(
@@ -28,11 +35,17 @@ export const CategoryCardTopImg = ({
       )}
       {...otherProps}
     >
-      <div className="absolute inset-0 z-30 aspect-video" />
-      <img
-        src={item.image}
+
+      <Picture
+        jpgSrc={jpgImageUrl}
+        webpSrc={webpImageUrl}
+        width={IMAGE_WIDTH}
+        height={IMAGE_HEIGHT}
         alt={item.name}
-        className="relative z-20 aspect-video w-full object-cover"
+        imgClassName="relative z-20 aspect-video w-full object-cover"
+        fetchPriority={priority ? "high" : "low"}
+        loading={priority ? "eager" : "lazy"}
+        decoding="async"
       />
       <CardHeader>
         <CardTitle>{item.name}</CardTitle>

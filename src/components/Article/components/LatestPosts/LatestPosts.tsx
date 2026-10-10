@@ -18,32 +18,43 @@ type Props = {
   params?: fetchArticlesParamsType;
 };
 
-export const LatestPosts = ({ className = "", params }: Props): ReactNode => {
+const SKELETON_COUNT = 6;
+
+const GRID_CLASS = "grid grid-cols-1 gap-4 md:grid-cols-3";
+
+export const LatestPosts = ({ className, params }: Props): ReactNode => {
   const { data, isPending, isError, error, refetch } =
     useGetLatestArticles(params);
   const { t } = useTranslation();
+
   if (isError && error) {
     return <ErrorMessage error={error} onRetry={refetch} />;
   }
-  if (!data) return null;
+
+  if (!isPending && !data) {
+    return null;
+  }
+
   return (
-    <div className={cn(className)}>
+    <section className={cn(className)}>
       <h2 className="text-2xl border-s-2 border-accent mbe-4 ps-4 font-bold">
         {t("latestArticle.heading")}
       </h2>
-      <div className="grid gap-4 grid-cols-1 md:grid-cols-3">
+      <div className={GRID_CLASS}>
         {isPending
-          ? Array.from({ length: 6 }).map((_, index) => (
+          ? Array.from({ length: SKELETON_COUNT }).map((_, index) => (
               <PostCardTopImgSkeleton key={index} />
             ))
-          : data.map((item) => {
-              return (
-                <Link to={`/article/${item.id}`}>
-                  <PostCardTopImg item={item} />
-                </Link>
-              );
-            })}
+          : data?.map((item, index) => (
+              <Link
+                key={item.id}
+                to={`/article/${item.id}`}
+                className="block h-full"
+              >
+                <PostCardTopImg item={item} priority={index < 3} />
+              </Link>
+            ))}
       </div>
-    </div>
+    </section>
   );
 };

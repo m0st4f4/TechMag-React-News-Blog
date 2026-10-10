@@ -1,7 +1,7 @@
 import { type ReactNode } from "react";
 
 import { Badge } from "@/components/ui/badge.tsx";
-import { Skeleton } from "@/components/ui/skeleton.tsx";
+import { Picture } from "@/components/ui/picture/picture.tsx";
 
 import { useLocalizedDate } from "@/hooks/useLocalizedDate.ts";
 
@@ -12,32 +12,38 @@ import type { ArticleType } from "@/types/article.types.ts";
 type Props = {
   item: ArticleType;
   className?: string;
-  isPending?: boolean;
+  priority?: boolean;
 };
+
+const IMAGE_WIDTH = 800;
+const IMAGE_HEIGHT = 600;
 
 export const PostCardFullImg = ({
   className,
   item,
-  isPending,
+  priority = false,
 }: Props): ReactNode => {
   const { formatDate } = useLocalizedDate();
-
+  const webpImageUrl = `${item.featuredImage}/${IMAGE_WIDTH}/${IMAGE_HEIGHT}.webp`;
+  const jpgImageUrl = `${item.featuredImage}/${IMAGE_WIDTH}/${IMAGE_HEIGHT}.jpg`;
   return (
     <div
       className={cn(
-        "group relative h-full  w-full overflow-hidden rounded-lg",
+        "group relative h-full w-full overflow-hidden rounded-lg",
         className
       )}
     >
-      {isPending ? (
-        <Skeleton className=" h-full min-h-40" />
-      ) : (
-        <img
-          src={item.featuredImage}
-          alt={item.title}
-          className="object-fill h-full transition-transform duration-300 group-hover:scale-110"
-        />
-      )}
+      <Picture
+        jpgSrc={jpgImageUrl}
+        webpSrc={webpImageUrl}
+        alt={item.title}
+        width={IMAGE_WIDTH}
+        height={IMAGE_HEIGHT}
+        loading={priority ? "eager" : "lazy"}
+        fetchPriority={priority ? "high" : "auto"}
+        decoding={priority ? "auto" : "async"}
+        imgClassName="h-full w-full object-cover transition-transform duration-300 group-hover:scale-110"
+      />
 
       <div className="absolute inset-be-0 inset-e-0 inset-s-0 flex flex-col gap-4 items-start justify-end bg-linear-to-t from-black/80 to-black/0 p-4">
         <div className="flex gap-2 items-center">

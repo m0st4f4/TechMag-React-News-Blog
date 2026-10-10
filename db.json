@@ -118,7 +118,7 @@
       "slug": "programming",
       "description": "مقالات مرتبط با برنامه‌نویسی و توسعه نرم‌افزار",
       "parentId": null,
-      "image": "https://picsum.photos/seed/programming/800/400",
+      "image": "https://picsum.photos/seed/programming/",
       "color": "#3B82F6",
       "isActive": true,
       "order": 1,
@@ -130,7 +130,7 @@
       "slug": "artificial-intelligence",
       "description": "اخبار و آموزش‌های هوش مصنوعی و یادگیری ماشین",
       "parentId": null,
-      "image": "https://picsum.photos/seed/artificial-intelligence/800/400",
+      "image": "https://picsum.photos/seed/artificial-intelligence/",
       "color": "#8B5CF6",
       "isActive": true,
       "order": 2,
@@ -142,7 +142,7 @@
       "slug": "gadgets",
       "description": "بررسی و معرفی گجت‌ها و سخت‌افزارهای جدید",
       "parentId": null,
-      "image": "https://picsum.photos/seed/gadgets/800/400",
+      "image": "https://picsum.photos/seed/gadgets/",
       "color": "#F59E0B",
       "isActive": true,
       "order": 3,
@@ -154,7 +154,7 @@
       "slug": "mobile",
       "description": "اخبار گوشی‌های هوشمند و تبلت‌ها",
       "parentId": null,
-      "image": "https://picsum.photos/seed/mobile/800/400",
+      "image": "https://picsum.photos/seed/mobile/",
       "color": "#10B981",
       "isActive": true,
       "order": 4,
@@ -166,7 +166,7 @@
       "slug": "cyber-security",
       "description": "اخبار و آموزش‌های امنیت شبکه و حریم خصوصی",
       "parentId": null,
-      "image": "https://picsum.photos/seed/cyber-security/800/400",
+      "image": "https://picsum.photos/seed/cyber-security/",
       "color": "#EF4444",
       "isActive": true,
       "order": 5,
@@ -178,7 +178,7 @@
       "slug": "startup",
       "description": "اخبار استارتاپ‌ها و کسب‌وکارهای نوپای فناوری",
       "parentId": null,
-      "image": "https://picsum.photos/seed/startup/800/400",
+      "image": "https://picsum.photos/seed/startup/",
       "color": "#EC4899",
       "isActive": true,
       "order": 6,
@@ -190,7 +190,7 @@
       "slug": "social-media",
       "description": "اخبار و تحولات پلتفرم‌های شبکه اجتماعی",
       "parentId": null,
-      "image": "https://picsum.photos/seed/social-media/800/400",
+      "image": "https://picsum.photos/seed/social-media/",
       "color": "#06B6D4",
       "isActive": true,
       "order": 7,
@@ -202,7 +202,7 @@
       "slug": "gaming",
       "description": "اخبار صنعت بازی‌های ویدیویی و سرگرمی دیجیتال",
       "parentId": null,
-      "image": "https://picsum.photos/seed/gaming/800/400",
+      "image": "https://picsum.photos/seed/gaming/",
       "color": "#F97316",
       "isActive": true,
       "order": 8,
@@ -214,7 +214,7 @@
       "slug": "smart-vehicles",
       "description": "اخبار خودروهای برقی و خودران",
       "parentId": null,
-      "image": "https://picsum.photos/seed/smart-vehicles/800/400",
+      "image": "https://picsum.photos/seed/smart-vehicles/",
       "color": "#22C55E",
       "isActive": true,
       "order": 9,
@@ -226,7 +226,7 @@
       "slug": "science-space",
       "description": "اخبار مرتبط با علوم و اکتشافات فضایی",
       "parentId": null,
-      "image": "https://picsum.photos/seed/science-space/800/400",
+      "image": "https://picsum.photos/seed/science-space/",
       "color": "#6366F1",
       "isActive": true,
       "order": 10,
@@ -362,10 +362,10 @@
       "slug": "complete-guide-to-react-hooks",
       "excerpt": "در این مقاله با تمام Hooks های React آشنا می‌شوید و یاد می‌گیرید چگونه از آن‌ها استفاده کنید.",
       "content": "<h2>React Hooks چیست؟</h2><p>React Hooks قابلیتی هستند که در نسخه ۱۶.۸ کتابخانه React معرفی شدند و به توسعه‌دهندگان اجازه می‌دهند بدون نوشتن کلاس، از قابلیت state و سایر ویژگی‌های React استفاده کنند.</p><h2>useState</h2><p>useState برای مدیریت state در کامپوننت‌های تابعی استفاده می‌شود و یکی از پرکاربردترین Hookهای React است.</p><h2>useEffect</h2><p>useEffect برای انجام عملیات جانبی مانند فراخوانی API یا تعامل با DOM استفاده می‌شود و جایگزین متدهای چرخه حیات در کلاس‌ها شده است.</p>",
-      "featuredImage": "https://picsum.photos/seed/complete-guide-to-react-hooks/1200/630",
+      "featuredImage": "https://picsum.photos/seed/complete-guide-to-react-hooks/",
       "images": [
-        "https://picsum.photos/seed/complete-guide-to-react-hooks-1/800/400",
-        "https://picsum.photos/seed/complete-guide-to-react-hooks-2/800/400"
+        "https://picsum.photos/seed/complete-guide-to-react-hooks-1/",
+        "https://picsum.photos/seed/complete-guide-to-react-hooks-2/"
       ],
       "userId": "1",
       "categoryId": "1",
@@ -387,10 +387,10 @@
       "slug": "python-beginner-guide",
       "excerpt": "اگر می‌خواهید برنامه‌نویسی را با پایتون شروع کنید، این راهنما نقطه شروع خوبی برای شماست.",
       "content": "<h2>چرا پایتون؟</h2><p>پایتون به دلیل نحو ساده و خوانا، یکی از بهترین زبان‌ها برای شروع برنامه‌نویسی است و در حوزه‌های مختلفی از جمله هوش مصنوعی و توسعه وب کاربرد دارد.</p><h2>نصب و راه‌اندازی</h2><p>برای شروع کار، ابتدا باید پایتون را از سایت رسمی دانلود و نصب کنید و سپس یک محیط توسعه مناسب انتخاب نمایید.</p><h2>اولین برنامه</h2><p>نوشتن اولین برنامه با دستور print یک نقطه شروع کلاسیک برای یادگیری هر زبان برنامه‌نویسی است.</p>",
-      "featuredImage": "https://picsum.photos/seed/python-beginner-guide/1200/630",
+      "featuredImage": "https://picsum.photos/seed/python-beginner-guide/",
       "images": [
-        "https://picsum.photos/seed/python-beginner-guide-1/800/400",
-        "https://picsum.photos/seed/python-beginner-guide-2/800/400"
+        "https://picsum.photos/seed/python-beginner-guide-1/",
+        "https://picsum.photos/seed/python-beginner-guide-2/"
       ],
       "userId": "1",
       "categoryId": "1",
@@ -412,10 +412,10 @@
       "slug": "typescript-vs-javascript",
       "excerpt": "بررسی تفاوت‌های کلیدی بین TypeScript و JavaScript و اینکه کدام یک برای پروژه شما مناسب‌تر است.",
       "content": "<h2>تایپ استاتیک</h2><p>TypeScript با افزودن سیستم تایپ استاتیک به جاوااسکریپت، امکان تشخیص زودهنگام خطاها را فراهم می‌کند.</p><h2>قابلیت مقیاس‌پذیری</h2><p>در پروژه‌های بزرگ، استفاده از TypeScript به دلیل خوانایی و نگهداری بهتر کد توصیه می‌شود.</p>",
-      "featuredImage": "https://picsum.photos/seed/typescript-vs-javascript/1200/630",
+      "featuredImage": "https://picsum.photos/seed/typescript-vs-javascript/",
       "images": [
-        "https://picsum.photos/seed/typescript-vs-javascript-1/800/400",
-        "https://picsum.photos/seed/typescript-vs-javascript-2/800/400"
+        "https://picsum.photos/seed/typescript-vs-javascript-1/",
+        "https://picsum.photos/seed/typescript-vs-javascript-2/"
       ],
       "userId": "3",
       "categoryId": "1",
@@ -437,10 +437,10 @@
       "slug": "how-chatgpt-works",
       "excerpt": "نگاهی فنی و ساده به معماری و نحوه عملکرد مدل‌های زبانی مانند چت‌جی‌پی‌تی.",
       "content": "<h2>مدل‌های زبانی بزرگ</h2><p>چت‌جی‌پی‌تی بر پایه معماری ترنسفورمر ساخته شده و با آموزش روی حجم عظیمی از داده‌های متنی توانایی تولید پاسخ‌های طبیعی را دارد.</p><h2>کاربردها</h2><p>از نوشتن متن گرفته تا برنامه‌نویسی و ترجمه، چت‌جی‌پی‌تی کاربردهای متنوعی پیدا کرده است.</p>",
-      "featuredImage": "https://picsum.photos/seed/how-chatgpt-works/1200/630",
+      "featuredImage": "https://picsum.photos/seed/how-chatgpt-works/",
       "images": [
-        "https://picsum.photos/seed/how-chatgpt-works-1/800/400",
-        "https://picsum.photos/seed/how-chatgpt-works-2/800/400"
+        "https://picsum.photos/seed/how-chatgpt-works-1/",
+        "https://picsum.photos/seed/how-chatgpt-works-2/"
       ],
       "userId": "2",
       "categoryId": "2",
@@ -462,10 +462,10 @@
       "slug": "what-is-generative-ai",
       "excerpt": "بررسی مفهوم هوش مصنوعی مولد و کاربردهای آن در تولید متن، تصویر و صدا.",
       "content": "<h2>تعریف هوش مصنوعی مولد</h2><p>هوش مصنوعی مولد به مدل‌هایی گفته می‌شود که قادر به تولید محتوای جدید مانند متن، تصویر و موسیقی هستند.</p><h2>کاربردهای صنعتی</h2><p>شرکت‌های بزرگ فناوری از این نوع هوش مصنوعی برای طراحی محصول، تولید محتوا و اتوماسیون استفاده می‌کنند.</p>",
-      "featuredImage": "https://picsum.photos/seed/what-is-generative-ai/1200/630",
+      "featuredImage": "https://picsum.photos/seed/what-is-generative-ai/",
       "images": [
-        "https://picsum.photos/seed/what-is-generative-ai-1/800/400",
-        "https://picsum.photos/seed/what-is-generative-ai-2/800/400"
+        "https://picsum.photos/seed/what-is-generative-ai-1/",
+        "https://picsum.photos/seed/what-is-generative-ai-2/"
       ],
       "userId": "2",
       "categoryId": "2",
@@ -487,10 +487,10 @@
       "slug": "google-gemini-introduced",
       "excerpt": "گوگل مدل هوش مصنوعی جدید خود به نام جمینای را رونمایی کرد که قابلیت‌های چندوجهی دارد.",
       "content": "<h2>قابلیت‌های جمینای</h2><p>جمینای می‌تواند متن، تصویر و صدا را به‌طور هم‌زمان پردازش کند و پاسخ‌های دقیق‌تری نسبت به نسخه‌های قبلی ارائه دهد.</p><h2>رقابت با اوپن‌ای‌آی</h2><p>این مدل به‌عنوان رقیب اصلی چت‌جی‌پی‌تی در بازار هوش مصنوعی مطرح شده است.</p>",
-      "featuredImage": "https://picsum.photos/seed/google-gemini-introduced/1200/630",
+      "featuredImage": "https://picsum.photos/seed/google-gemini-introduced/",
       "images": [
-        "https://picsum.photos/seed/google-gemini-introduced-1/800/400",
-        "https://picsum.photos/seed/google-gemini-introduced-2/800/400"
+        "https://picsum.photos/seed/google-gemini-introduced-1/",
+        "https://picsum.photos/seed/google-gemini-introduced-2/"
       ],
       "userId": "3",
       "categoryId": "2",
@@ -512,10 +512,10 @@
       "slug": "iphone-16-pro-max-review",
       "excerpt": "نگاهی جامع به طراحی، دوربین و عملکرد جدیدترین پرچمدار اپل.",
       "content": "<h2>طراحی و صفحه‌نمایش</h2><p>آیفون ۱۶ پرو مکس با بدنه‌ای از جنس تیتانیوم و صفحه‌نمایشی بزرگ‌تر نسبت به نسل قبل عرضه شده است.</p><h2>دوربین</h2><p>سیستم دوربین این گوشی با سنسورهای بهبود یافته، کیفیت عکاسی در شرایط کم‌نور را ارتقا داده است.</p><h2>عملکرد</h2><p>تراشه A18 Pro عملکردی فوق‌العاده در اجرای بازی‌ها و پردازش هوش مصنوعی ارائه می‌دهد.</p>",
-      "featuredImage": "https://picsum.photos/seed/iphone-16-pro-max-review/1200/630",
+      "featuredImage": "https://picsum.photos/seed/iphone-16-pro-max-review/",
       "images": [
-        "https://picsum.photos/seed/iphone-16-pro-max-review-1/800/400",
-        "https://picsum.photos/seed/iphone-16-pro-max-review-2/800/400"
+        "https://picsum.photos/seed/iphone-16-pro-max-review-1/",
+        "https://picsum.photos/seed/iphone-16-pro-max-review-2/"
       ],
       "userId": "3",
       "categoryId": "3",
@@ -537,10 +537,10 @@
       "slug": "galaxy-s24-ultra-vs-iphone-16-pro",
       "excerpt": "کدام پرچمدار برای شما مناسب‌تر است؟ مقایسه‌ای دقیق بین دو گوشی برتر بازار.",
       "content": "<h2>طراحی و ساخت</h2><p>هر دو گوشی از متریال پریمیوم استفاده می‌کنند اما طراحی گوشه‌های گلکسی اس۲۴ زاویه‌دارتر است.</p><h2>دوربین و عملکرد</h2><p>دوربین زوم گلکسی اس۲۴ اولترا در عکاسی از راه دور برتری دارد در حالی که آیفون در پردازش تصویر پیشرفته‌تر است.</p>",
-      "featuredImage": "https://picsum.photos/seed/galaxy-s24-ultra-vs-iphone-16-pro/1200/630",
+      "featuredImage": "https://picsum.photos/seed/galaxy-s24-ultra-vs-iphone-16-pro/",
       "images": [
-        "https://picsum.photos/seed/galaxy-s24-ultra-vs-iphone-16-pro-1/800/400",
-        "https://picsum.photos/seed/galaxy-s24-ultra-vs-iphone-16-pro-2/800/400"
+        "https://picsum.photos/seed/galaxy-s24-ultra-vs-iphone-16-pro-1/",
+        "https://picsum.photos/seed/galaxy-s24-ultra-vs-iphone-16-pro-2/"
       ],
       "userId": "3",
       "categoryId": "3",
@@ -562,10 +562,10 @@
       "slug": "smart-home-gadgets-buying-guide",
       "excerpt": "معرفی بهترین گجت‌های هوشمند برای تبدیل خانه شما به یک خانه هوشمند.",
       "content": "<h2>پریز و لامپ هوشمند</h2><p>پریزها و لامپ‌های هوشمند ساده‌ترین راه برای شروع خانه هوشمند هستند.</p><h2>دستیارهای صوتی</h2><p>دستیارهای صوتی مانند گوگل هوم امکان کنترل دستگاه‌ها با صدا را فراهم می‌کنند.</p>",
-      "featuredImage": "https://picsum.photos/seed/smart-home-gadgets-buying-guide/1200/630",
+      "featuredImage": "https://picsum.photos/seed/smart-home-gadgets-buying-guide/",
       "images": [
-        "https://picsum.photos/seed/smart-home-gadgets-buying-guide-1/800/400",
-        "https://picsum.photos/seed/smart-home-gadgets-buying-guide-2/800/400"
+        "https://picsum.photos/seed/smart-home-gadgets-buying-guide-1/",
+        "https://picsum.photos/seed/smart-home-gadgets-buying-guide-2/"
       ],
       "userId": "1",
       "categoryId": "3",
@@ -587,10 +587,10 @@
       "slug": "apple-watch-series-10-review",
       "excerpt": "آیا اپل واچ سری ۱۰ ارزش خرید دارد؟ بررسی کامل ویژگی‌ها و عملکرد.",
       "content": "<h2>طراحی جدید</h2><p>اپل واچ سری ۱۰ با صفحه‌نمایش بزرگ‌تر و بدنه نازک‌تر طراحی شده است.</p><h2>سلامت و تناسب اندام</h2><p>قابلیت‌های جدید سنجش سلامت از جمله ردیابی خواب دقیق‌تر به این نسل اضافه شده است.</p>",
-      "featuredImage": "https://picsum.photos/seed/apple-watch-series-10-review/1200/630",
+      "featuredImage": "https://picsum.photos/seed/apple-watch-series-10-review/",
       "images": [
-        "https://picsum.photos/seed/apple-watch-series-10-review-1/800/400",
-        "https://picsum.photos/seed/apple-watch-series-10-review-2/800/400"
+        "https://picsum.photos/seed/apple-watch-series-10-review-1/",
+        "https://picsum.photos/seed/apple-watch-series-10-review-2/"
       ],
       "userId": "3",
       "categoryId": "3",
@@ -612,10 +612,10 @@
       "slug": "foldable-phones-future",
       "excerpt": "بررسی روند رو به رشد گوشی‌های تاشو و اینکه چرا برندهای بزرگ به این بازار ورود کرده‌اند.",
       "content": "<h2>مزایای گوشی‌های تاشو</h2><p>صفحه‌نمایش بزرگ‌تر در حالت باز شده، تجربه کاربری بهتری برای مشاهده محتوا فراهم می‌کند.</p><h2>چالش‌های فنی</h2><p>دوام لولا و قیمت بالا هنوز از موانع اصلی همه‌گیر شدن این گوشی‌ها هستند.</p>",
-      "featuredImage": "https://picsum.photos/seed/foldable-phones-future/1200/630",
+      "featuredImage": "https://picsum.photos/seed/foldable-phones-future/",
       "images": [
-        "https://picsum.photos/seed/foldable-phones-future-1/800/400",
-        "https://picsum.photos/seed/foldable-phones-future-2/800/400"
+        "https://picsum.photos/seed/foldable-phones-future-1/",
+        "https://picsum.photos/seed/foldable-phones-future-2/"
       ],
       "userId": "2",
       "categoryId": "4",
@@ -637,10 +637,10 @@
       "slug": "android-15-top-features",
       "excerpt": "گوگل با عرضه اندروید ۱۵ قابلیت‌های جدیدی را به کاربران گوشی‌های هوشمند اضافه کرده است.",
       "content": "<h2>حریم خصوصی بهبود یافته</h2><p>اندروید ۱۵ کنترل بیشتری بر دسترسی اپلیکیشن‌ها به اطلاعات کاربر می‌دهد.</p><h2>بهبود عملکرد باتری</h2><p>بهینه‌سازی‌های جدید مصرف باتری را به‌طور محسوسی کاهش داده است.</p>",
-      "featuredImage": "https://picsum.photos/seed/android-15-top-features/1200/630",
+      "featuredImage": "https://picsum.photos/seed/android-15-top-features/",
       "images": [
-        "https://picsum.photos/seed/android-15-top-features-1/800/400",
-        "https://picsum.photos/seed/android-15-top-features-2/800/400"
+        "https://picsum.photos/seed/android-15-top-features-1/",
+        "https://picsum.photos/seed/android-15-top-features-2/"
       ],
       "userId": "1",
       "categoryId": "4",
@@ -662,10 +662,10 @@
       "slug": "why-use-one-time-passwords",
       "excerpt": "بررسی اهمیت احراز هویت دو مرحله‌ای و رمزهای یکبار مصرف در افزایش امنیت حساب‌های کاربری.",
       "content": "<h2>خطرات رمز عبور ساده</h2><p>استفاده از رمزهای عبور ضعیف و تکراری یکی از اصلی‌ترین دلایل هک شدن حساب‌های کاربری است.</p><h2>راهکار احراز هویت دومرحله‌ای</h2><p>فعال‌سازی احراز هویت دو مرحله‌ای می‌تواند به‌طور چشمگیری امنیت حساب را افزایش دهد.</p>",
-      "featuredImage": "https://picsum.photos/seed/why-use-one-time-passwords/1200/630",
+      "featuredImage": "https://picsum.photos/seed/why-use-one-time-passwords/",
       "images": [
-        "https://picsum.photos/seed/why-use-one-time-passwords-1/800/400",
-        "https://picsum.photos/seed/why-use-one-time-passwords-2/800/400"
+        "https://picsum.photos/seed/why-use-one-time-passwords-1/",
+        "https://picsum.photos/seed/why-use-one-time-passwords-2/"
       ],
       "userId": "2",
       "categoryId": "5",
@@ -687,10 +687,10 @@
       "slug": "ransomware-attacks-protection",
       "excerpt": "افزایش حملات باج‌افزاری در سال اخیر هشداری جدی برای کسب‌وکارهاست.",
       "content": "<h2>روند افزایشی حملات</h2><p>در ماه‌های اخیر تعداد حملات باج‌افزاری به شرکت‌های بزرگ افزایش چشمگیری داشته است.</p><h2>راهکارهای پیشگیری</h2><p>پشتیبان‌گیری منظم و به‌روزرسانی نرم‌افزارها از مهم‌ترین راه‌های مقابله با این تهدید هستند.</p>",
-      "featuredImage": "https://picsum.photos/seed/ransomware-attacks-protection/1200/630",
+      "featuredImage": "https://picsum.photos/seed/ransomware-attacks-protection/",
       "images": [
-        "https://picsum.photos/seed/ransomware-attacks-protection-1/800/400",
-        "https://picsum.photos/seed/ransomware-attacks-protection-2/800/400"
+        "https://picsum.photos/seed/ransomware-attacks-protection-1/",
+        "https://picsum.photos/seed/ransomware-attacks-protection-2/"
       ],
       "userId": "3",
       "categoryId": "5",
@@ -712,10 +712,10 @@
       "slug": "privacy-guide-social-media",
       "excerpt": "چند نکته ساده برای افزایش امنیت و حریم خصوصی حساب‌های شبکه‌های اجتماعی شما.",
       "content": "<h2>تنظیمات حریم خصوصی</h2><p>بررسی و تنظیم دقیق سطح دسترسی دیگران به اطلاعات پروفایل بسیار مهم است.</p><h2>اشتراک‌گذاری محتاطانه</h2><p>پیش از انتشار اطلاعات شخصی، بهتر است پیامدهای احتمالی آن را در نظر بگیرید.</p>",
-      "featuredImage": "https://picsum.photos/seed/privacy-guide-social-media/1200/630",
+      "featuredImage": "https://picsum.photos/seed/privacy-guide-social-media/",
       "images": [
-        "https://picsum.photos/seed/privacy-guide-social-media-1/800/400",
-        "https://picsum.photos/seed/privacy-guide-social-media-2/800/400"
+        "https://picsum.photos/seed/privacy-guide-social-media-1/",
+        "https://picsum.photos/seed/privacy-guide-social-media-2/"
       ],
       "userId": "2",
       "categoryId": "5",
@@ -737,10 +737,10 @@
       "slug": "digikala-enters-ai-market",
       "excerpt": "دیجی‌کالا با راه‌اندازی بخش جدید هوش مصنوعی قصد دارد تجربه خرید آنلاین را متحول کند.",
       "content": "<h2>سرویس جدید توصیه‌گر</h2><p>این سرویس با استفاده از الگوریتم‌های یادگیری ماشین، پیشنهادات شخصی‌سازی‌شده به کاربران ارائه می‌دهد.</p><h2>چشم‌انداز آینده</h2><p>مدیران دیجی‌کالا اعلام کرده‌اند که سرمایه‌گذاری در این حوزه در سال‌های آینده افزایش خواهد یافت.</p>",
-      "featuredImage": "https://picsum.photos/seed/digikala-enters-ai-market/1200/630",
+      "featuredImage": "https://picsum.photos/seed/digikala-enters-ai-market/",
       "images": [
-        "https://picsum.photos/seed/digikala-enters-ai-market-1/800/400",
-        "https://picsum.photos/seed/digikala-enters-ai-market-2/800/400"
+        "https://picsum.photos/seed/digikala-enters-ai-market-1/",
+        "https://picsum.photos/seed/digikala-enters-ai-market-2/"
       ],
       "userId": "3",
       "categoryId": "6",
@@ -762,10 +762,10 @@
       "slug": "iranian-fintech-startup-funding",
       "excerpt": "یک استارتاپ فین‌تک ایرانی موفق به جذب سرمایه‌ای قابل توجه از سرمایه‌گذاران خارجی شد.",
       "content": "<h2>جزئیات سرمایه‌گذاری</h2><p>این دور سرمایه‌گذاری با هدف توسعه زیرساخت‌های پرداخت آنلاین انجام شده است.</p><h2>برنامه‌های توسعه</h2><p>بنیان‌گذاران این استارتاپ اعلام کرده‌اند بخشی از این سرمایه صرف ورود به بازارهای منطقه‌ای خواهد شد.</p>",
-      "featuredImage": "https://picsum.photos/seed/iranian-fintech-startup-funding/1200/630",
+      "featuredImage": "https://picsum.photos/seed/iranian-fintech-startup-funding/",
       "images": [
-        "https://picsum.photos/seed/iranian-fintech-startup-funding-1/800/400",
-        "https://picsum.photos/seed/iranian-fintech-startup-funding-2/800/400"
+        "https://picsum.photos/seed/iranian-fintech-startup-funding-1/",
+        "https://picsum.photos/seed/iranian-fintech-startup-funding-2/"
       ],
       "userId": "1",
       "categoryId": "6",
@@ -787,10 +787,10 @@
       "slug": "how-to-validate-startup-idea",
       "excerpt": "پیش از سرمایه‌گذاری زمان و پول، اعتبارسنجی ایده استارتاپی گامی ضروری است.",
       "content": "<h2>تحقیق بازار</h2><p>بررسی نیاز واقعی بازار به محصول یا خدمت پیشنهادی، اولین قدم در اعتبارسنجی ایده است.</p><h2>ساخت نمونه اولیه</h2><p>ساخت یک نسخه حداقلی از محصول کمک می‌کند بازخورد واقعی از کاربران دریافت شود.</p>",
-      "featuredImage": "https://picsum.photos/seed/how-to-validate-startup-idea/1200/630",
+      "featuredImage": "https://picsum.photos/seed/how-to-validate-startup-idea/",
       "images": [
-        "https://picsum.photos/seed/how-to-validate-startup-idea-1/800/400",
-        "https://picsum.photos/seed/how-to-validate-startup-idea-2/800/400"
+        "https://picsum.photos/seed/how-to-validate-startup-idea-1/",
+        "https://picsum.photos/seed/how-to-validate-startup-idea-2/"
       ],
       "userId": "2",
       "categoryId": "6",
@@ -812,10 +812,10 @@
       "slug": "instagram-new-reels-editing-feature",
       "excerpt": "متا با افزودن ابزارهای ویرایشی جدید به ریلز، تجربه تولید محتوا را برای کاربران بهبود بخشیده است.",
       "content": "<h2>ابزارهای جدید ویرایش</h2><p>کاربران اکنون می‌توانند به‌راحتی فیلترها و افکت‌های پیشرفته‌تری به ویدیوهای خود اضافه کنند.</p><h2>واکنش کاربران</h2><p>این تغییرات با استقبال گسترده تولیدکنندگان محتوا در اینستاگرام همراه بوده است.</p>",
-      "featuredImage": "https://picsum.photos/seed/instagram-new-reels-editing-feature/1200/630",
+      "featuredImage": "https://picsum.photos/seed/instagram-new-reels-editing-feature/",
       "images": [
-        "https://picsum.photos/seed/instagram-new-reels-editing-feature-1/800/400",
-        "https://picsum.photos/seed/instagram-new-reels-editing-feature-2/800/400"
+        "https://picsum.photos/seed/instagram-new-reels-editing-feature-1/",
+        "https://picsum.photos/seed/instagram-new-reels-editing-feature-2/"
       ],
       "userId": "3",
       "categoryId": "7",
@@ -837,10 +837,10 @@
       "slug": "telegram-expands-in-app-payments",
       "excerpt": "تلگرام با گسترش قابلیت‌های پرداخت، قصد دارد تجربه خرید در ربات‌ها و کانال‌ها را ساده‌تر کند.",
       "content": "<h2>قابلیت جدید پرداخت</h2><p>کاربران اکنون می‌توانند مستقیماً از داخل چت با ربات‌ها خرید انجام دهند.</p><h2>تاثیر بر کسب‌وکارها</h2><p>این تغییر می‌تواند فرصت جدیدی برای کسب‌وکارهای کوچک فعال در تلگرام ایجاد کند.</p>",
-      "featuredImage": "https://picsum.photos/seed/telegram-expands-in-app-payments/1200/630",
+      "featuredImage": "https://picsum.photos/seed/telegram-expands-in-app-payments/",
       "images": [
-        "https://picsum.photos/seed/telegram-expands-in-app-payments-1/800/400",
-        "https://picsum.photos/seed/telegram-expands-in-app-payments-2/800/400"
+        "https://picsum.photos/seed/telegram-expands-in-app-payments-1/",
+        "https://picsum.photos/seed/telegram-expands-in-app-payments-2/"
       ],
       "userId": "2",
       "categoryId": "7",
@@ -862,10 +862,10 @@
       "slug": "influencer-marketing-phenomenon",
       "excerpt": "بررسی نقش اینفلوئنسرها در شکل‌دهی به تصمیمات خرید مصرف‌کنندگان در فضای دیجیتال.",
       "content": "<h2>رشد بازار اینفلوئنسر مارکتینگ</h2><p>برندها هرساله بودجه بیشتری را به همکاری با اینفلوئنسرها اختصاص می‌دهند.</p><h2>چالش اعتماد کاربران</h2><p>برخی کاربران نسبت به تبلیغات پنهان در محتوای اینفلوئنسرها با تردید برخورد می‌کنند.</p>",
-      "featuredImage": "https://picsum.photos/seed/influencer-marketing-phenomenon/1200/630",
+      "featuredImage": "https://picsum.photos/seed/influencer-marketing-phenomenon/",
       "images": [
-        "https://picsum.photos/seed/influencer-marketing-phenomenon-1/800/400",
-        "https://picsum.photos/seed/influencer-marketing-phenomenon-2/800/400"
+        "https://picsum.photos/seed/influencer-marketing-phenomenon-1/",
+        "https://picsum.photos/seed/influencer-marketing-phenomenon-2/"
       ],
       "userId": "1",
       "categoryId": "7",
@@ -887,10 +887,10 @@
       "slug": "playstation-6-release-date",
       "excerpt": "شایعات و اخبار منتشرشده درباره زمان احتمالی عرضه نسل بعدی کنسول سونی.",
       "content": "<h2>شایعات فنی</h2><p>بر اساس گزارش‌های غیررسمی، پلی‌استیشن ۶ از پردازنده‌ای قدرتمندتر برای رندرینگ رِی‌تریسینگ بهره خواهد برد.</p><h2>زمان‌بندی احتمالی عرضه</h2><p>کارشناسان صنعت گیم پیش‌بینی می‌کنند عرضه این کنسول زودتر از سال ۲۰۲۷ محقق نخواهد شد.</p>",
-      "featuredImage": "https://picsum.photos/seed/playstation-6-release-date/1200/630",
+      "featuredImage": "https://picsum.photos/seed/playstation-6-release-date/",
       "images": [
-        "https://picsum.photos/seed/playstation-6-release-date-1/800/400",
-        "https://picsum.photos/seed/playstation-6-release-date-2/800/400"
+        "https://picsum.photos/seed/playstation-6-release-date-1/",
+        "https://picsum.photos/seed/playstation-6-release-date-2/"
       ],
       "userId": "3",
       "categoryId": "8",
@@ -912,10 +912,10 @@
       "slug": "elden-ring-review",
       "excerpt": "نگاهی به دنیای باز و طراحی مبارزات بازی الدن رینگ که مورد تحسین منتقدان قرار گرفته است.",
       "content": "<h2>طراحی دنیای باز</h2><p>الدن رینگ با دنیایی گسترده و پر از رمز و راز، تجربه‌ای متفاوت از ژانر سولزلایک ارائه می‌دهد.</p><h2>سیستم مبارزات</h2><p>مبارزات این بازی ترکیبی از چالش بالا و پاداش رضایت‌بخش را برای بازیکنان فراهم کرده است.</p>",
-      "featuredImage": "https://picsum.photos/seed/elden-ring-review/1200/630",
+      "featuredImage": "https://picsum.photos/seed/elden-ring-review/",
       "images": [
-        "https://picsum.photos/seed/elden-ring-review-1/800/400",
-        "https://picsum.photos/seed/elden-ring-review-2/800/400"
+        "https://picsum.photos/seed/elden-ring-review-1/",
+        "https://picsum.photos/seed/elden-ring-review-2/"
       ],
       "userId": "2",
       "categoryId": "8",
@@ -937,10 +937,10 @@
       "slug": "metaverse-future-of-gaming",
       "excerpt": "بررسی این‌که چگونه فناوری متاورس می‌تواند تجربه بازی‌های ویدیویی را دگرگون کند.",
       "content": "<h2>تعامل اجتماعی در بازی‌ها</h2><p>متاورس امکان تعاملات اجتماعی عمیق‌تری را در محیط‌های مجازی بازی فراهم می‌کند.</p><h2>چالش‌های فنی</h2><p>زیرساخت‌های فعلی هنوز برای پشتیبانی کامل از تجربه‌های متاورسی در مقیاس بزرگ آماده نیستند.</p>",
-      "featuredImage": "https://picsum.photos/seed/metaverse-future-of-gaming/1200/630",
+      "featuredImage": "https://picsum.photos/seed/metaverse-future-of-gaming/",
       "images": [
-        "https://picsum.photos/seed/metaverse-future-of-gaming-1/800/400",
-        "https://picsum.photos/seed/metaverse-future-of-gaming-2/800/400"
+        "https://picsum.photos/seed/metaverse-future-of-gaming-1/",
+        "https://picsum.photos/seed/metaverse-future-of-gaming-2/"
       ],
       "userId": "1",
       "categoryId": "8",
@@ -962,10 +962,10 @@
       "slug": "tesla-unveils-new-electric-model",
       "excerpt": "تسلا با معرفی مدل جدید خود، گامی دیگر در توسعه خودروهای برقی برداشته است.",
       "content": "<h2>مشخصات فنی</h2><p>این مدل جدید با برد بالاتر و زمان شارژ کوتاه‌تر نسبت به نسل قبلی طراحی شده است.</p><h2>قابلیت‌های خودران</h2><p>سیستم رانندگی خودکار این خودرو با نرم‌افزار جدیدی به‌روزرسانی شده است.</p>",
-      "featuredImage": "https://picsum.photos/seed/tesla-unveils-new-electric-model/1200/630",
+      "featuredImage": "https://picsum.photos/seed/tesla-unveils-new-electric-model/",
       "images": [
-        "https://picsum.photos/seed/tesla-unveils-new-electric-model-1/800/400",
-        "https://picsum.photos/seed/tesla-unveils-new-electric-model-2/800/400"
+        "https://picsum.photos/seed/tesla-unveils-new-electric-model-1/",
+        "https://picsum.photos/seed/tesla-unveils-new-electric-model-2/"
       ],
       "userId": "3",
       "categoryId": "9",
@@ -987,10 +987,10 @@
       "slug": "self-driving-cars-challenges",
       "excerpt": "بررسی وضعیت فعلی فناوری خودروهای خودران و موانع قانونی و فنی موجود بر سر راه آن‌ها.",
       "content": "<h2>پیشرفت فناوری سنسورها</h2><p>سنسورهای لیدار و دوربین‌های پیشرفته دقت تشخیص محیط اطراف خودرو را افزایش داده‌اند.</p><h2>موانع قانونی</h2><p>قوانین متفاوت کشورها یکی از چالش‌های اصلی برای گسترش جهانی خودروهای خودران است.</p>",
-      "featuredImage": "https://picsum.photos/seed/self-driving-cars-challenges/1200/630",
+      "featuredImage": "https://picsum.photos/seed/self-driving-cars-challenges/",
       "images": [
-        "https://picsum.photos/seed/self-driving-cars-challenges-1/800/400",
-        "https://picsum.photos/seed/self-driving-cars-challenges-2/800/400"
+        "https://picsum.photos/seed/self-driving-cars-challenges-1/",
+        "https://picsum.photos/seed/self-driving-cars-challenges-2/"
       ],
       "userId": "2",
       "categoryId": "9",
@@ -1012,10 +1012,10 @@
       "slug": "chinese-evs-vs-tesla",
       "excerpt": "خودروسازان چینی با سرعت زیادی وارد بازار خودروهای برقی شده‌اند؛ آیا می‌توانند تسلا را به چالش بکشند؟",
       "content": "<h2>رشد سریع برندهای چینی</h2><p>برندهایی مانند بی‌وای‌دی با قیمت‌های رقابتی توانسته‌اند سهم بازار قابل توجهی کسب کنند.</p><h2>تفاوت در فناوری باتری</h2><p>فناوری باتری استفاده‌شده در برخی خودروهای چینی با تسلا تفاوت‌های قابل توجهی دارد.</p>",
-      "featuredImage": "https://picsum.photos/seed/chinese-evs-vs-tesla/1200/630",
+      "featuredImage": "https://picsum.photos/seed/chinese-evs-vs-tesla/",
       "images": [
-        "https://picsum.photos/seed/chinese-evs-vs-tesla-1/800/400",
-        "https://picsum.photos/seed/chinese-evs-vs-tesla-2/800/400"
+        "https://picsum.photos/seed/chinese-evs-vs-tesla-1/",
+        "https://picsum.photos/seed/chinese-evs-vs-tesla-2/"
       ],
       "userId": "3",
       "categoryId": "9",
@@ -1037,10 +1037,10 @@
       "slug": "nasa-new-mars-mission",
       "excerpt": "ناسا از یک ماموریت جدید برای جمع‌آوری نمونه‌های خاک مریخ خبر داد.",
       "content": "<h2>اهداف ماموریت</h2><p>این ماموریت با هدف بررسی امکان وجود حیات میکروبی در گذشته مریخ طراحی شده است.</p><h2>جدول زمانی پرتاب</h2><p>پرتاب این فضاپیما طبق برنامه‌ریزی ناسا تا دو سال آینده انجام خواهد شد.</p>",
-      "featuredImage": "https://picsum.photos/seed/nasa-new-mars-mission/1200/630",
+      "featuredImage": "https://picsum.photos/seed/nasa-new-mars-mission/",
       "images": [
-        "https://picsum.photos/seed/nasa-new-mars-mission-1/800/400",
-        "https://picsum.photos/seed/nasa-new-mars-mission-2/800/400"
+        "https://picsum.photos/seed/nasa-new-mars-mission-1/",
+        "https://picsum.photos/seed/nasa-new-mars-mission-2/"
       ],
       "userId": "2",
       "categoryId": "10",
@@ -1062,10 +1062,10 @@
       "slug": "james-webb-new-galaxy-images",
       "excerpt": "تلسکوپ فضایی جیمز وب بار دیگر با انتشار تصاویری خیره‌کننده، دانشمندان را شگفت‌زده کرد.",
       "content": "<h2>کشف کهکشان‌های اولیه</h2><p>این تصاویر جدید به دانشمندان کمک می‌کند تا درک بهتری از شکل‌گیری کهکشان‌ها در اوایل عمر جهان داشته باشند.</p><h2>فناوری تصویربرداری</h2><p>سنسورهای مادون قرمز این تلسکوپ امکان مشاهده اجرام دوردست را فراهم کرده است.</p>",
-      "featuredImage": "https://picsum.photos/seed/james-webb-new-galaxy-images/1200/630",
+      "featuredImage": "https://picsum.photos/seed/james-webb-new-galaxy-images/",
       "images": [
-        "https://picsum.photos/seed/james-webb-new-galaxy-images-1/800/400",
-        "https://picsum.photos/seed/james-webb-new-galaxy-images-2/800/400"
+        "https://picsum.photos/seed/james-webb-new-galaxy-images-1/",
+        "https://picsum.photos/seed/james-webb-new-galaxy-images-2/"
       ],
       "userId": "1",
       "categoryId": "10",
@@ -1087,10 +1087,10 @@
       "slug": "quantum-supercomputers-future",
       "excerpt": "بررسی پیشرفت‌های اخیر در حوزه محاسبات کوانتومی و تاثیر آن بر آینده فناوری.",
       "content": "<h2>اصول محاسبات کوانتومی</h2><p>محاسبات کوانتومی با بهره‌گیری از کیوبیت‌ها، امکان انجام محاسبات پیچیده را با سرعتی بسیار بالاتر فراهم می‌کند.</p><h2>کاربردهای آینده</h2><p>این فناوری می‌تواند در حوزه‌هایی مانند رمزنگاری و کشف دارو انقلابی ایجاد کند.</p>",
-      "featuredImage": "https://picsum.photos/seed/quantum-supercomputers-future/1200/630",
+      "featuredImage": "https://picsum.photos/seed/quantum-supercomputers-future/.webp",
       "images": [
-        "https://picsum.photos/seed/quantum-supercomputers-future-1/800/400",
-        "https://picsum.photos/seed/quantum-supercomputers-future-2/800/400"
+        "https://picsum.photos/seed/quantum-supercomputers-future-1/",
+        "https://picsum.photos/seed/quantum-supercomputers-future-2/"
       ],
       "userId": "3",
       "categoryId": "10",
