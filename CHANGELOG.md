@@ -1,3 +1,10 @@
+# [1.0.0-dev.42](https://github.com/m0st4f4/TechMag-React-News-Blog/compare/v1.0.0-dev.41...v1.0.0-dev.42) (2026-10-11)
+
+
+### Features
+
+* update navigations content ([#138](https://github.com/m0st4f4/TechMag-React-News-Blog/issues/138)) ([47f81c0](https://github.com/m0st4f4/TechMag-React-News-Blog/commit/47f81c0106302f7a6f9c528007bca762bd069e77))
+
 # [1.0.0-dev.41](https://github.com/m0st4f4/TechMag-React-News-Blog/compare/v1.0.0-dev.40...v1.0.0-dev.41) (2026-10-11)
 
 
