@@ -1,3 +1,10 @@
+# [1.0.0-dev.41](https://github.com/m0st4f4/TechMag-React-News-Blog/compare/v1.0.0-dev.40...v1.0.0-dev.41) (2026-10-11)
+
+
+### Bug Fixes
+
+* resolve aspect ratio of default image ([#136](https://github.com/m0st4f4/TechMag-React-News-Blog/issues/136)) ([5bdaa8e](https://github.com/m0st4f4/TechMag-React-News-Blog/commit/5bdaa8ea8ff15555d86f25ab8362172faf3ff96d))
+
 # [1.0.0-dev.40](https://github.com/m0st4f4/TechMag-React-News-Blog/compare/v1.0.0-dev.39...v1.0.0-dev.40) (2026-10-10)
 
 
