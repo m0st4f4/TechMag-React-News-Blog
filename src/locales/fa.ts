@@ -31,12 +31,12 @@ export const fa = {
       security: "امنیت",
       tutorial: "آموزش",
       reactTutorial: "ریکت",
-      aiTutorial: "هوش مصنوعی",
       linuxTutorial: "لینوکس",
       usefulLinks: "لینک های مفید",
       home: "خانه",
       aboutUs: "درباره ما",
       contactUs: "تماس با ما",
+      programming: "برنامه نویسی",
     },
   },
 

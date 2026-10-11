@@ -31,12 +31,12 @@ export const ar = {
       security: "Security",
       tutorial: "Tutorial",
       reactTutorial: "React",
-      aiTutorial: "AI",
       linuxTutorial: "Linux",
       usefulLinks: "Useful Links",
       home: "الرئيسية",
       aboutUs: "من نحن",
       contactUs: "تواصل معنا",
+      programming: "Programming",
     },
   },
 
