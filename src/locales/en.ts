@@ -31,12 +31,12 @@ export const en = {
       security: "Security",
       tutorial: "Tutorial",
       reactTutorial: "React",
-      aiTutorial: "AI",
       linuxTutorial: "Linux",
       usefulLinks: "Useful Links",
       home: "Home",
       aboutUs: "About Us",
       contactUs: "Contact Us",
+      programming: "Programming",
     },
   },
 

@@ -46,19 +46,19 @@ export const FooterNavigation: FooterNavigationType[] = [
     items: [
       {
         titleKey: "nav.footer.ai",
-        href: "/category/ai",
+        href: "/category/2",
       },
       {
-        titleKey: "nav.footer.software",
-        href: "/category/software",
+        titleKey: "nav.footer.programming",
+        href: "/category/1",
       },
       {
         titleKey: "nav.footer.game",
-        href: "/category/game",
+        href: "/category/8",
       },
       {
         titleKey: "nav.footer.security",
-        href: "/category/security",
+        href: "/category/5",
       },
     ],
   },
@@ -66,16 +66,12 @@ export const FooterNavigation: FooterNavigationType[] = [
     groupTitleKey: "nav.footer.tutorial",
     items: [
       {
-        titleKey: "nav.footer.reactTutorial",
-        href: "/category/react",
+        titleKey: "nav.footer.ai",
+        href: "/category/2",
       },
       {
-        titleKey: "nav.footer.aiTutorial",
-        href: "/category/ai",
-      },
-      {
-        titleKey: "nav.footer.linuxTutorial",
-        href: "/category/linux",
+        titleKey: "nav.footer.programming",
+        href: "/category/1",
       },
     ],
   },
