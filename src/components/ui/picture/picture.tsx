@@ -37,7 +37,7 @@ export const Picture = ({
     setImageSrc(defaultImage);
     setOtherSource(false);
     setErrorClassName(
-      `aspect-${width}/${height} object-cover w-full object-center`
+      `object-cover w-full object-center`
     );
   };
   return (
@@ -54,6 +54,7 @@ export const Picture = ({
       )}
       <img
         className={cn(imgClassName, errorClassName)}
+        style={{ aspectRatio: `${width}/${height}` }}
         src={imageSrc}
         alt={alt}
         width={width}
